@@ -1,0 +1,2737 @@
+<!--Exported Fri Jan 19 08:24:58 EST 2018 by admin from TROMasterCard--><exportedDataflow schema_version="9.0"><exposed>false</exposed><dataflow id="MC_MATCH_INP_WITH_POI_CAN_New" schema_version="9.0" version=""><product_group/><channels><channel id="d03c1674-55a3-4214-9ca9-4c0e3f4e2e4f"><field_transformers/></channel><channel id="a60b0794-b3fb-4a3f-b77f-2a7a8ea21cb6"><field_transformers/></channel><channel id="c7bff876-5965-49f1-bb48-d5b91f11eaf2"><field_transformers/></channel><channel id="bf55e0c9-9df9-4fbc-a284-323f96adcf93"><field_transformers/></channel><channel id="529cc31b-6510-47a2-8f81-b3550fc940a9"><field_transformers/></channel><channel id="a4fd377c-4f45-44fc-8e75-816c2e0a23e0"><field_transformers/></channel><channel id="011a5416-a4df-4715-992b-f0064b491ce6"><field_transformers/></channel><channel id="bc877a29-1d25-47ee-b35c-66e195a03961"><field_transformers/></channel><channel id="773d72de-a958-4d4e-a836-873e27fdb97c"><field_transformers/></channel><channel id="f0f48228-0ded-4ec1-af54-3d9bfbcb378a"><field_transformers/></channel><channel id="19f0bdc6-2965-4002-98a2-8280c93c84c3"><field_transformers/></channel><channel id="c57fd813-aa75-4bfb-860d-405e676ed514"><field_transformers/></channel><channel id="7ec3785e-868c-4dc5-8fb2-df84474d9f20"><field_transformers/></channel><channel id="5cb06e66-c150-47b5-86a8-cfd19664ed45"><field_transformers/></channel><channel id="acbb1137-650c-41f7-b3f8-d118bab03944"><field_transformers/></channel><channel id="dbea09f1-fed4-4154-aeb2-6c7cf19651a2"><field_transformers/></channel><channel id="20c0f932-90a6-4135-a6ee-19b01cd1a4c4"><field_transformers/></channel><channel id="59225406-71d3-47db-afb7-42313bc9c89c"><field_transformers/></channel><channel id="a21cd50e-53fd-482e-b437-c5dfb313c4a6"><field_transformers/></channel><channel id="7c78b385-574e-4e44-9ce1-d9f7f670fc1e"><field_transformers/></channel><channel id="13a9cc66-8793-4641-8e0d-5695a7cd0926"><field_transformers/></channel><channel id="55bfa148-4f6a-4597-b3c3-e675485064ff"><field_transformers/></channel><channel id="8261a924-1862-4d6e-888f-79da228575aa"><field_transformers/></channel><channel id="d1e0a3ff-ab60-4548-8255-bf7efbd8f09b"><field_transformers/></channel><channel id="58a02bf5-f316-44b7-a5aa-318eb29000de"><field_transformers/></channel><channel id="9d8c2d78-4ab8-4fc9-a3b4-e2b1e8949716"><field_transformers/></channel><channel id="912bd4b8-caa4-4ab3-92ec-c1515b8b44cf"><field_transformers/></channel><channel id="d3a316c8-edbc-4b29-91d3-87d1f85c5609"><field_transformers/></channel><channel id="38ba894e-c3af-447d-87e8-8f647ca42fc0"><field_transformers/></channel><channel id="791e0ee4-bc40-4270-a8be-50a43417c240"><field_transformers/></channel><channel id="020e1d91-d2d1-4f90-8742-b2fdfa43965e"><field_transformers/></channel><channel id="bf1299ed-287b-4db9-bf49-0fe8d6a6ddbb"><field_transformers/></channel><channel id="a9b06c69-1ad5-41e4-bdc9-33b9dc911dd6"><field_transformers/></channel><channel id="37d86d95-8f55-494a-85bd-a47f9a5d721b"><field_transformers/></channel><channel id="2516000d-e1a4-4cb5-8bfc-6729e0885dd7"><field_transformers><field_transformer><name>converter</name><settings><![CDATA[<?xml version="1.0" encoding="utf-16"?>
+<ConverterFieldTransformerSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://transformer.g1.com/converter">
+  <fieldName xmlns="">NameScore</fieldName>
+  <fromType xmlns="">integer</fromType>
+  <toType xmlns="">string</toType>
+</ConverterFieldTransformerSettings>]]></settings></field_transformer></field_transformers></channel><channel id="4d5d8adf-4e61-4604-88b7-6e5eaa41e354"><field_transformers/></channel><channel id="6c9063b8-9b68-4d88-8b91-68df99f98800"><field_transformers/></channel><channel id="cd5f2b05-0b9a-4777-a73d-cb752b71e3c6"><field_transformers/></channel><channel id="b434e835-6083-401d-bc19-30478b40fa91"><field_transformers/></channel><channel id="6b2ed8fa-fd40-4ef1-be41-e54eecb5529b"><field_transformers/></channel><channel id="d0359f5e-20c5-496c-9527-a3f7f9834683"><field_transformers/></channel><channel id="9620c08f-b96c-4eb6-9810-8bfeb54818a0"><field_transformers/></channel><channel id="ff5dc90e-70d4-42ff-95af-4dc9cf5e5205"><field_transformers/></channel><channel id="0ddd9795-79cb-4e5b-824d-013b54a59eb1"><field_transformers/></channel><channel id="6af442dd-9222-44dc-8109-0535902ca08f"><field_transformers/></channel><channel id="ee83ac05-694d-4592-8dce-811259d73156"><field_transformers/></channel><channel id="18e0deb1-9cc8-4dd5-ac4d-83a6df40c457"><field_transformers/></channel></channels><created_by>admin</created_by><created_date>1/18/18 2:24 AM</created_date><service_exposures/><icon/><inputs><input id="d68f6298-3ed6-4609-b0a6-e6db2b09ee88"><metadata><name>Row</name><field><name>Country</name><required>false</required><type>string</type></field><field><name>AddressLine1</name><required>false</required><type>string</type></field><field><name>AddressLine2</name><required>false</required><type>string</type></field><field><name>merchant_name</name><required>false</required><type>string</type></field><field><name>street_address</name><required>false</required><type>string</type></field><field><name>city_name</name><required>false</required><type>string</type></field><field><name>country_code</name><required>false</required><type>string</type></field><field><name>telephone</name><required>false</required><type>string</type></field><field><name>location_id</name><required>false</required><type>string</type></field><field><name>PhoneNumber</name><required>false</required><type>string</type></field><field><name>PostalCode</name><required>false</required><type>string</type></field><field><name>City</name><required>false</required><type>string</type></field><field><name>StateProvince</name><required>false</required><type>string</type></field><field><name>StreetName</name><required>false</required><type>string</type></field><field><name>StreetSuffix</name><required>false</required><type>string</type></field></metadata><label>Input</label><output_port id="a0e3fec5-f379-4e3a-a1ad-7a2f3388a997"><channel idref="18e0deb1-9cc8-4dd5-ac4d-83a6df40c457"/><label>output port</label><port_name>output_port</port_name></output_port><properties/></input></inputs><last_modified_by>admin</last_modified_by><last_modified_date>1/19/18 7:21 AM</last_modified_date><outputs><output id="cdb8c0bd-31ff-403f-9b1a-d37f2d411bee"><metadata><name>Row</name><field><name>CompanyName</name><required>false</required><type>string</type></field><field><name>StatusCompanyName</name><required>false</required><type>string</type></field><field><name>StatusCodeCompanyName</name><required>false</required><type>string</type></field><field><name>EntityRegisteredName</name><required>false</required><type>string</type></field><field><name>EntityRegisteredSuffix</name><required>false</required><type>string</type></field><field><name>EntityTradeName</name><required>false</required><type>string</type></field><field><name>EntityTradeSuffix</name><required>false</required><type>string</type></field><field><name>EntityBrandName</name><required>false</required><type>string</type></field><field><name>EntityMainAddressLine</name><required>false</required><type>string</type></field><field><name>EntityCity</name><required>false</required><type>string</type></field><field><name>EntityState</name><required>false</required><type>string</type></field><field><name>EntityPostcode</name><required>false</required><type>string</type></field><field><name>EntityCountryISO3</name><required>false</required><type>string</type></field><field><name>EntityPhoneNumber</name><required>false</required><type>string</type></field><field><name>EntityEmail</name><required>false</required><type>string</type></field><field><name>pb_id</name><required>false</required><type>string</type></field><field><name>EntityAddressLastLine</name><required>false</required><type>string</type></field><field><name>EntitySIC1</name><required>false</required><type>string</type></field><field><name>MatchScoreRegNmAddress</name><required>false</required><type>string</type></field><field><name>MatchScoreTrdNmAddress</name><required>false</required><type>string</type></field><field><name>MatchScoreBrndNmAddress</name><required>false</required><type>string</type></field><field><name>MatchScoreRegNmPhone</name><required>false</required><type>string</type></field><field><name>MatchScorePhoneAddress</name><required>false</required><type>string</type></field><field><name>MatchScoreReg2NmAddress</name><required>false</required><type>string</type></field><field><name>MatchScoreTrd2NmAddress</name><required>false</required><type>string</type></field><field><name>CompanyName1</name><required>false</required><type>string</type></field><field><name>Src_System_ID</name><required>false</required><type>string</type></field><field><name>Src_Company_name</name><required>false</required><type>string</type></field><field><name>HasDuplicates</name><required>false</required><type>string</type></field><field><name>MatchRecordType</name><required>false</required><type>string</type></field><field><name>TransactionRecordType</name><required>false</required><type>string</type></field><field><name>StateProvinceTemp</name><required>false</required><type>string</type></field><field><name>Country</name><required>false</required><type>string</type></field><field><name>AddressLine1</name><required>false</required><type>string</type></field><field><name>AddressLine2</name><required>false</required><type>string</type></field><field><name>PhoneNumber</name><required>false</required><type>string</type></field><field><name>PostalCode</name><required>false</required><type>string</type></field><field><name>City</name><required>false</required><type>string</type></field><field><name>StateProvince</name><required>false</required><type>string</type></field><field><name>EntityHouseNumber</name><required>false</required><type>string</type></field><field><name>EntityLeadingDirectional</name><required>false</required><type>string</type></field><field><name>EntityStreetName</name><required>false</required><type>string</type></field><field><name>EntityStreetSuffix</name><required>false</required><type>string</type></field><field><name>EntityTrailingDirectional</name><required>false</required><type>string</type></field><field><name>MatchScore</name><required>false</required><type>string</type></field><field><name>AddressScore</name><required>false</required><type>string</type></field><field><name>NameScore</name><required>false</required><type>string</type></field><field><name>PhoneNumberScore</name><required>false</required><type>string</type></field><field><name>AddressLine1Score</name><required>false</required><type>string</type></field><field><name>City_StateScore</name><required>false</required><type>string</type></field></metadata><input_port id="fc45513a-0137-4ce6-8bc1-7b17bf08972d"><channel idref="a60b0794-b3fb-4a3f-b77f-2a7a8ea21cb6"/><label>input port</label><port_name>input_port</port_name></input_port><label>Output</label><properties/></output></outputs><properties><property><name>ViewData</name><value><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<viewData version="3.0">
+  <canvasNode id="452cf6fe-bcac-4bfc-8a3f-9b03a29c5c33">
+    <location x="-98" y="-1" />
+  </canvasNode>
+  <canvasNode id="926f374f-f0c2-4f0b-96b6-97dfcc778b62">
+    <location x="74" y="1" />
+  </canvasNode>
+  <canvasNode id="31811a73-d43b-4b3c-829b-6dde4d087a90">
+    <location x="443" y="253" />
+  </canvasNode>
+  <canvasNode id="2f021fc6-1b89-4e87-99e7-91315233b1e1">
+    <location x="264" y="88" />
+  </canvasNode>
+  <canvasNode id="e2d0089c-8ac3-49c9-808b-56ecf6f52c4d">
+    <location x="-103.5" y="89" />
+  </canvasNode>
+  <canvasNode id="dd193cc1-4bc2-488a-ac76-1f98ba20df29">
+    <location x="74" y="83" />
+  </canvasNode>
+  <canvasNode id="02217ed1-fc15-4d3e-9143-70b67f1568a0">
+    <location x="-201.8579" y="88.72919" />
+  </canvasNode>
+  <canvasNode id="d68f6298-3ed6-4609-b0a6-e6db2b09ee88">
+    <location x="-503.3911" y="-137.2747" />
+  </canvasNode>
+  <canvasNode id="a8748d70-64e1-45a5-9a72-321d53287274">
+    <location x="571.3665" y="-104" />
+  </canvasNode>
+  <canvasNode id="657543c9-70aa-4e26-b888-e0ec6aeb0791">
+    <location x="271" y="0" />
+  </canvasNode>
+  <canvasNode id="464a80a0-5962-44a2-8c95-24834e089f25">
+    <location x="-296" y="88" />
+  </canvasNode>
+  <canvasNode id="702e30a2-3555-45db-b4c2-2c79526a7d89">
+    <location x="-309" y="152" />
+  </canvasNode>
+  <canvasNode id="5ecb55d2-25e2-445e-9f7b-c38123a085f3">
+    <location x="-296" y="205" />
+  </canvasNode>
+  <canvasNode id="09288c1c-a3fc-4d67-a9ed-ac61f9b7bd7f">
+    <location x="-208" y="291" />
+  </canvasNode>
+  <canvasNode id="e6ef61be-06a5-41e3-98c2-516c9ff52aba">
+    <location x="-115" y="297" />
+  </canvasNode>
+  <canvasNode id="4107ecce-72ad-4147-860f-a2c3fbbe1353">
+    <location x="65" y="299" />
+  </canvasNode>
+  <canvasNode id="df15315f-4b52-4fab-a255-7fbf9f07629b">
+    <location x="-229" y="209" />
+  </canvasNode>
+  <canvasNode id="d96c9f12-8b4b-411e-a4b9-f0f70a75d312">
+    <location x="-116" y="204" />
+  </canvasNode>
+  <canvasNode id="24368890-64e9-464c-9ad6-d572ed949f4d">
+    <location x="72" y="211" />
+  </canvasNode>
+  <canvasNode id="1f9efd80-cac1-4941-89e8-8305802597e7">
+    <location x="269" y="167" />
+  </canvasNode>
+  <canvasNode id="af5b1810-b307-47f6-9582-c2e16f588ea7">
+    <location x="91" y="151" />
+  </canvasNode>
+  <canvasNode id="fc9a5178-8f7e-4351-a102-4fbcc932d7e1">
+    <location x="-105" y="158" />
+  </canvasNode>
+  <canvasNode id="c3d334f3-34ea-410c-ae91-04ebb1d4d5e8">
+    <location x="-209" y="154" />
+  </canvasNode>
+  <canvasNode id="2b29858c-f964-414d-87cd-a164498bfeb7">
+    <location x="-311" y="286" />
+  </canvasNode>
+  <canvasNode id="cdb8c0bd-31ff-403f-9b1a-d37f2d411bee">
+    <location x="666.4999" y="-103.2708" />
+  </canvasNode>
+  <canvasNode id="d7826632-c84f-4822-9f8c-7c093d4417c4">
+    <location x="504.781" y="-15.2708" />
+  </canvasNode>
+  <canvasNode id="54295ff7-5fc0-40fe-b746-8bf47346a25d">
+    <location x="275" y="212" />
+  </canvasNode>
+  <canvasNode id="b772fe2d-0ed6-44cd-b4a3-1eb3ae8d2117">
+    <location x="-336.2186" y="-162" />
+  </canvasNode>
+  <canvasNode id="c86eea4d-9c7a-4211-b0a3-1ec7f7b59b17">
+    <location x="164.7814" y="-0.2707977" />
+  </canvasNode>
+  <canvasNode id="5231cc05-b4d1-47bd-9da8-4d4a3d08fbff">
+    <location x="182.2202" y="87.72919" />
+  </canvasNode>
+  <canvasNode id="01cc122d-651d-42d8-a29f-42896c6e9015">
+    <location x="188" y="156" />
+  </canvasNode>
+  <canvasNode id="d277d8a8-4306-422f-98b1-66d1ef26166c">
+    <location x="181" y="205" />
+  </canvasNode>
+  <canvasNode id="b2c464df-1da9-4464-a5d0-6ad8b811d0ae">
+    <location x="174" y="306" />
+  </canvasNode>
+  <canvasNode id="404ecc29-0414-4b51-931a-d348da263629">
+    <location x="-353.2186" y="-108" />
+  </canvasNode>
+  <canvasNode id="22e6f179-033c-468a-a240-7a938677ec3a">
+    <location x="-433.2186" y="-167" />
+  </canvasNode>
+  <canvasNode id="77bd6279-b55c-4568-8560-bd60ae4adaba">
+    <location x="-265.2186" y="-163" />
+  </canvasNode>
+  <canvasNode id="2e49e531-e2bb-433a-b139-bbabadfe7fa8">
+    <location x="-288" y="3" />
+  </canvasNode>
+  <canvasNode id="20a9960a-1633-42f1-8ab6-54bc4fc55296">
+    <location x="-204.2186" y="-2.270798" />
+  </canvasNode>
+  <canvasNode id="8812d2a7-8165-4752-8773-02f65c89d38e">
+    <location x="-12" y="1" />
+  </canvasNode>
+  <canvasNode id="8cd89a32-70f0-4e11-9486-80cb6cc591a8">
+    <location x="-18.0482" y="91" />
+  </canvasNode>
+  <canvasNode id="cc45ba6f-f9ff-4e33-9089-e455872aa5e3">
+    <location x="-24" y="158" />
+  </canvasNode>
+  <canvasNode id="ee9cb4e0-fe79-4662-bb50-dfccd3aa7872">
+    <location x="-27" y="296" />
+  </canvasNode>
+  <canvasNode id="e3647778-fee0-478f-be0c-d0f51bc938ac">
+    <location x="-35" y="207" />
+  </canvasNode>
+  <canvasLink fromPortID="a0e3fec5-f379-4e3a-a1ad-7a2f3388a997" toPortID="c615f685-8f32-4405-b0d2-7dd7ad97db83" />
+  <canvasLink fromPortID="03836f86-8bb3-43ca-867b-a3ff64ed420e" toPortID="45f9841a-49d9-47e7-9862-8fe1fdc7f31a" />
+  <canvasLink fromPortID="bc99e02a-030f-4ae3-9cc8-5d08e79a41cb" toPortID="98a9b0d8-d55b-4424-aaa6-6e0c65daf3e7" />
+  <canvasLink fromPortID="e760235a-ea4a-4cae-be57-9cf15810ce3d" toPortID="b5b9a2af-4f05-44b5-becb-153389c01e27" />
+  <canvasLink fromPortID="23688c85-2a5f-4e0a-b36e-3407052b3100" toPortID="6749b863-2f65-4722-a4b6-4a669f49f662" />
+  <canvasLink fromPortID="09fe1609-c08f-4f6c-a8fb-c4f369879adc" toPortID="48077db1-659a-40f3-9c99-25f7cb63948f" />
+  <canvasLink fromPortID="ca69ac43-778c-4cd2-b79d-63c7d84b213c" toPortID="e0a83a39-390f-439f-9b9e-567f4da34e62" />
+  <canvasLink fromPortID="154024c3-bbe8-4f90-9c1a-5a28a6e6dd62" toPortID="4c1b71f2-8403-4d9b-9f24-c0d16fba0743" />
+  <canvasLink fromPortID="f0e69846-6749-4682-b3ff-dd300d13f98a" toPortID="22943d7a-1c36-41b6-a5e1-1e3dc4b5758d" />
+  <canvasLink fromPortID="4dfed780-a0be-4c8d-8fd4-94973e3372d0" toPortID="4aabd285-d5d7-46dc-b5ae-e364c4e9bc21" />
+  <canvasLink fromPortID="302a3b8c-15e8-4b32-84fb-106fe7250d14" toPortID="db10da14-2695-4ac9-8b26-ec7d7308f223" />
+  <canvasLink fromPortID="00eeec40-edce-4a5f-9913-5c3fb49aaf3c" toPortID="a0762c9c-8508-4a64-9909-5033154fd5f1" />
+  <canvasLink fromPortID="86374e40-ba3c-438b-a8ef-c27973369ba8" toPortID="c100fffb-86f1-4c68-84f3-e2d40de1a6dd" />
+  <canvasLink fromPortID="4596f2d2-c476-4454-b7be-d3755a9379f8" toPortID="63671446-4e3f-44cd-85b6-04ddaea96ffc" />
+  <canvasLink fromPortID="fb9c890b-3dec-43a4-b6c2-5479cd85e454" toPortID="4d20f7d0-c285-426b-9735-cc4b491efed2" />
+  <canvasLink fromPortID="cbe537ed-2ced-4d8c-8111-26515a46d380" toPortID="81916607-b6c5-4d48-94f8-1425b8fee75c" />
+  <canvasLink fromPortID="eab436bc-0e97-4013-9d16-f6e7c70aca98" toPortID="2fc7b1ba-b432-4da7-adc2-d358994a3185" />
+  <canvasLink fromPortID="91ac8707-9e6c-4867-92ec-b6b07d5450bd" toPortID="65506084-19bb-4331-b13f-6b01a4834dfd" />
+  <canvasLink fromPortID="38651849-6f6f-489d-8e68-8248f93aa01b" toPortID="d8faf1f1-0355-466c-b267-9223c05c3f9c" />
+  <canvasLink fromPortID="4e093c83-cb4b-4dee-98cf-7d80c39fc57b" toPortID="264208ea-9445-49b2-b4b5-f49b89038bb1" />
+  <canvasLink fromPortID="3354ba9e-17e9-49e0-a3ea-7bbb87312b7e" toPortID="30730f00-7f7b-42e5-9fdd-2becbeff6563" />
+  <canvasLink fromPortID="d1975697-84fb-4cc5-8f08-24fa9772400b" toPortID="b19a96a6-7e9e-4b35-93a9-ef4aa607b16e" />
+  <canvasLink fromPortID="08ea86c7-ee89-495f-b3a7-3d5e1d45c949" toPortID="7c947140-f408-4bb0-aa1b-924f870cc508" />
+  <canvasLink fromPortID="fb7aa08a-11d5-47f1-8524-e1fc6ec5f156" toPortID="96574a98-b69e-4992-b7c4-d08b0f73dfd0" />
+  <canvasLink fromPortID="8c77dea1-2d44-4b85-a54f-218e610bad79" toPortID="a8a48688-1a1f-4965-929e-4dbff406b86f" />
+  <canvasLink fromPortID="af57e705-7ced-4816-b105-2b4cb0de7115" toPortID="f508f418-bcf1-4e75-97f5-c65e606bd401" />
+  <canvasLink fromPortID="fa3d96fd-5c8c-4f38-8f0d-ee3d8daaaeec" toPortID="f82aa10b-ce98-4dfc-aa29-e2a3ff9983a8" />
+  <canvasLink fromPortID="586d4aa4-8ac5-4098-8178-0ee4ee5e3a13" toPortID="251f7ec6-a2d4-4773-b9dc-9204f8d74fb5" />
+  <canvasLink fromPortID="9a6a113a-e28c-48f8-be25-faeb633ab2fd" toPortID="a28f17ea-67de-445c-a80c-8fb4612e5f01" />
+  <canvasLink fromPortID="4fa98628-dddd-44e8-b0a3-6d97afb76087" toPortID="6d27eff9-ed7b-4303-9ac5-a545c9f64f53" />
+  <canvasLink fromPortID="e8ab982c-297a-4951-b631-af90859e2c90" toPortID="077f64d2-49f9-4872-b0a5-366eccbcc499" />
+  <canvasLink fromPortID="e5b31a42-8764-446d-ba4b-fdedb6be13ea" toPortID="ada1234a-8175-4e42-9d73-03259b74c60e" />
+  <canvasLink fromPortID="55d07841-4fa8-4be3-b6bb-1607067dd5d7" toPortID="bcc3e59f-18f2-431d-81b7-63089dbf5847" />
+  <canvasLink fromPortID="9bc66285-3313-44e9-bfd7-1c287bbecd53" toPortID="86a47ead-42e3-4064-b705-9705e84bcd71" />
+  <canvasLink fromPortID="59131522-e9e6-4e73-b95d-1f07cbf1441c" toPortID="4275c609-bf35-4033-b1ba-6ebaf91fc91b" />
+  <canvasLink fromPortID="0ea004ac-a344-4be3-84f4-fa1f947c56e5" toPortID="4260f6bb-e85a-464e-915e-350311274ead" />
+  <canvasLink fromPortID="029ab9cd-60b5-45df-915b-d5eeb7a3e9f5" toPortID="ebeaf0d5-9aa9-48d3-a8ab-034304210b2b" />
+  <canvasLink fromPortID="97c07b3a-14d4-47be-8bff-b5d5d09e88f0" toPortID="3a1526e0-cc7c-496e-903d-cab46eaf4620" />
+  <canvasLink fromPortID="50549ff7-70f5-40e8-be83-9f3399959587" toPortID="43f914d4-0fd3-4b08-92e1-7192081e65b1" />
+  <canvasLink fromPortID="3bdced5e-1de3-4179-9730-d63a3b70d674" toPortID="3c3f7372-69dc-4fa3-bdc1-04f52643ca8d" />
+  <canvasLink fromPortID="29fb7a53-53fa-42e4-a4fd-301c340e675b" toPortID="c853b2f9-c09f-47c6-b4b1-17abcf7b3353" />
+  <canvasLink fromPortID="27ba7096-952a-4a20-8ed2-7b7cc857f709" toPortID="ef40db6e-3a78-4e26-beb2-78bb9372fbe9" />
+  <canvasLink fromPortID="e835b091-1428-42b9-bafe-b7cf2e37edab" toPortID="db1feee1-2382-4074-be9f-69396f50b2f0" />
+  <canvasLink fromPortID="537a5a40-0802-4fe1-8c76-b1ce8fe117e2" toPortID="f7627c66-a4dc-4d8c-96d1-b1e89cb1cd6e" />
+  <canvasLink fromPortID="c9d010bf-1696-4895-ad4e-3af61d13f63b" toPortID="fc45513a-0137-4ce6-8bc1-7b17bf08972d" />
+  <canvasLink fromPortID="399f0399-f96f-4054-97be-1220977bb9c7" toPortID="1ca86ea8-bb16-4e80-84fd-08af7e11a432" />
+  <canvasLink fromPortID="bb4ac3d5-235d-4eaa-ae30-cb2f8a923e05" toPortID="0a33dc23-9264-448e-b9ab-0ef618bca759" />
+</viewData>]]></value></property></properties><stages><stage id="df15315f-4b52-4fab-a255-7fbf9f07629b"><stage_name>CandidateFinder</stage_name><stage_version/><label>CR4</label><num_instances>1</num_instances><distributed>false</distributed><batch_size>0</batch_size><settings><![CDATA[<?xml version="1.0" encoding="utf-16" standalone="yes"?><CandidateFinderStageSettings xmlns="http://g1.com/cdq/schema/candidatefinder-settings.xsd"><candidate-finder type="searchindex" name="searchindex"><indexSearchConfiguration><![CDATA[<?xml version="1.0" encoding="utf-16"?>
+<searchConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <indexName>SI_WPPOI_CAN_Full</indexName>
+  <maxHits>500</maxHits>
+  <startIndex>1</startIndex>
+  <ignoreExtraTerms>true</ignoreExtraTerms>
+  <isReturnMatchCount>false</isReturnMatchCount>
+  <outputFields>
+    <outputField>
+      <stageField>
+        <name>EntityBrandName</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>EntityBrandName</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>EntityState</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>EntityState</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>EntityCity</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>EntityCity</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>EntitySIC8Description</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>EntitySIC8Description</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>EntityRegisteredName</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>EntityRegisteredName</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>EntityTradeName</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>EntityTradeName</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>EntityCountryISO3</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>EntityCountryISO3</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>EntityStabb</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>EntityStabb</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>EntityPostcode</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>EntityPostcode</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>EntityFormattedAddress</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>EntityFormattedAddress</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>EntityMainAddressLine</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>EntityMainAddressLine</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>EntityAddressLastLine</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>EntityAddressLastLine</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>EntityEmail</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>EntityEmail</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>EntitySIC1</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>EntitySIC1</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>EntityMICode</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>EntityMICode</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>EntityPhoneNumber</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>EntityPhoneNumber</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>EntityTradeSuffix</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>EntityTradeSuffix</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>EntityRegisteredSuffix</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>EntityRegisteredSuffix</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>pb_id</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>pb_id</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>MK_BrandNm</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>MK_BrandNm</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>MK_BrandNm_PostCd</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>MK_BrandNm_PostCd</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>MK_Phone</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>MK_Phone</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>MK_PostCd</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>MK_PostCd</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>MK_RegNm</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>MK_RegNm</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>MK_RegNm_PostCd</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>MK_RegNm_PostCd</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>MK_TradeNm</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>MK_TradeNm</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>MK_TradeNm_PostCd</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>MK_TradeNm_PostCd</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>MK_StateCity</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>MK_StateCity</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>EntityHouseNumber</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>EntityHouseNumber</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>EntityLeadingDirectional</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>EntityLeadingDirectional</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>EntityStreetName</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>EntityStreetName</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>EntityStreetSuffix</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>EntityStreetSuffix</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>EntityTrailingDirectional</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>EntityTrailingDirectional</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+  </outputFields>
+  <searchQuery>
+    <queryName>PostCode</queryName>
+    <searchQueries>
+      <prefixSearchQuery>
+        <boost>1</boost>
+        <firstSearchField>
+          <name>MatchKey3</name>
+          <type>string</type>
+        </firstSearchField>
+        <ignoreBlanks>true</ignoreBlanks>
+        <indexFieldName>MK_PostCd</indexFieldName>
+      </prefixSearchQuery>
+    </searchQueries>
+    <operator>and</operator>
+  </searchQuery>
+</searchConfiguration>]]]]><![CDATA[></indexSearchConfiguration></candidate-finder></CandidateFinderStageSettings>]]></settings><input_ports><input_port id="ebeaf0d5-9aa9-48d3-a8ab-034304210b2b"><channel idref="acbb1137-650c-41f7-b3f8-d118bab03944"/><label>input_port</label><port_name>input_port</port_name></input_port></input_ports><options/><output_ports><output_port id="97c07b3a-14d4-47be-8bff-b5d5d09e88f0"><channel idref="791e0ee4-bc40-4270-a8be-50a43417c240"/><label>output_port</label><port_name>output_port</port_name></output_port></output_ports><properties><property><name>stageItemName</name><value><![CDATA[CandidateFinder]]></value></property></properties></stage><stage id="452cf6fe-bcac-4bfc-8a3f-9b03a29c5c33"><stage_name>sorter</stage_name><stage_version/><label>S1</label><num_instances>1</num_instances><distributed>false</distributed><batch_size>10000</batch_size><settings><![CDATA[<?xml version="1.0" encoding="utf-16"?>
+<SorterSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="2.5">
+  <sortColumns>
+    <sortColumn>
+      <name>CandidateGroup</name>
+      <order>1</order>
+      <type>0</type>
+      <trim>TRIM</trim>
+      <nullPrecedence>SMALLEST</nullPrecedence>
+    </sortColumn>
+    <sortColumn>
+      <name>TransactionRecordType</name>
+      <order>-1</order>
+      <type>0</type>
+      <trim>TRIM</trim>
+      <nullPrecedence>SMALLEST</nullPrecedence>
+    </sortColumn>
+  </sortColumns>
+  <sortConfiguration>
+    <internalCacheSize>500500</internalCacheSize>
+    <externalCacheSize>20</externalCacheSize>
+    <useCompressedStream>false</useCompressedStream>
+  </sortConfiguration>
+</SorterSettings>]]></settings><input_ports><input_port id="48077db1-659a-40f3-9c99-25f7cb63948f"><channel idref="ff5dc90e-70d4-42ff-95af-4dc9cf5e5205"/><label>input_port</label><port_name>input_port</port_name></input_port></input_ports><options/><output_ports><output_port id="ca69ac43-778c-4cd2-b79d-63c7d84b213c"><channel idref="6c9063b8-9b68-4d88-8b91-68df99f98800"/><label>output_port</label><port_name>output_port</port_name></output_port></output_ports><properties><property><name>stageItemName</name><value><![CDATA[sorter]]></value></property></properties></stage><stage id="02217ed1-fc15-4d3e-9143-70b67f1568a0"><stage_name>CandidateFinder</stage_name><stage_version/><label>CR2</label><num_instances>16</num_instances><distributed>false</distributed><batch_size>0</batch_size><settings><![CDATA[<?xml version="1.0" encoding="utf-16" standalone="yes"?><CandidateFinderStageSettings xmlns="http://g1.com/cdq/schema/candidatefinder-settings.xsd"><candidate-finder type="searchindex" name="searchindex"><indexSearchConfiguration><![CDATA[<?xml version="1.0" encoding="utf-16"?>
+<searchConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <indexName>SI_WPPOI_CAN_Full</indexName>
+  <maxHits>500</maxHits>
+  <startIndex>1</startIndex>
+  <ignoreExtraTerms>true</ignoreExtraTerms>
+  <isReturnMatchCount>false</isReturnMatchCount>
+  <outputFields>
+    <outputField>
+      <stageField>
+        <name>EntityBrandName</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>EntityBrandName</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>EntityState</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>EntityState</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>EntityCity</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>EntityCity</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>EntitySIC8Description</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>EntitySIC8Description</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>EntityRegisteredName</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>EntityRegisteredName</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>EntityTradeName</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>EntityTradeName</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>EntityCountryISO3</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>EntityCountryISO3</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>EntityStabb</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>EntityStabb</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>EntityPostcode</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>EntityPostcode</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>EntityFormattedAddress</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>EntityFormattedAddress</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>EntityMainAddressLine</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>EntityMainAddressLine</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>EntityAddressLastLine</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>EntityAddressLastLine</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>EntityEmail</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>EntityEmail</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>EntitySIC1</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>EntitySIC1</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>EntityMICode</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>EntityMICode</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>EntityPhoneNumber</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>EntityPhoneNumber</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>EntityTradeSuffix</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>EntityTradeSuffix</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>EntityRegisteredSuffix</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>EntityRegisteredSuffix</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>pb_id</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>pb_id</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>MK_BrandNm</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>MK_BrandNm</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>MK_BrandNm_PostCd</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>MK_BrandNm_PostCd</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>MK_Phone</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>MK_Phone</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>MK_PostCd</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>MK_PostCd</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>MK_RegNm</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>MK_RegNm</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>MK_RegNm_PostCd</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>MK_RegNm_PostCd</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>MK_TradeNm</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>MK_TradeNm</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>MK_TradeNm_PostCd</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>MK_TradeNm_PostCd</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>MK_StateCity</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>MK_StateCity</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>EntityHouseNumber</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>EntityHouseNumber</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>EntityLeadingDirectional</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>EntityLeadingDirectional</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>EntityStreetName</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>EntityStreetName</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>EntityStreetSuffix</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>EntityStreetSuffix</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>EntityTrailingDirectional</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>EntityTrailingDirectional</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+  </outputFields>
+  <searchQuery>
+    <queryName>CompanyName</queryName>
+    <searchQueries>
+      <exactMatchSearchQuery>
+        <boost>1</boost>
+        <firstSearchField>
+          <name>MatchKey2</name>
+          <type>string</type>
+        </firstSearchField>
+        <ignoreBlanks>true</ignoreBlanks>
+        <indexFieldName>MK_Phone</indexFieldName>
+      </exactMatchSearchQuery>
+    </searchQueries>
+    <operator>and</operator>
+  </searchQuery>
+</searchConfiguration>]]]]><![CDATA[></indexSearchConfiguration></candidate-finder></CandidateFinderStageSettings>]]></settings><input_ports><input_port id="c100fffb-86f1-4c68-84f3-e2d40de1a6dd"><channel idref="a21cd50e-53fd-482e-b437-c5dfb313c4a6"/><label>input_port</label><port_name>input_port</port_name></input_port></input_ports><options/><output_ports><output_port id="4596f2d2-c476-4454-b7be-d3755a9379f8"><channel idref="19f0bdc6-2965-4002-98a2-8280c93c84c3"/><label>output_port</label><port_name>output_port</port_name></output_port></output_ports><properties><property><name>stageItemName</name><value><![CDATA[CandidateFinder]]></value></property></properties></stage><stage id="c3d334f3-34ea-410c-ae91-04ebb1d4d5e8"><stage_name>CandidateFinder</stage_name><stage_version/><label>CR3</label><num_instances>1</num_instances><distributed>false</distributed><batch_size>10000</batch_size><settings><![CDATA[<?xml version="1.0" encoding="utf-16" standalone="yes"?><CandidateFinderStageSettings xmlns="http://g1.com/cdq/schema/candidatefinder-settings.xsd"><candidate-finder type="searchindex" name="searchindex"><indexSearchConfiguration><![CDATA[<?xml version="1.0" encoding="utf-16"?>
+<searchConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <indexName>SI_WPPOI_CAN_Full</indexName>
+  <maxHits>500</maxHits>
+  <startIndex>1</startIndex>
+  <ignoreExtraTerms>true</ignoreExtraTerms>
+  <isReturnMatchCount>false</isReturnMatchCount>
+  <outputFields>
+    <outputField>
+      <stageField>
+        <name>EntityBrandName</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>EntityBrandName</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>EntityState</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>EntityState</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>EntityCity</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>EntityCity</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>EntitySIC8Description</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>EntitySIC8Description</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>EntityRegisteredName</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>EntityRegisteredName</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>EntityTradeName</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>EntityTradeName</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>EntityCountryISO3</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>EntityCountryISO3</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>EntityStabb</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>EntityStabb</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>EntityPostcode</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>EntityPostcode</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>EntityFormattedAddress</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>EntityFormattedAddress</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>EntityMainAddressLine</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>EntityMainAddressLine</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>EntityAddressLastLine</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>EntityAddressLastLine</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>EntityEmail</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>EntityEmail</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>EntitySIC1</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>EntitySIC1</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>EntityMICode</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>EntityMICode</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>EntityPhoneNumber</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>EntityPhoneNumber</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>EntityTradeSuffix</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>EntityTradeSuffix</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>EntityRegisteredSuffix</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>EntityRegisteredSuffix</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>pb_id</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>pb_id</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>MK_BrandNm</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>MK_BrandNm</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>MK_BrandNm_PostCd</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>MK_BrandNm_PostCd</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>MK_Phone</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>MK_Phone</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>MK_PostCd</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>MK_PostCd</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>MK_RegNm</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>MK_RegNm</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>MK_RegNm_PostCd</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>MK_RegNm_PostCd</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>MK_TradeNm</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>MK_TradeNm</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>MK_TradeNm_PostCd</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>MK_TradeNm_PostCd</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>MK_StateCity</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>MK_StateCity</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>EntityHouseNumber</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>EntityHouseNumber</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>EntityLeadingDirectional</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>EntityLeadingDirectional</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>EntityStreetName</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>EntityStreetName</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>EntityStreetSuffix</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>EntityStreetSuffix</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>EntityTrailingDirectional</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>EntityTrailingDirectional</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+  </outputFields>
+  <searchQuery>
+    <queryName>PostCode</queryName>
+    <searchQueries>
+      <prefixSearchQuery>
+        <boost>1</boost>
+        <firstSearchField>
+          <name>MatchKey3</name>
+          <type>string</type>
+        </firstSearchField>
+        <ignoreBlanks>true</ignoreBlanks>
+        <indexFieldName>MK_PostCd</indexFieldName>
+      </prefixSearchQuery>
+    </searchQueries>
+    <operator>and</operator>
+  </searchQuery>
+</searchConfiguration>]]]]><![CDATA[></indexSearchConfiguration></candidate-finder></CandidateFinderStageSettings>]]></settings><input_ports><input_port id="30730f00-7f7b-42e5-9fdd-2becbeff6563"><channel idref="58a02bf5-f316-44b7-a5aa-318eb29000de"/><label>input_port</label><port_name>input_port</port_name></input_port></input_ports><options/><output_ports><output_port id="d1975697-84fb-4cc5-8f08-24fa9772400b"><channel idref="13a9cc66-8793-4641-8e0d-5695a7cd0926"/><label>output_port</label><port_name>output_port</port_name></output_port></output_ports><properties><property><name>stageItemName</name><value><![CDATA[CandidateFinder]]></value></property></properties></stage><stage id="e2d0089c-8ac3-49c9-808b-56ecf6f52c4d"><stage_name>sorter</stage_name><stage_version/><label>S2</label><num_instances>1</num_instances><distributed>false</distributed><batch_size>10000</batch_size><settings><![CDATA[<?xml version="1.0" encoding="utf-16"?>
+<SorterSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="2.5">
+  <sortColumns>
+    <sortColumn>
+      <name>CandidateGroup</name>
+      <order>1</order>
+      <type>0</type>
+      <trim>TRIM</trim>
+    </sortColumn>
+    <sortColumn>
+      <name>TransactionRecordType</name>
+      <order>-1</order>
+      <type>0</type>
+      <trim>TRIM</trim>
+    </sortColumn>
+  </sortColumns>
+  <sortConfiguration>
+    <internalCacheSize>500500</internalCacheSize>
+    <externalCacheSize>20</externalCacheSize>
+    <useCompressedStream>false</useCompressedStream>
+  </sortConfiguration>
+</SorterSettings>]]></settings><input_ports><input_port id="63671446-4e3f-44cd-85b6-04ddaea96ffc"><channel idref="19f0bdc6-2965-4002-98a2-8280c93c84c3"/><label>input_port</label><port_name>input_port</port_name></input_port></input_ports><options/><output_ports><output_port id="fb9c890b-3dec-43a4-b6c2-5479cd85e454"><channel idref="529cc31b-6510-47a2-8f81-b3550fc940a9"/><label>output_port</label><port_name>output_port</port_name></output_port></output_ports><properties><property><name>stageItemName</name><value><![CDATA[sorter]]></value></property></properties></stage><stage id="2f021fc6-1b89-4e87-99e7-91315233b1e1"><stage_name>router</stage_name><stage_version/><label>Con_R2</label><num_instances>1</num_instances><distributed>false</distributed><batch_size>10000</batch_size><settings><![CDATA[<?xml version="1.0" encoding="utf-16"?>
+<RouterSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="2.5">
+  <outputCopy>false</outputCopy>
+  <singleOutput>false</singleOutput>
+  <portExpressions>
+    <portExpression>
+      <portId>38651849-6f6f-489d-8e68-8248f93aa01b</portId>
+      <expression>return isEqualTo(data.get('HasDuplicates'), 'Y');
+      
+import static com.pb.spectrum.api.datetime.DateTimeUtil.*;
+
+def boolean isEqualTo(Object field, Object value)
+{
+  try
+  {
+    if(field instanceof BigDecimal)
+      return new BigDecimal(value) == field
+    if(field instanceof Boolean)
+      return Boolean.valueOf(value) == field
+    else if(field instanceof Integer)
+      return Integer.valueOf(value) == field
+    else if(field instanceof Long)
+      return Long.valueOf(value) == field
+    else if(field instanceof Float)
+      return Float.valueOf(value) == field
+    else if(field instanceof Double)
+      return Double.valueOf(value) == field
+    else if(field instanceof com.pb.spectrum.api.datetime.Date)
+      return compare(field, com.pb.spectrum.api.datetime.Date.valueOf(value)) == 0
+    else if(field instanceof com.pb.spectrum.api.datetime.Time)
+      return compare(field, com.pb.spectrum.api.datetime.Time.valueOf(value)) == 0
+    else if(field instanceof com.pb.spectrum.api.datetime.DateTime)
+      return compare(field, com.pb.spectrum.api.datetime.DateTime.valueOf(value)) == 0
+    return value == field;   
+  }
+  catch (Exception)
+  {
+    return false;
+  }	
+}
+    </expression>
+      <ViewData>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ExpressionBuilderInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;CombineMethod&gt;All&lt;/CombineMethod&gt;
+  &lt;ExpressionDetailInfo&gt;
+    &lt;ExpressionDetails&gt;
+      &lt;ExpressionField&gt;HasDuplicates&lt;/ExpressionField&gt;
+      &lt;ExpressionOperator&gt;is equal to&lt;/ExpressionOperator&gt;
+      &lt;ExpressionValue&gt;Y&lt;/ExpressionValue&gt;
+      &lt;comparisonType&gt;VALUE&lt;/comparisonType&gt;
+    &lt;/ExpressionDetails&gt;
+  &lt;/ExpressionDetailInfo&gt;
+&lt;/ExpressionBuilderInfo&gt;</ViewData>
+    </portExpression>
+    <portExpression>
+      <portId>4e093c83-cb4b-4dee-98cf-7d80c39fc57b</portId>
+      <expression>default</expression>
+      <ViewData>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ExpressionBuilderInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;CombineMethod /&gt;
+  &lt;ExpressionDetailInfo /&gt;
+&lt;/ExpressionBuilderInfo&gt;</ViewData>
+    </portExpression>
+  </portExpressions>
+</RouterSettings>]]></settings><input_ports><input_port id="65506084-19bb-4331-b13f-6b01a4834dfd"><channel idref="8261a924-1862-4d6e-888f-79da228575aa"/><label>input_port</label><port_name>input_port</port_name></input_port></input_ports><options/><output_ports><output_port id="38651849-6f6f-489d-8e68-8248f93aa01b"><channel idref="37d86d95-8f55-494a-85bd-a47f9a5d721b"/><label>port</label><port_name/></output_port><output_port id="4e093c83-cb4b-4dee-98cf-7d80c39fc57b"><channel idref="d1e0a3ff-ab60-4548-8255-bf7efbd8f09b"/><label>port 3</label><port_name/></output_port></output_ports><properties><property><name>stageItemName</name><value><![CDATA[router]]></value></property></properties></stage><stage id="77bd6279-b55c-4568-8560-bd60ae4adaba"><stage_name>transformer</stage_name><stage_version/><label>Transformer</label><num_instances>1</num_instances><distributed>false</distributed><batch_size>10000</batch_size><settings><![CDATA[<?xml version="1.0" encoding="utf-16"?>
+<TransformerSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="3.0">
+  <transformDefinitions>
+    <transformDefinition>
+      <name>Custom</name>
+      <script>data.Inp_CompanyName = data.FirmName2;</script>
+      <transformParameters>
+        <transformParameter>
+          <name>transformName</name>
+          <type>string</type>
+          <value>Custom Transform</value>
+        </transformParameter>
+      </transformParameters>
+      <transformFields />
+    </transformDefinition>
+  </transformDefinitions>
+</TransformerSettings>]]></settings><input_ports><input_port id="1ca86ea8-bb16-4e80-84fd-08af7e11a432"><channel idref="d0359f5e-20c5-496c-9527-a3f7f9834683"/><label>input_port</label><port_name>input_port</port_name></input_port></input_ports><options/><output_ports><output_port id="bb4ac3d5-235d-4eaa-ae30-cb2f8a923e05"><channel idref="0ddd9795-79cb-4e5b-824d-013b54a59eb1"/><label>output_port</label><port_name>output_port</port_name></output_port></output_ports><properties><property><name>stageItemName</name><value><![CDATA[transformer]]></value></property></properties></stage><stage id="2b29858c-f964-414d-87cd-a164498bfeb7"><stage_name>MatchKeyGenerator</stage_name><stage_version/><label>MK_Phone - Copy</label><num_instances>1</num_instances><distributed>false</distributed><batch_size>10000</batch_size><settings><![CDATA[<?xml version="1.0" encoding="utf-16" standalone="yes"?><HashGenerationSettings xmlns="http://g1.com/cdq/schema/matchkeygenerator-settings.xsd"><Rules expressMatchKey="False"><HashGenerationField value="MatchKey2" /><Rule><Algorithm value="SubString" /><Field value="PhoneNumber" /><Start value="1" /><Length value="8" /><RemoveNoiseChars value="Y" /><Active value="Y" /></Rule></Rules></HashGenerationSettings>]]></settings><input_ports><input_port id="a28f17ea-67de-445c-a80c-8fb4612e5f01"><channel idref="9d8c2d78-4ab8-4fc9-a3b4-e2b1e8949716"/><label>input_port</label><port_name>input_port</port_name></input_port></input_ports><options/><output_ports><output_port id="4fa98628-dddd-44e8-b0a3-6d97afb76087"><channel idref="6af442dd-9222-44dc-8109-0535902ca08f"/><label>output_port</label><port_name>output_port</port_name></output_port></output_ports><properties><property><name>stageItemName</name><value><![CDATA[MatchKeyGenerator]]></value></property></properties></stage><stage id="af5b1810-b307-47f6-9582-c2e16f588ea7"><stage_name>BestOfBreed</stage_name><stage_version/><label>BOB3</label><num_instances>1</num_instances><distributed>false</distributed><batch_size>10000</batch_size><settings><![CDATA[<?xml version="1.0" encoding="utf-16" standalone="yes"?><ConsolidationConfiguration xmlns="http://g1.com/cdq/schema/bestofbreed-settings.xsd"><ConsolidationSettings><ConsolidationType value="BestComposite" /><GroupID value="CandidateGroup" sort="true" /><GroupActions /><Rules><Rule><If><Condition><OrExpression><SimpleExpression><TestField value="MatchScore" numeric="Yes" /><Operator value="Highest" /></SimpleExpression></OrExpression><AndExpression><SimpleExpression><TestField value="MatchScore" numeric="Yes" /><Operator value="Greater Than Equal To" /><DataType value="No" /><Value value="70" /></SimpleExpression></AndExpression></Condition><Action><BuildFromDataType value="Yes" /><BuildFromField value="EntityRegisteredName" /><BuildToField value="EntityRegisteredName" /><Accumulate value="No" /></Action><Action><BuildFromDataType value="Yes" /><BuildFromField value="EntityRegisteredSuffix" /><BuildToField value="EntityRegisteredSuffix" /><Accumulate value="No" /></Action><Action><BuildFromDataType value="Yes" /><BuildFromField value="EntityTradeName" /><BuildToField value="EntityTradeName" /><Accumulate value="No" /></Action><Action><BuildFromDataType value="Yes" /><BuildFromField value="EntityTradeSuffix" /><BuildToField value="EntityTradeSuffix" /><Accumulate value="No" /></Action><Action><BuildFromDataType value="Yes" /><BuildFromField value="EntityBrandName" /><BuildToField value="EntityBrandName" /><Accumulate value="No" /></Action><Action><BuildFromDataType value="Yes" /><BuildFromField value="EntityMainAddressLine" /><BuildToField value="EntityMainAddressLine" /><Accumulate value="No" /></Action><Action><BuildFromDataType value="Yes" /><BuildFromField value="EntityCity" /><BuildToField value="EntityCity" /><Accumulate value="No" /></Action><Action><BuildFromDataType value="Yes" /><BuildFromField value="EntityState" /><BuildToField value="EntityState" /><Accumulate value="No" /></Action><Action><BuildFromDataType value="Yes" /><BuildFromField value="EntityPostcode" /><BuildToField value="EntityPostcode" /><Accumulate value="No" /></Action><Action><BuildFromDataType value="Yes" /><BuildFromField value="EntityCountryISO3" /><BuildToField value="EntityCountryISO3" /><Accumulate value="No" /></Action><Action><BuildFromDataType value="Yes" /><BuildFromField value="EntityPhoneNumber" /><BuildToField value="EntityPhoneNumber" /><Accumulate value="No" /></Action><Action><BuildFromDataType value="Yes" /><BuildFromField value="EntityEmail" /><BuildToField value="EntityEmail" /><Accumulate value="No" /></Action><Action><BuildFromDataType value="Yes" /><BuildFromField value="MatchScore" /><BuildToField value="MatchScore" /><Accumulate value="No" /></Action><Action><BuildFromDataType value="Yes" /><BuildFromField value="pb_id" /><BuildToField value="pb_id" /><Accumulate value="No" /></Action><Action><BuildFromDataType value="Yes" /><BuildFromField value="EntityHouseNumber" /><BuildToField value="EntityHouseNumber" /><Accumulate value="No" /></Action><Action><BuildFromDataType value="Yes" /><BuildFromField value="EntityLeadingDirectional" /><BuildToField value="EntityLeadingDirectional" /><Accumulate value="No" /></Action><Action><BuildFromDataType value="Yes" /><BuildFromField value="EntityStreetName" /><BuildToField value="EntityStreetName" /><Accumulate value="No" /></Action><Action><BuildFromDataType value="Yes" /><BuildFromField value="EntityStreetSuffix" /><BuildToField value="EntityStreetSuffix" /><Accumulate value="No" /></Action><Action><BuildFromDataType value="Yes" /><BuildFromField value="EntityTrailingDirectional" /><BuildToField value="EntityTrailingDirectional" /><Accumulate value="No" /></Action></If></Rule></Rules></ConsolidationSettings><ConsolidationSettings><ConsolidationType value="Primary" /><GroupActions /><Rules><Rule><If><Condition><OrExpression><SimpleExpression><TestField value="MatchRecordType" numeric="No" /><Operator value="Equal" /><DataType value="No" /><Value value="Suspect" /></SimpleExpression></OrExpression><OrExpression><SimpleExpression><TestField value="HasDuplicates" numeric="No" /><Operator value="Equal" /><DataType value="No" /><Value value="Y" /></SimpleExpression></OrExpression></Condition></If></Rule></Rules></ConsolidationSettings></ConsolidationConfiguration>]]></settings><input_ports><input_port id="96574a98-b69e-4992-b7c4-d08b0f73dfd0"><channel idref="ee83ac05-694d-4592-8dce-811259d73156"/><label>input_port</label><port_name>input_port</port_name></input_port></input_ports><options/><output_ports><output_port id="8c77dea1-2d44-4b85-a54f-218e610bad79"><channel idref="cd5f2b05-0b9a-4777-a73d-cb752b71e3c6"/><label>output_port</label><port_name>output_port</port_name></output_port></output_ports><properties><property><name>stageItemName</name><value><![CDATA[BestOfBreed]]></value></property></properties></stage><stage id="20a9960a-1633-42f1-8ab6-54bc4fc55296"><stage_name>CandidateFinder</stage_name><stage_version/><label>CR1</label><num_instances>16</num_instances><distributed>false</distributed><batch_size>0</batch_size><settings><![CDATA[<?xml version="1.0" encoding="utf-16" standalone="yes"?><CandidateFinderStageSettings xmlns="http://g1.com/cdq/schema/candidatefinder-settings.xsd"><candidate-finder type="searchindex" name="searchindex"><indexSearchConfiguration><![CDATA[<?xml version="1.0" encoding="utf-16"?>
+<searchConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <indexName>SI_WPPOI_CAN_WITH_MD5</indexName>
+  <maxHits>200</maxHits>
+  <startIndex>1</startIndex>
+  <ignoreExtraTerms>true</ignoreExtraTerms>
+  <isReturnMatchCount>true</isReturnMatchCount>
+  <outputFields>
+    <outputField>
+      <stageField>
+        <name>EntityBrandName</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>EntityBrandName</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>EntityState</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>EntityState</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>EntityCity</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>EntityCity</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>EntityRegisteredName</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>EntityRegisteredName</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>EntityTradeName</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>EntityTradeName</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>EntityPostcode</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>EntityPostcode</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>EntityPhoneNumber</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>EntityPhoneNumber</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>MK_Phone</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>MK_Phone</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>MK_PostCd</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>MK_PostCd</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>MK_StateCity</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>MK_StateCity</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>MK_RegNm</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>MK_RegNm</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>MK_TradeNm</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>MK_TradeNm</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>MK_BrandNm</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>MK_BrandNm</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>MD5_Address</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>MD5_Address</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>MD5_Phone</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>MD5_Phone</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>MD5_RegNm</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>MD5_RegNm</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>MD5_BrndNm</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>MD5_BrndNm</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>MD5_TrdNm</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>MD5_TrdNm</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>PB_ID</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>PB_ID</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>EntityMainAddressLine</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>EntityMainAddressLine</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+  </outputFields>
+  <searchQuery>
+    <queryName>CompanyName</queryName>
+    <searchQueries>
+      <exactMatchSearchQuery>
+        <boost>1</boost>
+        <firstSearchField>
+          <name>MatchKey1</name>
+          <type>string</type>
+        </firstSearchField>
+        <ignoreBlanks>true</ignoreBlanks>
+        <indexFieldName>MK_RegNm</indexFieldName>
+      </exactMatchSearchQuery>
+    </searchQueries>
+    <operator>and</operator>
+  </searchQuery>
+</searchConfiguration>]]]]><![CDATA[></indexSearchConfiguration></candidate-finder></CandidateFinderStageSettings>]]></settings><input_ports><input_port id="6749b863-2f65-4722-a4b6-4a669f49f662"><channel idref="a9b06c69-1ad5-41e4-bdc9-33b9dc911dd6"/><label>input_port</label><port_name>input_port</port_name></input_port></input_ports><options/><output_ports><output_port id="09fe1609-c08f-4f6c-a8fb-c4f369879adc"><channel idref="ff5dc90e-70d4-42ff-95af-4dc9cf5e5205"/><label>output_port</label><port_name>output_port</port_name></output_port></output_ports><properties><property><name>stageItemName</name><value><![CDATA[CandidateFinder]]></value></property></properties></stage><stage id="404ecc29-0414-4b51-931a-d348da263629"><stage_name>router</stage_name><stage_version/><label>merchant name null?</label><num_instances>1</num_instances><distributed>false</distributed><batch_size>10000</batch_size><settings><![CDATA[<?xml version="1.0" encoding="utf-16"?>
+<RouterSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="2.5">
+  <outputCopy>false</outputCopy>
+  <singleOutput>false</singleOutput>
+  <portExpressions>
+    <portExpression>
+      <portId>bc99e02a-030f-4ae3-9cc8-5d08e79a41cb</portId>
+      <expression>default</expression>
+      <ViewData>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ExpressionBuilderInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;CombineMethod /&gt;
+  &lt;ExpressionDetailInfo /&gt;
+&lt;/ExpressionBuilderInfo&gt;</ViewData>
+    </portExpression>
+    <portExpression>
+      <portId>e760235a-ea4a-4cae-be57-9cf15810ce3d</portId>
+      <expression>return isNotEmpty(data.get('merchant_name'));
+      
+def boolean isNotEmpty(String field)
+{
+  try
+  {
+    return field != null &amp;&amp; field.trim().length() != 0;
+  }
+  catch (Exception)
+  {
+    return false;
+  }
+}
+    </expression>
+      <ViewData>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ExpressionBuilderInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;CombineMethod&gt;Any&lt;/CombineMethod&gt;
+  &lt;ExpressionDetailInfo&gt;
+    &lt;ExpressionDetails&gt;
+      &lt;ExpressionField&gt;merchant_name&lt;/ExpressionField&gt;
+      &lt;ExpressionOperator&gt;is not empty&lt;/ExpressionOperator&gt;
+      &lt;ExpressionValue /&gt;
+      &lt;comparisonType&gt;VALUE&lt;/comparisonType&gt;
+    &lt;/ExpressionDetails&gt;
+  &lt;/ExpressionDetailInfo&gt;
+&lt;/ExpressionBuilderInfo&gt;</ViewData>
+    </portExpression>
+  </portExpressions>
+</RouterSettings>]]></settings><input_ports><input_port id="0a33dc23-9264-448e-b9ab-0ef618bca759"><channel idref="0ddd9795-79cb-4e5b-824d-013b54a59eb1"/><label>input_port</label><port_name>input_port</port_name></input_port></input_ports><options/><output_ports><output_port id="bc99e02a-030f-4ae3-9cc8-5d08e79a41cb"><channel idref="2516000d-e1a4-4cb5-8bfc-6729e0885dd7"/><label>port 3</label><port_name/></output_port><output_port id="e760235a-ea4a-4cae-be57-9cf15810ce3d"><channel idref="c57fd813-aa75-4bfb-860d-405e676ed514"/><label>port</label><port_name/></output_port></output_ports><properties><property><name>stageItemName</name><value><![CDATA[router]]></value></property></properties></stage><stage id="5231cc05-b4d1-47bd-9da8-4d4a3d08fbff"><stage_name>transformer</stage_name><stage_version/><label>T2</label><num_instances>1</num_instances><distributed>false</distributed><batch_size>10000</batch_size><settings><![CDATA[<?xml version="1.0" encoding="utf-16"?>
+<TransformerSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="3.0">
+  <transformDefinitions>
+    <transformDefinition>
+      <name>Custom</name>
+      <script>if(data['MatchScore'] =="" || data['MatchScore']==null){
+   data['MatchScore']="0";
+}</script>
+      <transformParameters>
+        <transformParameter>
+          <name>transformName</name>
+          <type>string</type>
+          <value>Update Matchscore</value>
+        </transformParameter>
+      </transformParameters>
+      <transformFields />
+    </transformDefinition>
+    <transformDefinition>
+      <name>Copy</name>
+      <script>data[toColumn] = data.getClone(fromColumn);</script>
+      <transformParameters>
+        <transformParameter>
+          <name>fromColumn</name>
+          <type>Object</type>
+          <value>MatchScore</value>
+        </transformParameter>
+        <transformParameter>
+          <name>toColumn</name>
+          <type>Object</type>
+          <value>MatchScorePhoneNumber</value>
+        </transformParameter>
+      </transformParameters>
+      <transformFields />
+    </transformDefinition>
+    <transformDefinition>
+      <name>Rename</name>
+      <script>data[toColumn] = data.getClone(fromColumn);data.remove(fromColumn);</script>
+      <transformParameters>
+        <transformParameter>
+          <name>fromColumn</name>
+          <type>Object</type>
+          <value>MatchInfo.Party_Name_and_Address.Party_Address.Score</value>
+        </transformParameter>
+        <transformParameter>
+          <name>toColumn</name>
+          <type>Object</type>
+          <value>AddressScore</value>
+        </transformParameter>
+      </transformParameters>
+      <transformFields />
+    </transformDefinition>
+    <transformDefinition>
+      <name>Rename</name>
+      <script>data[toColumn] = data.getClone(fromColumn);data.remove(fromColumn);</script>
+      <transformParameters>
+        <transformParameter>
+          <name>fromColumn</name>
+          <type>Object</type>
+          <value>MatchInfo.PhoneNumber_and_Address.PhoneNumber.Score</value>
+        </transformParameter>
+        <transformParameter>
+          <name>toColumn</name>
+          <type>Object</type>
+          <value>PhoneNumberScore</value>
+        </transformParameter>
+      </transformParameters>
+      <transformFields />
+    </transformDefinition>
+  </transformDefinitions>
+</TransformerSettings>]]></settings><input_ports><input_port id="2fc7b1ba-b432-4da7-adc2-d358994a3185"><channel idref="a4fd377c-4f45-44fc-8e75-816c2e0a23e0"/><label>input_port</label><port_name>input_port</port_name></input_port></input_ports><options/><output_ports><output_port id="91ac8707-9e6c-4867-92ec-b6b07d5450bd"><channel idref="8261a924-1862-4d6e-888f-79da228575aa"/><label>output_port</label><port_name>output_port</port_name></output_port></output_ports><properties><property><name>stageItemName</name><value><![CDATA[transformer]]></value></property></properties></stage><stage id="c86eea4d-9c7a-4211-b0a3-1ec7f7b59b17"><stage_name>transformer</stage_name><stage_version/><label>T1</label><num_instances>8</num_instances><distributed>false</distributed><batch_size>0</batch_size><settings><![CDATA[<?xml version="1.0" encoding="utf-16"?>
+<TransformerSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="3.0">
+  <transformDefinitions>
+    <transformDefinition>
+      <name>Custom</name>
+      <script>if(data['MatchScore'] =="" || data['MatchScore']==null){
+   data['MatchScore']="0";
+}</script>
+      <transformParameters>
+        <transformParameter>
+          <name>transformName</name>
+          <type>string</type>
+          <value>Update Matchscore</value>
+        </transformParameter>
+      </transformParameters>
+      <transformFields />
+    </transformDefinition>
+    <transformDefinition>
+      <name>Copy</name>
+      <script>data[toColumn] = data.getClone(fromColumn);</script>
+      <transformParameters>
+        <transformParameter>
+          <name>fromColumn</name>
+          <type>Object</type>
+          <value>MatchScore</value>
+        </transformParameter>
+        <transformParameter>
+          <name>toColumn</name>
+          <type>Object</type>
+          <value>MatchScoreRegNmAddress</value>
+        </transformParameter>
+      </transformParameters>
+      <transformFields />
+    </transformDefinition>
+    <transformDefinition>
+      <name>Rename</name>
+      <script>data[toColumn] = data.getClone(fromColumn);data.remove(fromColumn);</script>
+      <transformParameters>
+        <transformParameter>
+          <name>fromColumn</name>
+          <type>Object</type>
+          <value>MatchInfo.Party_Name_and_Address.Party_Address.Score</value>
+        </transformParameter>
+        <transformParameter>
+          <name>toColumn</name>
+          <type>Object</type>
+          <value>AddressScore</value>
+        </transformParameter>
+      </transformParameters>
+      <transformFields />
+    </transformDefinition>
+    <transformDefinition>
+      <name>Rename</name>
+      <script>data[toColumn] = data.getClone(fromColumn);data.remove(fromColumn);</script>
+      <transformParameters>
+        <transformParameter>
+          <name>fromColumn</name>
+          <type>Object</type>
+          <value>MatchInfo.Party_Name_and_Address.Party_Name.Score</value>
+        </transformParameter>
+        <transformParameter>
+          <name>toColumn</name>
+          <type>Object</type>
+          <value>NameScore</value>
+        </transformParameter>
+      </transformParameters>
+      <transformFields />
+    </transformDefinition>
+  </transformDefinitions>
+</TransformerSettings>]]></settings><input_ports><input_port id="22943d7a-1c36-41b6-a5e1-1e3dc4b5758d"><channel idref="f0f48228-0ded-4ec1-af54-3d9bfbcb378a"/><label>input_port</label><port_name>input_port</port_name></input_port></input_ports><options/><output_ports><output_port id="4dfed780-a0be-4c8d-8fd4-94973e3372d0"><channel idref="d3a316c8-edbc-4b29-91d3-87d1f85c5609"/><label>output_port</label><port_name>output_port</port_name></output_port></output_ports><properties><property><name>stageItemName</name><value><![CDATA[transformer]]></value></property></properties></stage><stage id="cc45ba6f-f9ff-4e33-9089-e455872aa5e3"><stage_name>TransactionalMatcher</stage_name><stage_version/><label>TM3</label><num_instances>1</num_instances><distributed>false</distributed><batch_size>10000</batch_size><settings><![CDATA[<?xml version="1.0" encoding="utf-16" standalone="yes"?><CompositeSettings xmlns="http://g1.com/cdq/schema/transactionalmatch-settings.xsd"><Name value="Custom - Party Address" /><MatcherSettings><MatchAnalysis>False</MatchAnalysis><GenerateMatchInfo>true</GenerateMatchInfo><OutputDetailedMatchInfo>True</OutputDetailedMatchInfo><OutputUniqueCandidates>False</OutputUniqueCandidates><CustomMatchRule>True</CustomMatchRule><MatcherRuleType><type name="Party Address" id="1" isroot="True" isleaf="False" parentid="1" haschildren="True"><type name="Address" id="3" isroot="False" isleaf="False" parentid="1" haschildren="True"><type name="AddressLine1" id="9" isroot="False" isleaf="True" parentid="3" haschildren="False" /></type><type name="Party Address" id="27" isroot="False" isleaf="False" parentid="1" haschildren="True"><type name="City/State or PostalCode" id="46" isroot="False" isleaf="False" parentid="27" haschildren="True"><type name="City and State" id="47" isroot="False" isleaf="False" parentid="46" haschildren="True"><type name="City" id="52" isroot="False" isleaf="True" parentid="47" haschildren="False" /><type name="StateProvince" id="53" isroot="False" isleaf="True" parentid="47" haschildren="False" /></type><type name="PostalCode" id="54" isroot="False" isleaf="True" parentid="46" haschildren="False" /></type></type></type></MatcherRuleType><MatcherRuleSettings><settings typename="Party Address" typeid="1" matchingmethod="ALL_TRUE" threshold="0" scoringmethod="WEIGHTED_AVG" weight="0" missingdata="COUNT_AS_0" matchWhenNotTrue="False" /><settings typename="Address" typeid="3" matchingmethod="ANY_TRUE" threshold="0" scoringmethod="MAX" weight="0.3" missingdata="COUNT_AS_0" matchWhenNotTrue="False" /><settings typename="AddressLine1" typeid="9" matchingmethod="BASED_ON_THRESHOLD" threshold="60" scoringmethod="MAX" weight="0" missingdata="COUNT_AS_0" CandidateField="EntityMainAddressLine" matchWhenNotTrue="False"><algorithms><algorithm name="CHARACTER_FREQUENCY" weight="0"><options /></algorithm><algorithm name="EDIT_DISTANCE" weight="0"><options /></algorithm><algorithm name="EXACT_MATCH" weight="0"><options /></algorithm><algorithm name="SYLLABLE_ALIGNMENT" weight="0"><options /></algorithm></algorithms></settings><settings typename="Party Address" typeid="27" matchingmethod="ALL_TRUE" threshold="0" scoringmethod="WEIGHTED_AVG" weight="0.7" missingdata="COUNT_AS_0" matchWhenNotTrue="False" /><settings typename="City/State or PostalCode" typeid="46" matchingmethod="ANY_TRUE" threshold="0" scoringmethod="MAX" weight="1" missingdata="IGNORE_BLANKS" matchWhenNotTrue="False" /><settings typename="City and State" typeid="47" matchingmethod="ALL_TRUE" threshold="0" scoringmethod="WEIGHTED_AVG" weight="0" missingdata="IGNORE_BLANKS" matchWhenNotTrue="False" /><settings typename="City" typeid="52" matchingmethod="BASED_ON_THRESHOLD" threshold="60" scoringmethod="MAX" weight="0.5" missingdata="IGNORE_BLANKS" CandidateField="EntityCity" matchWhenNotTrue="False"><algorithms><algorithm name="EDIT_DISTANCE" weight="0"><options /></algorithm><algorithm name="EXACT_MATCH" weight="0"><options /></algorithm></algorithms></settings><settings typename="StateProvince" typeid="53" matchingmethod="BASED_ON_THRESHOLD" threshold="60" scoringmethod="MAX" weight="0.5" missingdata="IGNORE_BLANKS" CandidateField="EntityState" matchWhenNotTrue="False"><algorithms><algorithm name="EXACT_MATCH" weight="0"><options /></algorithm></algorithms></settings><settings typename="PostalCode" typeid="54" matchingmethod="BASED_ON_THRESHOLD" threshold="60" scoringmethod="MAX" weight="0" missingdata="IGNORE_BLANKS" CandidateField="EntityPostcode" matchWhenNotTrue="False"><algorithms><algorithm name="EXACT_MATCH" weight="0"><options /></algorithm></algorithms></settings></MatcherRuleSettings></MatcherSettings></CompositeSettings>]]></settings><input_ports><input_port id="7c947140-f408-4bb0-aa1b-924f870cc508"><channel idref="5cb06e66-c150-47b5-86a8-cfd19664ed45"/><label>input_port</label><port_name>input_port</port_name></input_port></input_ports><options><option><name>MatchRule</name><value/></option><option><name>CustomMatchRule</name><value/></option><option><name>ReturnDetailedMatchInfo</name><value/></option><option><name>Threshold</name><value/></option></options><output_ports><output_port id="fb7aa08a-11d5-47f1-8524-e1fc6ec5f156"><channel idref="ee83ac05-694d-4592-8dce-811259d73156"/><label>output_port</label><port_name>output_port</port_name></output_port></output_ports><properties><property><name>stageItemName</name><value><![CDATA[TransactionalMatcher]]></value></property></properties></stage><stage id="24368890-64e9-464c-9ad6-d572ed949f4d"><stage_name>BestOfBreed</stage_name><stage_version/><label>BOB4</label><num_instances>1</num_instances><distributed>false</distributed><batch_size>10000</batch_size><settings><![CDATA[<?xml version="1.0" encoding="utf-16" standalone="yes"?><ConsolidationConfiguration xmlns="http://g1.com/cdq/schema/bestofbreed-settings.xsd"><ConsolidationSettings><ConsolidationType value="BestComposite" /><GroupID value="CandidateGroup" sort="true" /><GroupActions /><Rules><Rule><If><Condition><OrExpression><SimpleExpression><TestField value="MatchScore" numeric="Yes" /><Operator value="Highest" /></SimpleExpression></OrExpression><AndExpression><SimpleExpression><TestField value="MatchScore" numeric="Yes" /><Operator value="Greater Than Equal To" /><DataType value="No" /><Value value="70" /></SimpleExpression></AndExpression></Condition><Action><BuildFromDataType value="Yes" /><BuildFromField value="EntityRegisteredName" /><BuildToField value="EntityRegisteredName" /><Accumulate value="No" /></Action><Action><BuildFromDataType value="Yes" /><BuildFromField value="EntityRegisteredSuffix" /><BuildToField value="EntityRegisteredSuffix" /><Accumulate value="No" /></Action><Action><BuildFromDataType value="Yes" /><BuildFromField value="EntityTradeName" /><BuildToField value="EntityTradeName" /><Accumulate value="No" /></Action><Action><BuildFromDataType value="Yes" /><BuildFromField value="EntityTradeSuffix" /><BuildToField value="EntityTradeSuffix" /><Accumulate value="No" /></Action><Action><BuildFromDataType value="Yes" /><BuildFromField value="EntityBrandName" /><BuildToField value="EntityBrandName" /><Accumulate value="No" /></Action><Action><BuildFromDataType value="Yes" /><BuildFromField value="EntityMainAddressLine" /><BuildToField value="EntityMainAddressLine" /><Accumulate value="No" /></Action><Action><BuildFromDataType value="Yes" /><BuildFromField value="EntityCity" /><BuildToField value="EntityCity" /><Accumulate value="No" /></Action><Action><BuildFromDataType value="Yes" /><BuildFromField value="EntityState" /><BuildToField value="EntityState" /><Accumulate value="No" /></Action><Action><BuildFromDataType value="Yes" /><BuildFromField value="EntityPostcode" /><BuildToField value="EntityPostcode" /><Accumulate value="No" /></Action><Action><BuildFromDataType value="Yes" /><BuildFromField value="EntityCountryISO3" /><BuildToField value="EntityCountryISO3" /><Accumulate value="No" /></Action><Action><BuildFromDataType value="Yes" /><BuildFromField value="EntityPhoneNumber" /><BuildToField value="EntityPhoneNumber" /><Accumulate value="No" /></Action><Action><BuildFromDataType value="Yes" /><BuildFromField value="EntityEmail" /><BuildToField value="EntityEmail" /><Accumulate value="No" /></Action><Action><BuildFromDataType value="Yes" /><BuildFromField value="MatchScore" /><BuildToField value="MatchScore" /><Accumulate value="No" /></Action><Action><BuildFromDataType value="Yes" /><BuildFromField value="pb_id" /><BuildToField value="pb_id" /><Accumulate value="No" /></Action><Action><BuildFromDataType value="Yes" /><BuildFromField value="EntityHouseNumber" /><BuildToField value="EntityHouseNumber" /><Accumulate value="No" /></Action><Action><BuildFromDataType value="Yes" /><BuildFromField value="EntityLeadingDirectional" /><BuildToField value="EntityLeadingDirectional" /><Accumulate value="No" /></Action><Action><BuildFromDataType value="Yes" /><BuildFromField value="EntityStreetName" /><BuildToField value="EntityStreetName" /><Accumulate value="No" /></Action><Action><BuildFromDataType value="Yes" /><BuildFromField value="EntityStreetSuffix" /><BuildToField value="EntityStreetSuffix" /><Accumulate value="No" /></Action><Action><BuildFromDataType value="Yes" /><BuildFromField value="EntityTrailingDirectional" /><BuildToField value="EntityTrailingDirectional" /><Accumulate value="No" /></Action></If></Rule></Rules></ConsolidationSettings><ConsolidationSettings><ConsolidationType value="Primary" /><GroupActions /><Rules><Rule><If><Condition><OrExpression><SimpleExpression><TestField value="MatchRecordType" numeric="No" /><Operator value="Equal" /><DataType value="No" /><Value value="Suspect" /></SimpleExpression></OrExpression><OrExpression><SimpleExpression><TestField value="HasDuplicates" numeric="No" /><Operator value="Equal" /><DataType value="No" /><Value value="Y" /></SimpleExpression></OrExpression></Condition></If></Rule></Rules></ConsolidationSettings></ConsolidationConfiguration>]]></settings><input_ports><input_port id="3c3f7372-69dc-4fa3-bdc1-04f52643ca8d"><channel idref="dbea09f1-fed4-4154-aeb2-6c7cf19651a2"/><label>input_port</label><port_name>input_port</port_name></input_port></input_ports><options/><output_ports><output_port id="29fb7a53-53fa-42e4-a4fd-301c340e675b"><channel idref="55bfa148-4f6a-4597-b3c3-e675485064ff"/><label>output_port</label><port_name>output_port</port_name></output_port></output_ports><properties><property><name>stageItemName</name><value><![CDATA[BestOfBreed]]></value></property></properties></stage><stage id="b772fe2d-0ed6-44cd-b4a3-1eb3ae8d2117"><stage_name>OpenNameParser</stage_name><stage_version/><label>Open Name Parser</label><num_instances>1</num_instances><distributed>false</distributed><batch_size>10000</batch_size><input_ports><input_port id="45f9841a-49d9-47e7-9862-8fe1fdc7f31a"><channel idref="bc877a29-1d25-47ee-b35c-66e195a03961"/><label>input_port</label><port_name>input_port</port_name></input_port></input_ports><options/><output_ports><output_port id="399f0399-f96f-4054-97be-1220977bb9c7"><channel idref="d0359f5e-20c5-496c-9527-a3f7f9834683"/><label>output_port</label><port_name>output_port</port_name></output_port></output_ports><properties><property><name>stageItemName</name><value><![CDATA[OpenNameParser]]></value></property></properties></stage><stage id="702e30a2-3555-45db-b4c2-2c79526a7d89"><stage_name>MatchKeyGenerator</stage_name><stage_version/><label>MK_PostCode</label><num_instances>1</num_instances><distributed>false</distributed><batch_size>10000</batch_size><settings><![CDATA[<?xml version="1.0" encoding="utf-16" standalone="yes"?><HashGenerationSettings xmlns="http://g1.com/cdq/schema/matchkeygenerator-settings.xsd"><Rules expressMatchKey="False"><HashGenerationField value="MatchKey3" /><Rule><Algorithm value="SubString" /><Field value="PostalCode" /><Start value="1" /><Length value="5" /><RemoveNoiseChars value="Y" /><Active value="Y" /></Rule></Rules></HashGenerationSettings>]]></settings><input_ports><input_port id="264208ea-9445-49b2-b4b5-f49b89038bb1"><channel idref="d1e0a3ff-ab60-4548-8255-bf7efbd8f09b"/><label>input_port</label><port_name>input_port</port_name></input_port></input_ports><options/><output_ports><output_port id="3354ba9e-17e9-49e0-a3ea-7bbb87312b7e"><channel idref="58a02bf5-f316-44b7-a5aa-318eb29000de"/><label>output_port</label><port_name>output_port</port_name></output_port></output_ports><properties><property><name>stageItemName</name><value><![CDATA[MatchKeyGenerator]]></value></property></properties></stage><stage id="657543c9-70aa-4e26-b888-e0ec6aeb0791"><stage_name>router</stage_name><stage_version/><label>Con_R1</label><num_instances>1</num_instances><distributed>false</distributed><batch_size>10000</batch_size><settings><![CDATA[<?xml version="1.0" encoding="utf-16"?>
+<RouterSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="2.5">
+  <outputCopy>false</outputCopy>
+  <singleOutput>false</singleOutput>
+  <portExpressions>
+    <portExpression>
+      <portId>302a3b8c-15e8-4b32-84fb-106fe7250d14</portId>
+      <expression>return isEqualTo(data.get('HasDuplicates'), 'Y');
+      
+import static com.pb.spectrum.api.datetime.DateTimeUtil.*;
+
+def boolean isEqualTo(Object field, Object value)
+{
+  try
+  {
+    if(field instanceof BigDecimal)
+      return new BigDecimal(value) == field
+    if(field instanceof Boolean)
+      return Boolean.valueOf(value) == field
+    else if(field instanceof Integer)
+      return Integer.valueOf(value) == field
+    else if(field instanceof Long)
+      return Long.valueOf(value) == field
+    else if(field instanceof Float)
+      return Float.valueOf(value) == field
+    else if(field instanceof Double)
+      return Double.valueOf(value) == field
+    else if(field instanceof com.pb.spectrum.api.datetime.Date)
+      return compare(field, com.pb.spectrum.api.datetime.Date.valueOf(value)) == 0
+    else if(field instanceof com.pb.spectrum.api.datetime.Time)
+      return compare(field, com.pb.spectrum.api.datetime.Time.valueOf(value)) == 0
+    else if(field instanceof com.pb.spectrum.api.datetime.DateTime)
+      return compare(field, com.pb.spectrum.api.datetime.DateTime.valueOf(value)) == 0
+    return value == field;   
+  }
+  catch (Exception)
+  {
+    return false;
+  }	
+}
+    </expression>
+      <ViewData>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ExpressionBuilderInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;CombineMethod&gt;All&lt;/CombineMethod&gt;
+  &lt;ExpressionDetailInfo&gt;
+    &lt;ExpressionDetails&gt;
+      &lt;ExpressionField&gt;HasDuplicates&lt;/ExpressionField&gt;
+      &lt;ExpressionOperator&gt;is equal to&lt;/ExpressionOperator&gt;
+      &lt;ExpressionValue&gt;Y&lt;/ExpressionValue&gt;
+      &lt;comparisonType&gt;VALUE&lt;/comparisonType&gt;
+    &lt;/ExpressionDetails&gt;
+  &lt;/ExpressionDetailInfo&gt;
+&lt;/ExpressionBuilderInfo&gt;</ViewData>
+    </portExpression>
+    <portExpression>
+      <portId>00eeec40-edce-4a5f-9913-5c3fb49aaf3c</portId>
+      <expression>default</expression>
+      <ViewData>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ExpressionBuilderInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;CombineMethod /&gt;
+  &lt;ExpressionDetailInfo /&gt;
+&lt;/ExpressionBuilderInfo&gt;</ViewData>
+    </portExpression>
+  </portExpressions>
+</RouterSettings>]]></settings><input_ports><input_port id="4aabd285-d5d7-46dc-b5ae-e364c4e9bc21"><channel idref="d3a316c8-edbc-4b29-91d3-87d1f85c5609"/><label>input_port</label><port_name>input_port</port_name></input_port></input_ports><options/><output_ports><output_port id="302a3b8c-15e8-4b32-84fb-106fe7250d14"><channel idref="773d72de-a958-4d4e-a836-873e27fdb97c"/><label>port 2</label><port_name/></output_port><output_port id="00eeec40-edce-4a5f-9913-5c3fb49aaf3c"><channel idref="9620c08f-b96c-4eb6-9810-8bfeb54818a0"/><label>port 3</label><port_name/></output_port></output_ports><properties><property><name>stageItemName</name><value><![CDATA[router]]></value></property></properties></stage><stage id="8812d2a7-8165-4752-8773-02f65c89d38e"><stage_name>TransactionalMatcher</stage_name><stage_version/><label>TM1</label><num_instances>1</num_instances><distributed>false</distributed><batch_size>10000</batch_size><settings><![CDATA[<?xml version="1.0" encoding="utf-16" standalone="yes"?><CompositeSettings xmlns="http://g1.com/cdq/schema/transactionalmatch-settings.xsd"><Name value="Custom - PseudoCustomerMatchRule_Exact" /><MatcherSettings><MatchAnalysis>False</MatchAnalysis><GenerateMatchInfo>true</GenerateMatchInfo><OutputDetailedMatchInfo>True</OutputDetailedMatchInfo><OutputUniqueCandidates>False</OutputUniqueCandidates><CustomMatchRule>True</CustomMatchRule><MatcherRuleType><type name="Party Name and Address" id="1" isroot="True" isleaf="False" parentid="1" haschildren="True"><type name="Party Name" id="3" isroot="False" isleaf="False" parentid="1" haschildren="True"><type name="Inp_CompanyName" id="9" isroot="False" isleaf="True" parentid="3" haschildren="False" /></type><type name="Party Address" id="27" isroot="False" isleaf="False" parentid="1" haschildren="True"><type name="AddressLine1" id="56" isroot="False" isleaf="True" parentid="27" haschildren="False" /><type name="City/State or PostalCode" id="46" isroot="False" isleaf="False" parentid="27" haschildren="True"><type name="City and State" id="47" isroot="False" isleaf="False" parentid="46" haschildren="True"><type name="City" id="52" isroot="False" isleaf="True" parentid="47" haschildren="False" /><type name="StateProvince" id="53" isroot="False" isleaf="True" parentid="47" haschildren="False" /></type><type name="PostalCode" id="54" isroot="False" isleaf="True" parentid="46" haschildren="False" /></type></type></type></MatcherRuleType><MatcherRuleSettings><settings typename="Party Name and Address" typeid="1" matchingmethod="ALL_TRUE" threshold="0" scoringmethod="WEIGHTED_AVG" weight="0" missingdata="COUNT_AS_0" matchWhenNotTrue="False" /><settings typename="Party Name" typeid="3" matchingmethod="ANY_TRUE" threshold="0" scoringmethod="MAX" weight="0.8" missingdata="COUNT_AS_0" matchWhenNotTrue="False" /><settings typename="Inp_CompanyName" typeid="9" matchingmethod="BASED_ON_THRESHOLD" threshold="80" scoringmethod="MAX" weight="0" missingdata="COUNT_AS_0" CandidateField="EntityRegisteredName" CrossMatchField="EntityBrandName,EntityTradeName" matchWhenNotTrue="False"><algorithms><algorithm name="EXACT_MATCH" weight="0"><options /></algorithm></algorithms></settings><settings typename="Party Address" typeid="27" matchingmethod="ALL_TRUE" threshold="0" scoringmethod="AVG" weight="0.2" missingdata="COUNT_AS_0" matchWhenNotTrue="False" /><settings typename="AddressLine1" typeid="56" matchingmethod="BASED_ON_THRESHOLD" threshold="100" scoringmethod="MAX" weight="0" missingdata="IGNORE_BLANKS" CandidateField="EntityMainAddressLine" matchWhenNotTrue="False"><algorithms><algorithm name="EXACT_MATCH" weight="0"><options /></algorithm></algorithms></settings><settings typename="City/State or PostalCode" typeid="46" matchingmethod="ANY_TRUE" threshold="0" scoringmethod="MAX" weight="0" missingdata="IGNORE_BLANKS" matchWhenNotTrue="False" /><settings typename="City and State" typeid="47" matchingmethod="ALL_TRUE" threshold="0" scoringmethod="AVG" weight="0" missingdata="IGNORE_BLANKS" matchWhenNotTrue="False" /><settings typename="City" typeid="52" matchingmethod="BASED_ON_THRESHOLD" threshold="100" scoringmethod="MAX" weight="0" missingdata="IGNORE_BLANKS" CandidateField="EntityCity" matchWhenNotTrue="False"><algorithms><algorithm name="EXACT_MATCH" weight="0"><options /></algorithm></algorithms></settings><settings typename="StateProvince" typeid="53" matchingmethod="BASED_ON_THRESHOLD" threshold="100" scoringmethod="MAX" weight="0" missingdata="IGNORE_BLANKS" CandidateField="EntityState" matchWhenNotTrue="False"><algorithms><algorithm name="EXACT_MATCH" weight="0"><options /></algorithm></algorithms></settings><settings typename="PostalCode" typeid="54" matchingmethod="BASED_ON_THRESHOLD" threshold="100" scoringmethod="MAX" weight="0" missingdata="IGNORE_BLANKS" CandidateField="EntityPostcode" matchWhenNotTrue="False"><algorithms><algorithm name="EXACT_MATCH" weight="0"><options /></algorithm></algorithms></settings></MatcherRuleSettings></MatcherSettings></CompositeSettings>]]></settings><input_ports><input_port id="e0a83a39-390f-439f-9b9e-567f4da34e62"><channel idref="6c9063b8-9b68-4d88-8b91-68df99f98800"/><label>input_port</label><port_name>input_port</port_name></input_port></input_ports><options><option><name>MatchRule</name><value/></option><option><name>CustomMatchRule</name><value/></option><option><name>ReturnDetailedMatchInfo</name><value/></option><option><name>Threshold</name><value/></option></options><output_ports><output_port id="154024c3-bbe8-4f90-9c1a-5a28a6e6dd62"><channel idref="59225406-71d3-47db-afb7-42313bc9c89c"/><label>output_port</label><port_name>output_port</port_name></output_port></output_ports><properties><property><name>stageItemName</name><value><![CDATA[TransactionalMatcher]]></value></property></properties></stage><stage id="22e6f179-033c-468a-a240-7a938677ec3a"><stage_name>transformer</stage_name><stage_version/><label>init</label><num_instances>1</num_instances><distributed>false</distributed><batch_size>10000</batch_size><settings><![CDATA[<?xml version="1.0" encoding="utf-16"?>
+<TransformerSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="3.0">
+  <transformDefinitions>
+    <transformDefinition>
+      <name>Remove</name>
+      <script>value = row.get(column); valueTrimmed = org.apache.commons.lang.StringUtils.remove(value, removeString); row.set(column, valueTrimmed)</script>
+      <transformParameters>
+        <transformParameter>
+          <name>column</name>
+          <type>string</type>
+          <value>PhoneNumber</value>
+        </transformParameter>
+        <transformParameter>
+          <name>removeString</name>
+          <type>string</type>
+          <value>(</value>
+        </transformParameter>
+      </transformParameters>
+      <transformFields />
+    </transformDefinition>
+    <transformDefinition>
+      <name>Remove</name>
+      <script>value = row.get(column); valueTrimmed = org.apache.commons.lang.StringUtils.remove(value, removeString); row.set(column, valueTrimmed)</script>
+      <transformParameters>
+        <transformParameter>
+          <name>column</name>
+          <type>string</type>
+          <value>PhoneNumber</value>
+        </transformParameter>
+        <transformParameter>
+          <name>removeString</name>
+          <type>string</type>
+          <value>)</value>
+        </transformParameter>
+      </transformParameters>
+      <transformFields />
+    </transformDefinition>
+    <transformDefinition>
+      <name>Remove</name>
+      <script>value = row.get(column); valueTrimmed = org.apache.commons.lang.StringUtils.remove(value, removeString); row.set(column, valueTrimmed)</script>
+      <transformParameters>
+        <transformParameter>
+          <name>column</name>
+          <type>string</type>
+          <value>PhoneNumber</value>
+        </transformParameter>
+        <transformParameter>
+          <name>removeString</name>
+          <type>string</type>
+          <value>-</value>
+        </transformParameter>
+      </transformParameters>
+      <transformFields />
+    </transformDefinition>
+    <transformDefinition>
+      <name>Remove</name>
+      <script>value = row.get(column); valueTrimmed = org.apache.commons.lang.StringUtils.remove(value, removeString); row.set(column, valueTrimmed)</script>
+      <transformParameters>
+        <transformParameter>
+          <name>column</name>
+          <type>string</type>
+          <value>PhoneNumber</value>
+        </transformParameter>
+        <transformParameter>
+          <name>removeString</name>
+          <type>string</type>
+          <value> </value>
+        </transformParameter>
+      </transformParameters>
+      <transformFields />
+    </transformDefinition>
+    <transformDefinition>
+      <name>MinimizeSpace</name>
+      <script>value = row.get(column); valueSplit = org.apache.commons.lang.StringUtils.split(value); valueJoin = org.apache.commons.lang.StringUtils.join(valueSplit, ' '); row.set(column, valueJoin)</script>
+      <transformParameters>
+        <transformParameter>
+          <name>column</name>
+          <type>string</type>
+          <value>PhoneNumber</value>
+        </transformParameter>
+      </transformParameters>
+      <transformFields />
+    </transformDefinition>
+    <transformDefinition>
+      <name>Copy</name>
+      <script>data[toColumn] = data.getClone(fromColumn);</script>
+      <transformParameters>
+        <transformParameter>
+          <name>fromColumn</name>
+          <type>Object</type>
+          <value>merchant_name</value>
+        </transformParameter>
+        <transformParameter>
+          <name>toColumn</name>
+          <type>Object</type>
+          <value>Name</value>
+        </transformParameter>
+      </transformParameters>
+      <transformFields />
+    </transformDefinition>
+    <transformDefinition>
+      <name>Copy</name>
+      <script>data[toColumn] = data.getClone(fromColumn);</script>
+      <transformParameters>
+        <transformParameter>
+          <name>fromColumn</name>
+          <type>Object</type>
+          <value>merchant_name</value>
+        </transformParameter>
+        <transformParameter>
+          <name>toColumn</name>
+          <type>Object</type>
+          <value>Inp_CompanyName</value>
+        </transformParameter>
+      </transformParameters>
+      <transformFields />
+    </transformDefinition>
+  </transformDefinitions>
+</TransformerSettings>]]></settings><input_ports><input_port id="c615f685-8f32-4405-b0d2-7dd7ad97db83"><channel idref="18e0deb1-9cc8-4dd5-ac4d-83a6df40c457"/><label>input_port</label><port_name>input_port</port_name></input_port></input_ports><options/><output_ports><output_port id="03836f86-8bb3-43ca-867b-a3ff64ed420e"><channel idref="bc877a29-1d25-47ee-b35c-66e195a03961"/><label>output_port</label><port_name>output_port</port_name></output_port></output_ports><properties><property><name>stageItemName</name><value><![CDATA[transformer]]></value></property></properties></stage><stage id="b2c464df-1da9-4464-a5d0-6ad8b811d0ae"><stage_name>transformer</stage_name><stage_version/><label>T5</label><num_instances>1</num_instances><distributed>false</distributed><batch_size>10000</batch_size><settings><![CDATA[<?xml version="1.0" encoding="utf-16"?>
+<TransformerSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="3.0">
+  <transformDefinitions>
+    <transformDefinition>
+      <name>Custom</name>
+      <script>if(data['MatchScore'] =="" || data['MatchScore']==null){
+   data['MatchScore']="0";
+}</script>
+      <transformParameters>
+        <transformParameter>
+          <name>transformName</name>
+          <type>string</type>
+          <value>Update Matchscore</value>
+        </transformParameter>
+      </transformParameters>
+      <transformFields />
+    </transformDefinition>
+    <transformDefinition>
+      <name>Copy</name>
+      <script>data[toColumn] = data.getClone(fromColumn);</script>
+      <transformParameters>
+        <transformParameter>
+          <name>fromColumn</name>
+          <type>Object</type>
+          <value>MatchScore</value>
+        </transformParameter>
+        <transformParameter>
+          <name>toColumn</name>
+          <type>Object</type>
+          <value>MatchScorePostCode</value>
+        </transformParameter>
+      </transformParameters>
+      <transformFields />
+    </transformDefinition>
+    <transformDefinition>
+      <name>Rename</name>
+      <script>data[toColumn] = data.getClone(fromColumn);data.remove(fromColumn);</script>
+      <transformParameters>
+        <transformParameter>
+          <name>fromColumn</name>
+          <type>Object</type>
+          <value>MatchInfo.PhoneNumber.PhoneNumber.Score</value>
+        </transformParameter>
+        <transformParameter>
+          <name>toColumn</name>
+          <type>Object</type>
+          <value>PhoneNumberScore</value>
+        </transformParameter>
+      </transformParameters>
+      <transformFields />
+    </transformDefinition>
+  </transformDefinitions>
+</TransformerSettings>]]></settings><input_ports><input_port id="86a47ead-42e3-4064-b705-9705e84bcd71"><channel idref="011a5416-a4df-4715-992b-f0064b491ce6"/><label>input_port</label><port_name>input_port</port_name></input_port></input_ports><options/><output_ports><output_port id="59131522-e9e6-4e73-b95d-1f07cbf1441c"><channel idref="7ec3785e-868c-4dc5-8fb2-df84474d9f20"/><label>output_port</label><port_name>output_port</port_name></output_port></output_ports><properties><property><name>stageItemName</name><value><![CDATA[transformer]]></value></property></properties></stage><stage id="d96c9f12-8b4b-411e-a4b9-f0f70a75d312"><stage_name>sorter</stage_name><stage_version/><label>S4</label><num_instances>1</num_instances><distributed>false</distributed><batch_size>10000</batch_size><settings><![CDATA[<?xml version="1.0" encoding="utf-16"?>
+<SorterSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="2.5">
+  <sortColumns>
+    <sortColumn>
+      <name>CandidateGroup</name>
+      <order>1</order>
+      <type>0</type>
+      <trim>TRIM</trim>
+      <nullPrecedence>SMALLEST</nullPrecedence>
+    </sortColumn>
+    <sortColumn>
+      <name>TransactionRecordType</name>
+      <order>-1</order>
+      <type>0</type>
+      <trim>TRIM</trim>
+      <nullPrecedence>SMALLEST</nullPrecedence>
+    </sortColumn>
+  </sortColumns>
+  <sortConfiguration>
+    <internalCacheSize>500500</internalCacheSize>
+    <externalCacheSize>20</externalCacheSize>
+    <useCompressedStream>false</useCompressedStream>
+  </sortConfiguration>
+</SorterSettings>]]></settings><input_ports><input_port id="3a1526e0-cc7c-496e-903d-cab46eaf4620"><channel idref="791e0ee4-bc40-4270-a8be-50a43417c240"/><label>input_port</label><port_name>input_port</port_name></input_port></input_ports><options/><output_ports><output_port id="50549ff7-70f5-40e8-be83-9f3399959587"><channel idref="7c78b385-574e-4e44-9ce1-d9f7f670fc1e"/><label>output_port</label><port_name>output_port</port_name></output_port></output_ports><properties><property><name>stageItemName</name><value><![CDATA[sorter]]></value></property></properties></stage><stage id="e3647778-fee0-478f-be0c-d0f51bc938ac"><stage_name>TransactionalMatcher</stage_name><stage_version/><label>TM4</label><num_instances>1</num_instances><distributed>false</distributed><batch_size>10000</batch_size><settings><![CDATA[<?xml version="1.0" encoding="utf-16" standalone="yes"?><CompositeSettings xmlns="http://g1.com/cdq/schema/transactionalmatch-settings.xsd"><Name value="Custom - Party Address" /><MatcherSettings><MatchAnalysis>False</MatchAnalysis><GenerateMatchInfo>true</GenerateMatchInfo><OutputDetailedMatchInfo>True</OutputDetailedMatchInfo><OutputUniqueCandidates>False</OutputUniqueCandidates><CustomMatchRule>True</CustomMatchRule><MatcherRuleType><type name="Party Address" id="1" isroot="True" isleaf="False" parentid="1" haschildren="True"><type name="Address" id="3" isroot="False" isleaf="False" parentid="1" haschildren="True"><type name="AddressLine1" id="9" isroot="False" isleaf="True" parentid="3" haschildren="False" /></type><type name="Party Address" id="27" isroot="False" isleaf="False" parentid="1" haschildren="True"><type name="City/State or PostalCode" id="46" isroot="False" isleaf="False" parentid="27" haschildren="True"><type name="City and State" id="47" isroot="False" isleaf="False" parentid="46" haschildren="True"><type name="City" id="52" isroot="False" isleaf="True" parentid="47" haschildren="False" /><type name="StateProvince" id="53" isroot="False" isleaf="True" parentid="47" haschildren="False" /></type><type name="PostalCode" id="54" isroot="False" isleaf="True" parentid="46" haschildren="False" /></type></type></type></MatcherRuleType><MatcherRuleSettings><settings typename="Party Address" typeid="1" matchingmethod="ALL_TRUE" threshold="0" scoringmethod="WEIGHTED_AVG" weight="0" missingdata="COUNT_AS_0" matchWhenNotTrue="False" /><settings typename="Address" typeid="3" matchingmethod="ANY_TRUE" threshold="0" scoringmethod="MAX" weight="0.4" missingdata="COUNT_AS_0" matchWhenNotTrue="False" /><settings typename="AddressLine1" typeid="9" matchingmethod="BASED_ON_THRESHOLD" threshold="60" scoringmethod="MAX" weight="0" missingdata="COUNT_AS_0" CandidateField="EntityMainAddressLine" matchWhenNotTrue="False"><algorithms><algorithm name="CHARACTER_FREQUENCY" weight="0"><options /></algorithm><algorithm name="EDIT_DISTANCE" weight="0"><options /></algorithm><algorithm name="EXACT_MATCH" weight="0"><options /></algorithm><algorithm name="NUMERIC_STRING" weight="0"><options /></algorithm><algorithm name="SYLLABLE_ALIGNMENT" weight="0"><options /></algorithm></algorithms></settings><settings typename="Party Address" typeid="27" matchingmethod="ALL_TRUE" threshold="0" scoringmethod="WEIGHTED_AVG" weight="0.6" missingdata="COUNT_AS_0" matchWhenNotTrue="False" /><settings typename="City/State or PostalCode" typeid="46" matchingmethod="ANY_TRUE" threshold="0" scoringmethod="MAX" weight="1" missingdata="IGNORE_BLANKS" matchWhenNotTrue="False" /><settings typename="City and State" typeid="47" matchingmethod="ALL_TRUE" threshold="0" scoringmethod="AVG" weight="0" missingdata="IGNORE_BLANKS" matchWhenNotTrue="False" /><settings typename="City" typeid="52" matchingmethod="BASED_ON_THRESHOLD" threshold="60" scoringmethod="MAX" weight="0" missingdata="IGNORE_BLANKS" CandidateField="EntityCity" matchWhenNotTrue="False"><algorithms><algorithm name="EDIT_DISTANCE" weight="0"><options /></algorithm><algorithm name="EXACT_MATCH" weight="0"><options /></algorithm></algorithms></settings><settings typename="StateProvince" typeid="53" matchingmethod="BASED_ON_THRESHOLD" threshold="60" scoringmethod="MAX" weight="0" missingdata="IGNORE_BLANKS" CandidateField="EntityState" matchWhenNotTrue="False"><algorithms><algorithm name="EXACT_MATCH" weight="0"><options /></algorithm></algorithms></settings><settings typename="PostalCode" typeid="54" matchingmethod="BASED_ON_THRESHOLD" threshold="60" scoringmethod="MAX" weight="0" missingdata="IGNORE_BLANKS" CandidateField="EntityPostcode" matchWhenNotTrue="False"><algorithms><algorithm name="EXACT_MATCH" weight="0"><options /></algorithm></algorithms></settings></MatcherRuleSettings></MatcherSettings></CompositeSettings>]]></settings><input_ports><input_port id="43f914d4-0fd3-4b08-92e1-7192081e65b1"><channel idref="7c78b385-574e-4e44-9ce1-d9f7f670fc1e"/><label>input_port</label><port_name>input_port</port_name></input_port></input_ports><options><option><name>MatchRule</name><value/></option><option><name>CustomMatchRule</name><value/></option><option><name>ReturnDetailedMatchInfo</name><value/></option><option><name>Threshold</name><value/></option></options><output_ports><output_port id="3bdced5e-1de3-4179-9730-d63a3b70d674"><channel idref="dbea09f1-fed4-4154-aeb2-6c7cf19651a2"/><label>output_port</label><port_name>output_port</port_name></output_port></output_ports><properties><property><name>stageItemName</name><value><![CDATA[TransactionalMatcher]]></value></property></properties></stage><stage id="926f374f-f0c2-4f0b-96b6-97dfcc778b62"><stage_name>BestOfBreed</stage_name><stage_version/><label>BOB1</label><num_instances>1</num_instances><distributed>false</distributed><batch_size>10000</batch_size><settings><![CDATA[<?xml version="1.0" encoding="utf-16" standalone="yes"?><ConsolidationConfiguration xmlns="http://g1.com/cdq/schema/bestofbreed-settings.xsd"><ConsolidationSettings><ConsolidationType value="BestComposite" /><GroupID value="CandidateGroup" sort="true" /><GroupActions /><Rules><Rule><If><Condition><OrExpression><SimpleExpression><TestField value="MatchScore" numeric="Yes" /><Operator value="Highest" /></SimpleExpression></OrExpression><AndExpression><SimpleExpression><TestField value="MatchScore" numeric="Yes" /><Operator value="Greater Than Equal To" /><DataType value="No" /><Value value="70" /></SimpleExpression></AndExpression></Condition><Action><BuildFromDataType value="Yes" /><BuildFromField value="EntityRegisteredName" /><BuildToField value="EntityRegisteredName" /><Accumulate value="No" /></Action><Action><BuildFromDataType value="Yes" /><BuildFromField value="EntityRegisteredSuffix" /><BuildToField value="EntityRegisteredSuffix" /><Accumulate value="No" /></Action><Action><BuildFromDataType value="Yes" /><BuildFromField value="EntityTradeName" /><BuildToField value="EntityTradeName" /><Accumulate value="No" /></Action><Action><BuildFromDataType value="Yes" /><BuildFromField value="EntityTradeSuffix" /><BuildToField value="EntityTradeSuffix" /><Accumulate value="No" /></Action><Action><BuildFromDataType value="Yes" /><BuildFromField value="EntityBrandName" /><BuildToField value="EntityBrandName" /><Accumulate value="No" /></Action><Action><BuildFromDataType value="Yes" /><BuildFromField value="EntityMainAddressLine" /><BuildToField value="EntityMainAddressLine" /><Accumulate value="No" /></Action><Action><BuildFromDataType value="Yes" /><BuildFromField value="EntityCity" /><BuildToField value="EntityCity" /><Accumulate value="No" /></Action><Action><BuildFromDataType value="Yes" /><BuildFromField value="EntityState" /><BuildToField value="EntityState" /><Accumulate value="No" /></Action><Action><BuildFromDataType value="Yes" /><BuildFromField value="EntityPostcode" /><BuildToField value="EntityPostcode" /><Accumulate value="No" /></Action><Action><BuildFromDataType value="Yes" /><BuildFromField value="EntityCountryISO3" /><BuildToField value="EntityCountryISO3" /><Accumulate value="No" /></Action><Action><BuildFromDataType value="Yes" /><BuildFromField value="EntityPhoneNumber" /><BuildToField value="EntityPhoneNumber" /><Accumulate value="No" /></Action><Action><BuildFromDataType value="Yes" /><BuildFromField value="EntityEmail" /><BuildToField value="EntityEmail" /><Accumulate value="No" /></Action><Action><BuildFromDataType value="Yes" /><BuildFromField value="MatchScore" /><BuildToField value="MatchScore" /><Accumulate value="No" /></Action><Action><BuildFromDataType value="Yes" /><BuildFromField value="pb_id" /><BuildToField value="pb_id" /><Accumulate value="No" /></Action><Action><BuildFromDataType value="Yes" /><BuildFromField value="EntityHouseNumber" /><BuildToField value="EntityHouseNumber" /><Accumulate value="No" /></Action><Action><BuildFromDataType value="Yes" /><BuildFromField value="EntityLeadingDirectional" /><BuildToField value="EntityLeadingDirectional" /><Accumulate value="No" /></Action><Action><BuildFromDataType value="Yes" /><BuildFromField value="EntityStreetName" /><BuildToField value="EntityStreetName" /><Accumulate value="No" /></Action><Action><BuildFromDataType value="Yes" /><BuildFromField value="EntityStreetSuffix" /><BuildToField value="EntityStreetSuffix" /><Accumulate value="No" /></Action><Action><BuildFromDataType value="Yes" /><BuildFromField value="EntityTrailingDirectional" /><BuildToField value="EntityTrailingDirectional" /><Accumulate value="No" /></Action></If></Rule></Rules></ConsolidationSettings><ConsolidationSettings><ConsolidationType value="Primary" /><GroupActions /><Rules><Rule><If><Condition><OrExpression><SimpleExpression><TestField value="MatchRecordType" numeric="No" /><Operator value="Equal" /><DataType value="No" /><Value value="Suspect" /></SimpleExpression></OrExpression><OrExpression><SimpleExpression><TestField value="HasDuplicates" numeric="No" /><Operator value="Equal" /><DataType value="No" /><Value value="Y" /></SimpleExpression></OrExpression></Condition></If></Rule></Rules></ConsolidationSettings></ConsolidationConfiguration>]]></settings><input_ports><input_port id="4c1b71f2-8403-4d9b-9f24-c0d16fba0743"><channel idref="59225406-71d3-47db-afb7-42313bc9c89c"/><label>input_port</label><port_name>input_port</port_name></input_port></input_ports><options/><output_ports><output_port id="f0e69846-6749-4682-b3ff-dd300d13f98a"><channel idref="f0f48228-0ded-4ec1-af54-3d9bfbcb378a"/><label>output_port</label><port_name>output_port</port_name></output_port></output_ports><properties><property><name>stageItemName</name><value><![CDATA[BestOfBreed]]></value></property></properties></stage><stage id="09288c1c-a3fc-4d67-a9ed-ac61f9b7bd7f"><stage_name>CandidateFinder</stage_name><stage_version/><label>CR5</label><num_instances>1</num_instances><distributed>false</distributed><batch_size>10000</batch_size><settings><![CDATA[<?xml version="1.0" encoding="utf-16" standalone="yes"?><CandidateFinderStageSettings xmlns="http://g1.com/cdq/schema/candidatefinder-settings.xsd"><candidate-finder type="searchindex" name="searchindex"><indexSearchConfiguration><![CDATA[<?xml version="1.0" encoding="utf-16"?>
+<searchConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <indexName>SI_WPPOI_CAN_Full</indexName>
+  <maxHits>500</maxHits>
+  <startIndex>1</startIndex>
+  <ignoreExtraTerms>true</ignoreExtraTerms>
+  <isReturnMatchCount>false</isReturnMatchCount>
+  <outputFields>
+    <outputField>
+      <stageField>
+        <name>EntityBrandName</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>EntityBrandName</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>EntityState</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>EntityState</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>EntityCity</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>EntityCity</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>EntitySIC8Description</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>EntitySIC8Description</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>EntityRegisteredName</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>EntityRegisteredName</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>EntityTradeName</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>EntityTradeName</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>EntityCountryISO3</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>EntityCountryISO3</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>EntityStabb</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>EntityStabb</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>EntityPostcode</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>EntityPostcode</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>EntityFormattedAddress</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>EntityFormattedAddress</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>EntityMainAddressLine</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>EntityMainAddressLine</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>EntityAddressLastLine</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>EntityAddressLastLine</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>EntityEmail</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>EntityEmail</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>EntitySIC1</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>EntitySIC1</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>EntityMICode</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>EntityMICode</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>EntityPhoneNumber</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>EntityPhoneNumber</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>EntityTradeSuffix</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>EntityTradeSuffix</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>EntityRegisteredSuffix</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>EntityRegisteredSuffix</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>pb_id</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>pb_id</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>MK_BrandNm</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>MK_BrandNm</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>MK_BrandNm_PostCd</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>MK_BrandNm_PostCd</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>MK_Phone</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>MK_Phone</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>MK_PostCd</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>MK_PostCd</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>MK_RegNm</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>MK_RegNm</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>MK_RegNm_PostCd</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>MK_RegNm_PostCd</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>MK_TradeNm</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>MK_TradeNm</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>MK_TradeNm_PostCd</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>MK_TradeNm_PostCd</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>MK_StateCity</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>MK_StateCity</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>EntityHouseNumber</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>EntityHouseNumber</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>EntityLeadingDirectional</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>EntityLeadingDirectional</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>EntityStreetName</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>EntityStreetName</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>EntityStreetSuffix</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>EntityStreetSuffix</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+    <outputField>
+      <stageField>
+        <name>EntityTrailingDirectional</name>
+        <type>string</type>
+      </stageField>
+      <storedField>
+        <name>EntityTrailingDirectional</name>
+        <type>string</type>
+      </storedField>
+    </outputField>
+  </outputFields>
+  <searchQuery>
+    <queryName>CityState</queryName>
+    <searchQueries>
+      <prefixSearchQuery>
+        <boost>1</boost>
+        <firstSearchField>
+          <name>MatchKey4</name>
+          <type>string</type>
+        </firstSearchField>
+        <ignoreBlanks>true</ignoreBlanks>
+        <indexFieldName>MK_StateCity</indexFieldName>
+      </prefixSearchQuery>
+    </searchQueries>
+    <operator>and</operator>
+  </searchQuery>
+</searchConfiguration>]]]]><![CDATA[></indexSearchConfiguration></candidate-finder></CandidateFinderStageSettings>]]></settings><input_ports><input_port id="6d27eff9-ed7b-4303-9ac5-a545c9f64f53"><channel idref="6af442dd-9222-44dc-8109-0535902ca08f"/><label>input_port</label><port_name>input_port</port_name></input_port></input_ports><options/><output_ports><output_port id="e8ab982c-297a-4951-b631-af90859e2c90"><channel idref="6b2ed8fa-fd40-4ef1-be41-e54eecb5529b"/><label>output_port</label><port_name>output_port</port_name></output_port></output_ports><properties><property><name>stageItemName</name><value><![CDATA[CandidateFinder]]></value></property></properties></stage><stage id="a8748d70-64e1-45a5-9a72-321d53287274"><stage_name>collector</stage_name><stage_version/><label>SC1</label><num_instances>1</num_instances><distributed>false</distributed><batch_size>10000</batch_size><input_ports><input_port id="98a9b0d8-d55b-4424-aaa6-6e0c65daf3e7"><channel idref="2516000d-e1a4-4cb5-8bfc-6729e0885dd7"/><label>port</label><port_name/></input_port><input_port id="f7627c66-a4dc-4d8c-96d1-b1e89cb1cd6e"><channel idref="912bd4b8-caa4-4ab3-92ec-c1515b8b44cf"/><label>port 2</label><port_name/></input_port></input_ports><options/><output_ports><output_port id="c9d010bf-1696-4895-ad4e-3af61d13f63b"><channel idref="a60b0794-b3fb-4a3f-b77f-2a7a8ea21cb6"/><label>output_port</label><port_name>output_port</port_name></output_port></output_ports><properties><property><name>stageItemName</name><value><![CDATA[collector]]></value></property></properties></stage><stage id="ee9cb4e0-fe79-4662-bb50-dfccd3aa7872"><stage_name>TransactionalMatcher</stage_name><stage_version/><label>TM5</label><num_instances>1</num_instances><distributed>false</distributed><batch_size>10000</batch_size><settings><![CDATA[<?xml version="1.0" encoding="utf-16" standalone="yes"?><CompositeSettings xmlns="http://g1.com/cdq/schema/transactionalmatch-settings.xsd"><Name value="Custom - PhoneNumber" /><MatcherSettings><MatchAnalysis>False</MatchAnalysis><GenerateMatchInfo>true</GenerateMatchInfo><OutputDetailedMatchInfo>True</OutputDetailedMatchInfo><OutputUniqueCandidates>False</OutputUniqueCandidates><CustomMatchRule>True</CustomMatchRule><MatcherRuleType><type name="PhoneNumber" id="59" isroot="True" isleaf="False" parentid="59" haschildren="True"><type name="PhoneNumber" id="60" isroot="False" isleaf="True" parentid="59" haschildren="False" /></type></MatcherRuleType><MatcherRuleSettings><settings typename="PhoneNumber" typeid="59" matchingmethod="ALL_TRUE" threshold="0" scoringmethod="AVG" weight="0" missingdata="IGNORE_BLANKS" matchWhenNotTrue="False" /><settings typename="PhoneNumber" typeid="60" matchingmethod="BASED_ON_THRESHOLD" threshold="100" scoringmethod="MAX" weight="0" missingdata="IGNORE_BLANKS" CandidateField="EntityPhoneNumber" matchWhenNotTrue="False"><algorithms><algorithm name="EXACT_MATCH" weight="0"><options /></algorithm></algorithms></settings></MatcherRuleSettings></MatcherSettings></CompositeSettings>]]></settings><input_ports><input_port id="ada1234a-8175-4e42-9d73-03259b74c60e"><channel idref="bf1299ed-287b-4db9-bf49-0fe8d6a6ddbb"/><label>input_port</label><port_name>input_port</port_name></input_port></input_ports><options><option><name>MatchRule</name><value/></option><option><name>CustomMatchRule</name><value/></option><option><name>ReturnDetailedMatchInfo</name><value/></option><option><name>Threshold</name><value/></option></options><output_ports><output_port id="55d07841-4fa8-4be3-b6bb-1607067dd5d7"><channel idref="c7bff876-5965-49f1-bb48-d5b91f11eaf2"/><label>output_port</label><port_name>output_port</port_name></output_port></output_ports><properties><property><name>stageItemName</name><value><![CDATA[TransactionalMatcher]]></value></property></properties></stage><stage id="4107ecce-72ad-4147-860f-a2c3fbbe1353"><stage_name>BestOfBreed</stage_name><stage_version/><label>BOB5</label><num_instances>1</num_instances><distributed>false</distributed><batch_size>10000</batch_size><settings><![CDATA[<?xml version="1.0" encoding="utf-16" standalone="yes"?><ConsolidationConfiguration xmlns="http://g1.com/cdq/schema/bestofbreed-settings.xsd"><ConsolidationSettings><ConsolidationType value="BestComposite" /><GroupID value="CandidateGroup" sort="true" /><GroupActions /><Rules><Rule><If><Condition><OrExpression><SimpleExpression><TestField value="MatchScore" numeric="Yes" /><Operator value="Highest" /></SimpleExpression></OrExpression><AndExpression><SimpleExpression><TestField value="MatchScore" numeric="Yes" /><Operator value="Greater Than Equal To" /><DataType value="No" /><Value value="70" /></SimpleExpression></AndExpression></Condition><Action><BuildFromDataType value="Yes" /><BuildFromField value="EntityRegisteredName" /><BuildToField value="EntityRegisteredName" /><Accumulate value="No" /></Action><Action><BuildFromDataType value="Yes" /><BuildFromField value="EntityRegisteredSuffix" /><BuildToField value="EntityRegisteredSuffix" /><Accumulate value="No" /></Action><Action><BuildFromDataType value="Yes" /><BuildFromField value="EntityTradeName" /><BuildToField value="EntityTradeName" /><Accumulate value="No" /></Action><Action><BuildFromDataType value="Yes" /><BuildFromField value="EntityTradeSuffix" /><BuildToField value="EntityTradeSuffix" /><Accumulate value="No" /></Action><Action><BuildFromDataType value="Yes" /><BuildFromField value="EntityBrandName" /><BuildToField value="EntityBrandName" /><Accumulate value="No" /></Action><Action><BuildFromDataType value="Yes" /><BuildFromField value="EntityMainAddressLine" /><BuildToField value="EntityMainAddressLine" /><Accumulate value="No" /></Action><Action><BuildFromDataType value="Yes" /><BuildFromField value="EntityCity" /><BuildToField value="EntityCity" /><Accumulate value="No" /></Action><Action><BuildFromDataType value="Yes" /><BuildFromField value="EntityState" /><BuildToField value="EntityState" /><Accumulate value="No" /></Action><Action><BuildFromDataType value="Yes" /><BuildFromField value="EntityPostcode" /><BuildToField value="EntityPostcode" /><Accumulate value="No" /></Action><Action><BuildFromDataType value="Yes" /><BuildFromField value="EntityCountryISO3" /><BuildToField value="EntityCountryISO3" /><Accumulate value="No" /></Action><Action><BuildFromDataType value="Yes" /><BuildFromField value="EntityPhoneNumber" /><BuildToField value="EntityPhoneNumber" /><Accumulate value="No" /></Action><Action><BuildFromDataType value="Yes" /><BuildFromField value="EntityEmail" /><BuildToField value="EntityEmail" /><Accumulate value="No" /></Action><Action><BuildFromDataType value="Yes" /><BuildFromField value="MatchScore" /><BuildToField value="MatchScore" /><Accumulate value="No" /></Action><Action><BuildFromDataType value="Yes" /><BuildFromField value="pb_id" /><BuildToField value="pb_id" /><Accumulate value="No" /></Action><Action><BuildFromDataType value="Yes" /><BuildFromField value="EntityHouseNumber" /><BuildToField value="EntityHouseNumber" /><Accumulate value="No" /></Action><Action><BuildFromDataType value="Yes" /><BuildFromField value="EntityLeadingDirectional" /><BuildToField value="EntityLeadingDirectional" /><Accumulate value="No" /></Action><Action><BuildFromDataType value="Yes" /><BuildFromField value="EntityStreetName" /><BuildToField value="EntityStreetName" /><Accumulate value="No" /></Action><Action><BuildFromDataType value="Yes" /><BuildFromField value="EntityStreetSuffix" /><BuildToField value="EntityStreetSuffix" /><Accumulate value="No" /></Action><Action><BuildFromDataType value="Yes" /><BuildFromField value="EntityTrailingDirectional" /><BuildToField value="EntityTrailingDirectional" /><Accumulate value="No" /></Action></If></Rule></Rules></ConsolidationSettings><ConsolidationSettings><ConsolidationType value="Primary" /><GroupActions /><Rules><Rule><If><Condition><OrExpression><SimpleExpression><TestField value="MatchRecordType" numeric="No" /><Operator value="Equal" /><DataType value="No" /><Value value="Suspect" /></SimpleExpression></OrExpression><OrExpression><SimpleExpression><TestField value="HasDuplicates" numeric="No" /><Operator value="Equal" /><DataType value="No" /><Value value="Y" /></SimpleExpression></OrExpression></Condition></If></Rule></Rules></ConsolidationSettings></ConsolidationConfiguration>]]></settings><input_ports><input_port id="bcc3e59f-18f2-431d-81b7-63089dbf5847"><channel idref="c7bff876-5965-49f1-bb48-d5b91f11eaf2"/><label>input_port</label><port_name>input_port</port_name></input_port></input_ports><options/><output_ports><output_port id="9bc66285-3313-44e9-bfd7-1c287bbecd53"><channel idref="011a5416-a4df-4715-992b-f0064b491ce6"/><label>output_port</label><port_name>output_port</port_name></output_port></output_ports><properties><property><name>stageItemName</name><value><![CDATA[BestOfBreed]]></value></property></properties></stage><stage id="dd193cc1-4bc2-488a-ac76-1f98ba20df29"><stage_name>BestOfBreed</stage_name><stage_version/><label>BOB2</label><num_instances>1</num_instances><distributed>false</distributed><batch_size>10000</batch_size><settings><![CDATA[<?xml version="1.0" encoding="utf-16" standalone="yes"?><ConsolidationConfiguration xmlns="http://g1.com/cdq/schema/bestofbreed-settings.xsd"><ConsolidationSettings><ConsolidationType value="BestComposite" /><GroupID value="CandidateGroup" sort="true" /><GroupActions /><Rules><Rule><If><Condition><OrExpression><SimpleExpression><TestField value="MatchScore" numeric="Yes" /><Operator value="Highest" /></SimpleExpression></OrExpression><AndExpression><SimpleExpression><TestField value="MatchScore" numeric="Yes" /><Operator value="Greater Than Equal To" /><DataType value="No" /><Value value="70" /></SimpleExpression></AndExpression></Condition><Action><BuildFromDataType value="Yes" /><BuildFromField value="EntityRegisteredName" /><BuildToField value="EntityRegisteredName" /><Accumulate value="No" /></Action><Action><BuildFromDataType value="Yes" /><BuildFromField value="EntityRegisteredSuffix" /><BuildToField value="EntityRegisteredSuffix" /><Accumulate value="No" /></Action><Action><BuildFromDataType value="Yes" /><BuildFromField value="EntityTradeName" /><BuildToField value="EntityTradeName" /><Accumulate value="No" /></Action><Action><BuildFromDataType value="Yes" /><BuildFromField value="EntityTradeSuffix" /><BuildToField value="EntityTradeSuffix" /><Accumulate value="No" /></Action><Action><BuildFromDataType value="Yes" /><BuildFromField value="EntityBrandName" /><BuildToField value="EntityBrandName" /><Accumulate value="No" /></Action><Action><BuildFromDataType value="Yes" /><BuildFromField value="EntityMainAddressLine" /><BuildToField value="EntityMainAddressLine" /><Accumulate value="No" /></Action><Action><BuildFromDataType value="Yes" /><BuildFromField value="EntityCity" /><BuildToField value="EntityCity" /><Accumulate value="No" /></Action><Action><BuildFromDataType value="Yes" /><BuildFromField value="EntityState" /><BuildToField value="EntityState" /><Accumulate value="No" /></Action><Action><BuildFromDataType value="Yes" /><BuildFromField value="EntityPostcode" /><BuildToField value="EntityPostcode" /><Accumulate value="No" /></Action><Action><BuildFromDataType value="Yes" /><BuildFromField value="EntityCountryISO3" /><BuildToField value="EntityCountryISO3" /><Accumulate value="No" /></Action><Action><BuildFromDataType value="Yes" /><BuildFromField value="EntityPhoneNumber" /><BuildToField value="EntityPhoneNumber" /><Accumulate value="No" /></Action><Action><BuildFromDataType value="Yes" /><BuildFromField value="EntityEmail" /><BuildToField value="EntityEmail" /><Accumulate value="No" /></Action><Action><BuildFromDataType value="Yes" /><BuildFromField value="MatchScore" /><BuildToField value="MatchScore" /><Accumulate value="No" /></Action><Action><BuildFromDataType value="Yes" /><BuildFromField value="pb_id" /><BuildToField value="pb_id" /><Accumulate value="No" /></Action><Action><BuildFromDataType value="Yes" /><BuildFromField value="EntityHouseNumber" /><BuildToField value="EntityHouseNumber" /><Accumulate value="No" /></Action><Action><BuildFromDataType value="Yes" /><BuildFromField value="EntityLeadingDirectional" /><BuildToField value="EntityLeadingDirectional" /><Accumulate value="No" /></Action><Action><BuildFromDataType value="Yes" /><BuildFromField value="EntityStreetName" /><BuildToField value="EntityStreetName" /><Accumulate value="No" /></Action><Action><BuildFromDataType value="Yes" /><BuildFromField value="EntityStreetSuffix" /><BuildToField value="EntityStreetSuffix" /><Accumulate value="No" /></Action><Action><BuildFromDataType value="Yes" /><BuildFromField value="EntityTrailingDirectional" /><BuildToField value="EntityTrailingDirectional" /><Accumulate value="No" /></Action></If></Rule></Rules></ConsolidationSettings><ConsolidationSettings><ConsolidationType value="Primary" /><GroupActions /><Rules><Rule><If><Condition><OrExpression><SimpleExpression><TestField value="MatchRecordType" numeric="No" /><Operator value="Equal" /><DataType value="No" /><Value value="Suspect" /></SimpleExpression></OrExpression><OrExpression><SimpleExpression><TestField value="HasDuplicates" numeric="No" /><Operator value="Equal" /><DataType value="No" /><Value value="Y" /></SimpleExpression></OrExpression></Condition></If></Rule></Rules></ConsolidationSettings></ConsolidationConfiguration>]]></settings><input_ports><input_port id="81916607-b6c5-4d48-94f8-1425b8fee75c"><channel idref="bf55e0c9-9df9-4fbc-a284-323f96adcf93"/><label>input_port</label><port_name>input_port</port_name></input_port></input_ports><options/><output_ports><output_port id="eab436bc-0e97-4013-9d16-f6e7c70aca98"><channel idref="a4fd377c-4f45-44fc-8e75-816c2e0a23e0"/><label>output_port</label><port_name>output_port</port_name></output_port></output_ports><properties><property><name>stageItemName</name><value><![CDATA[BestOfBreed]]></value></property></properties></stage><stage id="464a80a0-5962-44a2-8c95-24834e089f25"><stage_name>MatchKeyGenerator</stage_name><stage_version/><label>MK_Phone</label><num_instances>1</num_instances><distributed>false</distributed><batch_size>10000</batch_size><settings><![CDATA[<?xml version="1.0" encoding="utf-16" standalone="yes"?><HashGenerationSettings xmlns="http://g1.com/cdq/schema/matchkeygenerator-settings.xsd"><Rules expressMatchKey="False"><HashGenerationField value="MatchKey2" /><Rule><Algorithm value="SubString" /><Field value="PhoneNumber" /><Start value="1" /><Length value="8" /><RemoveNoiseChars value="Y" /><Active value="Y" /></Rule></Rules></HashGenerationSettings>]]></settings><input_ports><input_port id="a0762c9c-8508-4a64-9909-5033154fd5f1"><channel idref="9620c08f-b96c-4eb6-9810-8bfeb54818a0"/><label>input_port</label><port_name>input_port</port_name></input_port></input_ports><options/><output_ports><output_port id="86374e40-ba3c-438b-a8ef-c27973369ba8"><channel idref="a21cd50e-53fd-482e-b437-c5dfb313c4a6"/><label>output_port</label><port_name>output_port</port_name></output_port></output_ports><properties><property><name>stageItemName</name><value><![CDATA[MatchKeyGenerator]]></value></property></properties></stage><stage id="01cc122d-651d-42d8-a29f-42896c6e9015"><stage_name>transformer</stage_name><stage_version/><label>T3</label><num_instances>1</num_instances><distributed>false</distributed><batch_size>10000</batch_size><settings><![CDATA[<?xml version="1.0" encoding="utf-16"?>
+<TransformerSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="3.0">
+  <transformDefinitions>
+    <transformDefinition>
+      <name>Custom</name>
+      <script>if(data['MatchScore'] =="" || data['MatchScore']==null){
+   data['MatchScore']="0";
+}</script>
+      <transformParameters>
+        <transformParameter>
+          <name>transformName</name>
+          <type>string</type>
+          <value>Update Matchscore</value>
+        </transformParameter>
+      </transformParameters>
+      <transformFields />
+    </transformDefinition>
+    <transformDefinition>
+      <name>Copy</name>
+      <script>data[toColumn] = data.getClone(fromColumn);</script>
+      <transformParameters>
+        <transformParameter>
+          <name>fromColumn</name>
+          <type>Object</type>
+          <value>MatchScore</value>
+        </transformParameter>
+        <transformParameter>
+          <name>toColumn</name>
+          <type>Object</type>
+          <value>MatchScorePostCode</value>
+        </transformParameter>
+      </transformParameters>
+      <transformFields />
+    </transformDefinition>
+    <transformDefinition>
+      <name>Rename</name>
+      <script>data[toColumn] = data.getClone(fromColumn);data.remove(fromColumn);</script>
+      <transformParameters>
+        <transformParameter>
+          <name>fromColumn</name>
+          <type>Object</type>
+          <value>MatchInfo.Party_Address.Address.Score</value>
+        </transformParameter>
+        <transformParameter>
+          <name>toColumn</name>
+          <type>Object</type>
+          <value>AddressLine1Score</value>
+        </transformParameter>
+      </transformParameters>
+      <transformFields />
+    </transformDefinition>
+    <transformDefinition>
+      <name>Rename</name>
+      <script>data[toColumn] = data.getClone(fromColumn);data.remove(fromColumn);</script>
+      <transformParameters>
+        <transformParameter>
+          <name>fromColumn</name>
+          <type>Object</type>
+          <value>MatchInfo.Party_Address.Party_Address.City/State_or_PostalCode.Score</value>
+        </transformParameter>
+        <transformParameter>
+          <name>toColumn</name>
+          <type>Object</type>
+          <value>City_StateScore</value>
+        </transformParameter>
+      </transformParameters>
+      <transformFields />
+    </transformDefinition>
+  </transformDefinitions>
+</TransformerSettings>]]></settings><input_ports><input_port id="a8a48688-1a1f-4965-929e-4dbff406b86f"><channel idref="cd5f2b05-0b9a-4777-a73d-cb752b71e3c6"/><label>input_port</label><port_name>input_port</port_name></input_port></input_ports><options/><output_ports><output_port id="af57e705-7ced-4816-b105-2b4cb0de7115"><channel idref="20c0f932-90a6-4135-a6ee-19b01cd1a4c4"/><label>output_port</label><port_name>output_port</port_name></output_port></output_ports><properties><property><name>stageItemName</name><value><![CDATA[transformer]]></value></property></properties></stage><stage id="d7826632-c84f-4822-9f8c-7c093d4417c4"><stage_name>transformer</stage_name><stage_version/><label>T6</label><num_instances>8</num_instances><distributed>false</distributed><batch_size>0</batch_size><settings><![CDATA[<?xml version="1.0" encoding="utf-16"?>
+<TransformerSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="3.0">
+  <transformDefinitions>
+    <transformDefinition>
+      <name>Copy</name>
+      <script>data[toColumn] = data.getClone(fromColumn);</script>
+      <transformParameters>
+        <transformParameter>
+          <name>fromColumn</name>
+          <type>Object</type>
+          <value>Status</value>
+        </transformParameter>
+        <transformParameter>
+          <name>toColumn</name>
+          <type>Object</type>
+          <value>StatusCompanyName</value>
+        </transformParameter>
+      </transformParameters>
+      <transformFields />
+    </transformDefinition>
+    <transformDefinition>
+      <name>Copy</name>
+      <script>data[toColumn] = data.getClone(fromColumn);</script>
+      <transformParameters>
+        <transformParameter>
+          <name>fromColumn</name>
+          <type>Object</type>
+          <value>Status.Code</value>
+        </transformParameter>
+        <transformParameter>
+          <name>toColumn</name>
+          <type>Object</type>
+          <value>StatusCodeCompanyName</value>
+        </transformParameter>
+      </transformParameters>
+      <transformFields />
+    </transformDefinition>
+  </transformDefinitions>
+</TransformerSettings>]]></settings><input_ports><input_port id="db1feee1-2382-4074-be9f-69396f50b2f0"><channel idref="d03c1674-55a3-4214-9ca9-4c0e3f4e2e4f"/><label>input_port</label><port_name>input_port</port_name></input_port></input_ports><options/><output_ports><output_port id="537a5a40-0802-4fe1-8c76-b1ce8fe117e2"><channel idref="912bd4b8-caa4-4ab3-92ec-c1515b8b44cf"/><label>output_port</label><port_name>output_port</port_name></output_port></output_ports><properties><property><name>stageItemName</name><value><![CDATA[transformer]]></value></property></properties></stage><stage id="e6ef61be-06a5-41e3-98c2-516c9ff52aba"><stage_name>sorter</stage_name><stage_version/><label>S5</label><num_instances>1</num_instances><distributed>false</distributed><batch_size>10000</batch_size><settings><![CDATA[<?xml version="1.0" encoding="utf-16"?>
+<SorterSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="2.5">
+  <sortColumns>
+    <sortColumn>
+      <name>CandidateGroup</name>
+      <order>1</order>
+      <type>0</type>
+      <trim>TRIM</trim>
+      <nullPrecedence>SMALLEST</nullPrecedence>
+    </sortColumn>
+    <sortColumn>
+      <name>TransactionRecordType</name>
+      <order>-1</order>
+      <type>0</type>
+      <trim>TRIM</trim>
+      <nullPrecedence>SMALLEST</nullPrecedence>
+    </sortColumn>
+  </sortColumns>
+  <sortConfiguration>
+    <internalCacheSize>500500</internalCacheSize>
+    <externalCacheSize>20</externalCacheSize>
+    <useCompressedStream>false</useCompressedStream>
+  </sortConfiguration>
+</SorterSettings>]]></settings><input_ports><input_port id="077f64d2-49f9-4872-b0a5-366eccbcc499"><channel idref="6b2ed8fa-fd40-4ef1-be41-e54eecb5529b"/><label>input_port</label><port_name>input_port</port_name></input_port></input_ports><options/><output_ports><output_port id="e5b31a42-8764-446d-ba4b-fdedb6be13ea"><channel idref="bf1299ed-287b-4db9-bf49-0fe8d6a6ddbb"/><label>output_port</label><port_name>output_port</port_name></output_port></output_ports><properties><property><name>stageItemName</name><value><![CDATA[sorter]]></value></property></properties></stage><stage id="31811a73-d43b-4b3c-829b-6dde4d087a90"><stage_name>collector</stage_name><stage_version/><label>Stream Combiner</label><num_instances>1</num_instances><distributed>false</distributed><batch_size>10000</batch_size><input_ports><input_port id="db10da14-2695-4ac9-8b26-ec7d7308f223"><channel idref="773d72de-a958-4d4e-a836-873e27fdb97c"/><label>port</label><port_name/></input_port><input_port id="d8faf1f1-0355-466c-b267-9223c05c3f9c"><channel idref="37d86d95-8f55-494a-85bd-a47f9a5d721b"/><label>port 4</label><port_name/></input_port><input_port id="251f7ec6-a2d4-4773-b9dc-9204f8d74fb5"><channel idref="b434e835-6083-401d-bc19-30478b40fa91"/><label>port 2</label><port_name/></input_port><input_port id="4275c609-bf35-4033-b1ba-6ebaf91fc91b"><channel idref="7ec3785e-868c-4dc5-8fb2-df84474d9f20"/><label>port 3</label><port_name/></input_port><input_port id="f82aa10b-ce98-4dfc-aa29-e2a3ff9983a8"><channel idref="020e1d91-d2d1-4f90-8742-b2fdfa43965e"/><label>port</label><port_name/></input_port></input_ports><options/><output_ports><output_port id="e835b091-1428-42b9-bafe-b7cf2e37edab"><channel idref="d03c1674-55a3-4214-9ca9-4c0e3f4e2e4f"/><label>output_port</label><port_name>output_port</port_name></output_port></output_ports><properties><property><name>stageItemName</name><value><![CDATA[collector]]></value></property></properties></stage><stage id="5ecb55d2-25e2-445e-9f7b-c38123a085f3"><stage_name>MatchKeyGenerator</stage_name><stage_version/><label>MK_StateCity</label><num_instances>1</num_instances><distributed>false</distributed><batch_size>10000</batch_size><settings><![CDATA[<?xml version="1.0" encoding="utf-16" standalone="yes"?><HashGenerationSettings xmlns="http://g1.com/cdq/schema/matchkeygenerator-settings.xsd"><Rules expressMatchKey="False"><HashGenerationField value="MatchKey4" /><Rule><Algorithm value="SubString" /><Field value="StateProvince" /><Start value="1" /><Length value="2" /><RemoveNoiseChars value="Y" /><Active value="Y" /></Rule><Rule><Algorithm value="SubString" /><Field value="City" /><Start value="1" /><Length value="8" /><RemoveNoiseChars value="Y" /><Active value="Y" /></Rule></Rules></HashGenerationSettings>]]></settings><input_ports><input_port id="4260f6bb-e85a-464e-915e-350311274ead"><channel idref="38ba894e-c3af-447d-87e8-8f647ca42fc0"/><label>input_port</label><port_name>input_port</port_name></input_port></input_ports><options/><output_ports><output_port id="029ab9cd-60b5-45df-915b-d5eeb7a3e9f5"><channel idref="acbb1137-650c-41f7-b3f8-d118bab03944"/><label>output_port</label><port_name>output_port</port_name></output_port></output_ports><properties><property><name>stageItemName</name><value><![CDATA[MatchKeyGenerator]]></value></property></properties></stage><stage id="54295ff7-5fc0-40fe-b746-8bf47346a25d"><stage_name>router</stage_name><stage_version/><label>Con_R4</label><num_instances>1</num_instances><distributed>false</distributed><batch_size>10000</batch_size><settings><![CDATA[<?xml version="1.0" encoding="utf-16"?>
+<RouterSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="2.5">
+  <outputCopy>false</outputCopy>
+  <singleOutput>false</singleOutput>
+  <portExpressions>
+    <portExpression>
+      <portId>586d4aa4-8ac5-4098-8178-0ee4ee5e3a13</portId>
+      <expression>return isEqualTo(data.get('HasDuplicates'), 'Y');
+      
+import static com.pb.spectrum.api.datetime.DateTimeUtil.*;
+
+def boolean isEqualTo(Object field, Object value)
+{
+  try
+  {
+    if(field instanceof BigDecimal)
+      return new BigDecimal(value) == field
+    if(field instanceof Boolean)
+      return Boolean.valueOf(value) == field
+    else if(field instanceof Integer)
+      return Integer.valueOf(value) == field
+    else if(field instanceof Long)
+      return Long.valueOf(value) == field
+    else if(field instanceof Float)
+      return Float.valueOf(value) == field
+    else if(field instanceof Double)
+      return Double.valueOf(value) == field
+    else if(field instanceof com.pb.spectrum.api.datetime.Date)
+      return compare(field, com.pb.spectrum.api.datetime.Date.valueOf(value)) == 0
+    else if(field instanceof com.pb.spectrum.api.datetime.Time)
+      return compare(field, com.pb.spectrum.api.datetime.Time.valueOf(value)) == 0
+    else if(field instanceof com.pb.spectrum.api.datetime.DateTime)
+      return compare(field, com.pb.spectrum.api.datetime.DateTime.valueOf(value)) == 0
+    return value == field;   
+  }
+  catch (Exception)
+  {
+    return false;
+  }	
+}
+    </expression>
+      <ViewData>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ExpressionBuilderInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;CombineMethod&gt;All&lt;/CombineMethod&gt;
+  &lt;ExpressionDetailInfo&gt;
+    &lt;ExpressionDetails&gt;
+      &lt;ExpressionField&gt;HasDuplicates&lt;/ExpressionField&gt;
+      &lt;ExpressionOperator&gt;is equal to&lt;/ExpressionOperator&gt;
+      &lt;ExpressionValue&gt;Y&lt;/ExpressionValue&gt;
+      &lt;comparisonType&gt;VALUE&lt;/comparisonType&gt;
+    &lt;/ExpressionDetails&gt;
+  &lt;/ExpressionDetailInfo&gt;
+&lt;/ExpressionBuilderInfo&gt;</ViewData>
+    </portExpression>
+    <portExpression>
+      <portId>9a6a113a-e28c-48f8-be25-faeb633ab2fd</portId>
+      <expression>default</expression>
+      <ViewData>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ExpressionBuilderInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;CombineMethod /&gt;
+  &lt;ExpressionDetailInfo /&gt;
+&lt;/ExpressionBuilderInfo&gt;</ViewData>
+    </portExpression>
+  </portExpressions>
+</RouterSettings>]]></settings><input_ports><input_port id="ef40db6e-3a78-4e26-beb2-78bb9372fbe9"><channel idref="4d5d8adf-4e61-4604-88b7-6e5eaa41e354"/><label>input_port</label><port_name>input_port</port_name></input_port></input_ports><options/><output_ports><output_port id="586d4aa4-8ac5-4098-8178-0ee4ee5e3a13"><channel idref="b434e835-6083-401d-bc19-30478b40fa91"/><label>port</label><port_name/></output_port><output_port id="9a6a113a-e28c-48f8-be25-faeb633ab2fd"><channel idref="9d8c2d78-4ab8-4fc9-a3b4-e2b1e8949716"/><label>port 3</label><port_name/></output_port></output_ports><properties><property><name>stageItemName</name><value><![CDATA[router]]></value></property></properties></stage><stage id="d277d8a8-4306-422f-98b1-66d1ef26166c"><stage_name>transformer</stage_name><stage_version/><label>T4</label><num_instances>1</num_instances><distributed>false</distributed><batch_size>10000</batch_size><settings><![CDATA[<?xml version="1.0" encoding="utf-16"?>
+<TransformerSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="3.0">
+  <transformDefinitions>
+    <transformDefinition>
+      <name>Custom</name>
+      <script>if(data['MatchScore'] =="" || data['MatchScore']==null){
+   data['MatchScore']="0";
+}</script>
+      <transformParameters>
+        <transformParameter>
+          <name>transformName</name>
+          <type>string</type>
+          <value>Update Matchscore</value>
+        </transformParameter>
+      </transformParameters>
+      <transformFields />
+    </transformDefinition>
+    <transformDefinition>
+      <name>Copy</name>
+      <script>data[toColumn] = data.getClone(fromColumn);</script>
+      <transformParameters>
+        <transformParameter>
+          <name>fromColumn</name>
+          <type>Object</type>
+          <value>MatchScore</value>
+        </transformParameter>
+        <transformParameter>
+          <name>toColumn</name>
+          <type>Object</type>
+          <value>MatchScoreCityState</value>
+        </transformParameter>
+      </transformParameters>
+      <transformFields />
+    </transformDefinition>
+    <transformDefinition>
+      <name>Rename</name>
+      <script>data[toColumn] = data.getClone(fromColumn);data.remove(fromColumn);</script>
+      <transformParameters>
+        <transformParameter>
+          <name>fromColumn</name>
+          <type>Object</type>
+          <value>MatchInfo.Party_Address.Address.Score</value>
+        </transformParameter>
+        <transformParameter>
+          <name>toColumn</name>
+          <type>Object</type>
+          <value>AddressLine1Score</value>
+        </transformParameter>
+      </transformParameters>
+      <transformFields />
+    </transformDefinition>
+    <transformDefinition>
+      <name>Rename</name>
+      <script>data[toColumn] = data.getClone(fromColumn);data.remove(fromColumn);</script>
+      <transformParameters>
+        <transformParameter>
+          <name>fromColumn</name>
+          <type>Object</type>
+          <value>MatchInfo.Party_Address.Party_Address.City/State_or_PostalCode.Score</value>
+        </transformParameter>
+        <transformParameter>
+          <name>toColumn</name>
+          <type>Object</type>
+          <value>City_StateScore</value>
+        </transformParameter>
+      </transformParameters>
+      <transformFields />
+    </transformDefinition>
+  </transformDefinitions>
+</TransformerSettings>]]></settings><input_ports><input_port id="c853b2f9-c09f-47c6-b4b1-17abcf7b3353"><channel idref="55bfa148-4f6a-4597-b3c3-e675485064ff"/><label>input_port</label><port_name>input_port</port_name></input_port></input_ports><options/><output_ports><output_port id="27ba7096-952a-4a20-8ed2-7b7cc857f709"><channel idref="4d5d8adf-4e61-4604-88b7-6e5eaa41e354"/><label>output_port</label><port_name>output_port</port_name></output_port></output_ports><properties><property><name>stageItemName</name><value><![CDATA[transformer]]></value></property></properties></stage><stage id="1f9efd80-cac1-4941-89e8-8305802597e7"><stage_name>router</stage_name><stage_version/><label>Con_R3</label><num_instances>1</num_instances><distributed>false</distributed><batch_size>10000</batch_size><settings><![CDATA[<?xml version="1.0" encoding="utf-16"?>
+<RouterSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="2.5">
+  <outputCopy>false</outputCopy>
+  <singleOutput>false</singleOutput>
+  <portExpressions>
+    <portExpression>
+      <portId>fa3d96fd-5c8c-4f38-8f0d-ee3d8daaaeec</portId>
+      <expression>return isEqualTo(data.get('HasDuplicates'), 'Y');
+      
+import static com.pb.spectrum.api.datetime.DateTimeUtil.*;
+
+def boolean isEqualTo(Object field, Object value)
+{
+  try
+  {
+    if(field instanceof BigDecimal)
+      return new BigDecimal(value) == field
+    if(field instanceof Boolean)
+      return Boolean.valueOf(value) == field
+    else if(field instanceof Integer)
+      return Integer.valueOf(value) == field
+    else if(field instanceof Long)
+      return Long.valueOf(value) == field
+    else if(field instanceof Float)
+      return Float.valueOf(value) == field
+    else if(field instanceof Double)
+      return Double.valueOf(value) == field
+    else if(field instanceof com.pb.spectrum.api.datetime.Date)
+      return compare(field, com.pb.spectrum.api.datetime.Date.valueOf(value)) == 0
+    else if(field instanceof com.pb.spectrum.api.datetime.Time)
+      return compare(field, com.pb.spectrum.api.datetime.Time.valueOf(value)) == 0
+    else if(field instanceof com.pb.spectrum.api.datetime.DateTime)
+      return compare(field, com.pb.spectrum.api.datetime.DateTime.valueOf(value)) == 0
+    return value == field;   
+  }
+  catch (Exception)
+  {
+    return false;
+  }	
+}
+    </expression>
+      <ViewData>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ExpressionBuilderInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;CombineMethod&gt;All&lt;/CombineMethod&gt;
+  &lt;ExpressionDetailInfo&gt;
+    &lt;ExpressionDetails&gt;
+      &lt;ExpressionField&gt;HasDuplicates&lt;/ExpressionField&gt;
+      &lt;ExpressionOperator&gt;is equal to&lt;/ExpressionOperator&gt;
+      &lt;ExpressionValue&gt;Y&lt;/ExpressionValue&gt;
+      &lt;comparisonType&gt;VALUE&lt;/comparisonType&gt;
+    &lt;/ExpressionDetails&gt;
+  &lt;/ExpressionDetailInfo&gt;
+&lt;/ExpressionBuilderInfo&gt;</ViewData>
+    </portExpression>
+    <portExpression>
+      <portId>0ea004ac-a344-4be3-84f4-fa1f947c56e5</portId>
+      <expression>default</expression>
+      <ViewData>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ExpressionBuilderInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;CombineMethod /&gt;
+  &lt;ExpressionDetailInfo /&gt;
+&lt;/ExpressionBuilderInfo&gt;</ViewData>
+    </portExpression>
+  </portExpressions>
+</RouterSettings>]]></settings><input_ports><input_port id="f508f418-bcf1-4e75-97f5-c65e606bd401"><channel idref="20c0f932-90a6-4135-a6ee-19b01cd1a4c4"/><label>input_port</label><port_name>input_port</port_name></input_port></input_ports><options/><output_ports><output_port id="fa3d96fd-5c8c-4f38-8f0d-ee3d8daaaeec"><channel idref="020e1d91-d2d1-4f90-8742-b2fdfa43965e"/><label>port</label><port_name/></output_port><output_port id="0ea004ac-a344-4be3-84f4-fa1f947c56e5"><channel idref="38ba894e-c3af-447d-87e8-8f647ca42fc0"/><label>port 3</label><port_name/></output_port></output_ports><properties><property><name>stageItemName</name><value><![CDATA[router]]></value></property></properties></stage><stage id="2e49e531-e2bb-433a-b139-bbabadfe7fa8"><stage_name>MatchKeyGenerator</stage_name><stage_version/><label>MK_MrchName</label><num_instances>1</num_instances><distributed>false</distributed><batch_size>10000</batch_size><settings><![CDATA[<?xml version="1.0" encoding="utf-16" standalone="yes"?><HashGenerationSettings xmlns="http://g1.com/cdq/schema/matchkeygenerator-settings.xsd"><Rules expressMatchKey="False"><HashGenerationField value="MatchKey1" /><Rule><Algorithm value="SubString" /><Field value="merchant_name" /><Start value="1" /><Length value="7" /><RemoveNoiseChars value="Y" /><Active value="Y" /></Rule><Rule><Algorithm value="SubString" /><Field value="PostalCode" /><Start value="1" /><Length value="5" /><RemoveNoiseChars value="Y" /><Active value="Y" /></Rule></Rules></HashGenerationSettings>]]></settings><input_ports><input_port id="b5b9a2af-4f05-44b5-becb-153389c01e27"><channel idref="c57fd813-aa75-4bfb-860d-405e676ed514"/><label>input_port</label><port_name>input_port</port_name></input_port></input_ports><options/><output_ports><output_port id="23688c85-2a5f-4e0a-b36e-3407052b3100"><channel idref="a9b06c69-1ad5-41e4-bdc9-33b9dc911dd6"/><label>output_port</label><port_name>output_port</port_name></output_port></output_ports><properties><property><name>stageItemName</name><value><![CDATA[MatchKeyGenerator]]></value></property></properties></stage><stage id="fc9a5178-8f7e-4351-a102-4fbcc932d7e1"><stage_name>sorter</stage_name><stage_version/><label>S3</label><num_instances>1</num_instances><distributed>false</distributed><batch_size>10000</batch_size><settings><![CDATA[<?xml version="1.0" encoding="utf-16"?>
+<SorterSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="2.5">
+  <sortColumns>
+    <sortColumn>
+      <name>CandidateGroup</name>
+      <order>1</order>
+      <type>0</type>
+      <trim>TRIM</trim>
+      <nullPrecedence>SMALLEST</nullPrecedence>
+    </sortColumn>
+    <sortColumn>
+      <name>TransactionRecordType</name>
+      <order>-1</order>
+      <type>0</type>
+      <trim>TRIM</trim>
+      <nullPrecedence>SMALLEST</nullPrecedence>
+    </sortColumn>
+  </sortColumns>
+  <sortConfiguration>
+    <internalCacheSize>500500</internalCacheSize>
+    <externalCacheSize>20</externalCacheSize>
+    <useCompressedStream>false</useCompressedStream>
+  </sortConfiguration>
+</SorterSettings>]]></settings><input_ports><input_port id="b19a96a6-7e9e-4b35-93a9-ef4aa607b16e"><channel idref="13a9cc66-8793-4641-8e0d-5695a7cd0926"/><label>input_port</label><port_name>input_port</port_name></input_port></input_ports><options/><output_ports><output_port id="08ea86c7-ee89-495f-b3a7-3d5e1d45c949"><channel idref="5cb06e66-c150-47b5-86a8-cfd19664ed45"/><label>output_port</label><port_name>output_port</port_name></output_port></output_ports><properties><property><name>stageItemName</name><value><![CDATA[sorter]]></value></property></properties></stage><stage id="8cd89a32-70f0-4e11-9486-80cb6cc591a8"><stage_name>TransactionalMatcher</stage_name><stage_version/><label>TM2</label><num_instances>1</num_instances><distributed>false</distributed><batch_size>10000</batch_size><settings><![CDATA[<?xml version="1.0" encoding="utf-16" standalone="yes"?><CompositeSettings xmlns="http://g1.com/cdq/schema/transactionalmatch-settings.xsd"><Name value="Custom - PhoneNumber and Address" /><MatcherSettings><MatchAnalysis>False</MatchAnalysis><GenerateMatchInfo>true</GenerateMatchInfo><OutputDetailedMatchInfo>True</OutputDetailedMatchInfo><OutputUniqueCandidates>False</OutputUniqueCandidates><CustomMatchRule>True</CustomMatchRule><MatcherRuleType><type name="PhoneNumber and Address" id="1" isroot="True" isleaf="False" parentid="1" haschildren="True"><type name="PhoneNumber" id="3" isroot="False" isleaf="False" parentid="1" haschildren="True"><type name="PhoneNumber" id="9" isroot="False" isleaf="True" parentid="3" haschildren="False" /></type><type name="Party Address" id="27" isroot="False" isleaf="False" parentid="1" haschildren="True"><type name="Address" id="42" isroot="False" isleaf="False" parentid="27" haschildren="True"><type name="AddressLine1" id="43" isroot="False" isleaf="True" parentid="42" haschildren="False" /></type><type name="City/State or PostalCode" id="46" isroot="False" isleaf="False" parentid="27" haschildren="True"><type name="City and State" id="47" isroot="False" isleaf="False" parentid="46" haschildren="True"><type name="City" id="52" isroot="False" isleaf="True" parentid="47" haschildren="False" /><type name="StateProvince" id="53" isroot="False" isleaf="True" parentid="47" haschildren="False" /></type><type name="PostalCode" id="54" isroot="False" isleaf="True" parentid="46" haschildren="False" /></type></type></type></MatcherRuleType><MatcherRuleSettings><settings typename="PhoneNumber and Address" typeid="1" matchingmethod="ALL_TRUE" threshold="0" scoringmethod="WEIGHTED_AVG" weight="0" missingdata="COUNT_AS_0" matchWhenNotTrue="False" /><settings typename="PhoneNumber" typeid="3" matchingmethod="ANY_TRUE" threshold="0" scoringmethod="MAX" weight="0.2" missingdata="COUNT_AS_0" matchWhenNotTrue="False" /><settings typename="PhoneNumber" typeid="9" matchingmethod="BASED_ON_THRESHOLD" threshold="80" scoringmethod="MAX" weight="0" missingdata="COUNT_AS_0" CandidateField="EntityPhoneNumber" matchWhenNotTrue="False"><algorithms><algorithm name="ACRONYM" weight="0"><options /></algorithm><algorithm name="EXACT_MATCH" weight="0"><options /></algorithm><algorithm name="SYLLABLE_ALIGNMENT" weight="0"><options /></algorithm></algorithms></settings><settings typename="Party Address" typeid="27" matchingmethod="ALL_TRUE" threshold="0" scoringmethod="WEIGHTED_AVG" weight="0.8" missingdata="COUNT_AS_0" matchWhenNotTrue="False" /><settings typename="Address" typeid="42" matchingmethod="ALL_TRUE" threshold="0" scoringmethod="WEIGHTED_AVG" weight="0.3" missingdata="IGNORE_BLANKS" matchWhenNotTrue="False" /><settings typename="AddressLine1" typeid="43" matchingmethod="BASED_ON_THRESHOLD" threshold="60" scoringmethod="MAX" weight="1" missingdata="IGNORE_BLANKS" CandidateField="EntityMainAddressLine" matchWhenNotTrue="False"><algorithms><algorithm name="CHARACTER_FREQUENCY" weight="0"><options /></algorithm><algorithm name="EDIT_DISTANCE" weight="0"><options /></algorithm><algorithm name="EXACT_MATCH" weight="0"><options /></algorithm><algorithm name="KEYBOARD_DISTANCE" weight="0"><options><option name="layout" value="QWERTY" /></options></algorithm><algorithm name="SUBSTRING" weight="0"><options /></algorithm><algorithm name="SYLLABLE_ALIGNMENT" weight="0"><options /></algorithm></algorithms></settings><settings typename="City/State or PostalCode" typeid="46" matchingmethod="ANY_TRUE" threshold="0" scoringmethod="MAX" weight="0.7" missingdata="IGNORE_BLANKS" matchWhenNotTrue="False" /><settings typename="City and State" typeid="47" matchingmethod="ALL_TRUE" threshold="0" scoringmethod="AVG" weight="0" missingdata="IGNORE_BLANKS" matchWhenNotTrue="False" /><settings typename="City" typeid="52" matchingmethod="BASED_ON_THRESHOLD" threshold="60" scoringmethod="MAX" weight="0" missingdata="IGNORE_BLANKS" CandidateField="EntityCity" matchWhenNotTrue="False"><algorithms><algorithm name="EDIT_DISTANCE" weight="0"><options /></algorithm><algorithm name="EXACT_MATCH" weight="0"><options /></algorithm></algorithms></settings><settings typename="StateProvince" typeid="53" matchingmethod="BASED_ON_THRESHOLD" threshold="60" scoringmethod="MAX" weight="0" missingdata="IGNORE_BLANKS" CandidateField="EntityState" matchWhenNotTrue="False"><algorithms><algorithm name="EXACT_MATCH" weight="0"><options /></algorithm></algorithms></settings><settings typename="PostalCode" typeid="54" matchingmethod="BASED_ON_THRESHOLD" threshold="60" scoringmethod="MAX" weight="0" missingdata="IGNORE_BLANKS" CandidateField="EntityPostcode" matchWhenNotTrue="False"><algorithms><algorithm name="EXACT_MATCH" weight="0"><options /></algorithm></algorithms></settings></MatcherRuleSettings></MatcherSettings></CompositeSettings>]]></settings><input_ports><input_port id="4d20f7d0-c285-426b-9735-cc4b491efed2"><channel idref="529cc31b-6510-47a2-8f81-b3550fc940a9"/><label>input_port</label><port_name>input_port</port_name></input_port></input_ports><options><option><name>MatchRule</name><value/></option><option><name>CustomMatchRule</name><value/></option><option><name>ReturnDetailedMatchInfo</name><value/></option><option><name>Threshold</name><value/></option></options><output_ports><output_port id="cbe537ed-2ced-4d8c-8111-26515a46d380"><channel idref="bf55e0c9-9df9-4fbc-a284-323f96adcf93"/><label>output_port</label><port_name>output_port</port_name></output_port></output_ports><properties><property><name>stageItemName</name><value><![CDATA[TransactionalMatcher]]></value></property></properties></stage></stages><reports/><notifications/><dataflow_options/><type>0</type><vendor/></dataflow></exportedDataflow>

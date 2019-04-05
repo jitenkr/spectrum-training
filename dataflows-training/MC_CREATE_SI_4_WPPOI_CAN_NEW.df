@@ -1,0 +1,3674 @@
+<!--Exported Fri Jan 19 08:24:52 EST 2018 by admin from TROMasterCard--><exportedDataflow schema_version="9.0"><exposed>false</exposed><dataflow id="MC_CREATE_SI_4_WPPOI_CAN_NEW" schema_version="9.0" version=""><product_group/><channels><channel id="fd7be6d9-cd98-4fc5-b653-f3aa6500f448"><field_transformers/></channel><channel id="107344a4-39a0-4c28-81bb-7cce20a0bf65"><field_transformers/></channel><channel id="1b474a8d-5b40-4a3f-9267-9ff506e7a4cf"><field_transformers/></channel><channel id="f3d6ebcb-4b57-44ba-8fc8-ac2734c7650a"><field_transformers/></channel><channel id="46cfb02d-e429-4cd4-b264-b0ceff5b6018"><field_transformers/></channel><channel id="b6bc5eea-6f71-44a0-afc5-16e0ec4925ae"><field_transformers/></channel><channel id="4cb2aab1-ae3b-41d0-a8b9-c07baa456981"><field_transformers><field_transformer><name>columnMapping</name><settings><![CDATA[<?xml version="1.0" encoding="utf-16"?>
+<ColumnMappingFieldTransformerSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://transformer.g1.com/columnMapping">
+  <columnMappings xmlns="">
+    <columnMapping>
+      <newName>tradename</newName>
+      <originalName>Trade_Name</originalName>
+    </columnMapping>
+  </columnMappings>
+</ColumnMappingFieldTransformerSettings>]]></settings></field_transformer></field_transformers></channel><channel id="395ffdab-f4b5-4c10-a4e8-985f6114ba8e"><field_transformers/></channel><channel id="e20adef1-333d-41b0-ba7a-b281e2703224"><field_transformers/></channel><channel id="f9da781f-6e43-4f69-ab3e-3fb50b417298"><field_transformers/></channel><channel id="edb8279a-2f0d-434f-9abc-a1be69958e3f"><field_transformers/></channel><channel id="06acf188-bba7-428a-bee8-6e78b026415a"><field_transformers/></channel><channel id="7f53dc6b-7b9b-4cd1-a653-1eaa080ae4a9"><field_transformers/></channel><channel id="e1269048-b269-4265-9dac-ed74659e750e"><field_transformers/></channel><channel id="fa438fc7-4f5a-44ba-b22f-fc22ff815283"><field_transformers/></channel><channel id="55f9bcf1-19a1-4310-9b62-facff1f5a992"><field_transformers/></channel><channel id="d8e2fdc7-078a-4aea-af71-01874d1c9b72"><field_transformers/></channel><channel id="8e0988d9-7a23-4a39-8006-f5893242c088"><field_transformers/></channel><channel id="7b20dc45-dbac-423f-b0e6-61c649187c0e"><field_transformers/></channel><channel id="57d28772-b338-4dbe-85e7-7b891539a8fe"><field_transformers/></channel><channel id="0bb2b97b-7534-4f5c-93cf-93b5a24e4c14"><field_transformers/></channel><channel id="e3416ab7-9f6f-451b-968e-78f4a7f91165"><field_transformers/></channel><channel id="b76dfee6-fb0c-44df-9662-191bcb1e8b60"><field_transformers><field_transformer><name>columnMapping</name><settings><![CDATA[<?xml version="1.0" encoding="utf-16"?>
+<ColumnMappingFieldTransformerSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://transformer.g1.com/columnMapping">
+  <columnMappings xmlns="">
+    <columnMapping>
+      <newName>pb_id</newName>
+      <originalName>PB_ID</originalName>
+    </columnMapping>
+  </columnMappings>
+</ColumnMappingFieldTransformerSettings>]]></settings></field_transformer></field_transformers></channel><channel id="b5590223-acf8-4de4-b312-653f17442980"><field_transformers/></channel><channel id="6b22f5f3-0ec4-47bd-9911-59ddb72193f7"><field_transformers/></channel><channel id="0edfeddf-8780-41d4-85a3-65fa34d516ab"><field_transformers/></channel><channel id="972af5c6-6fa8-4457-9c32-4d718ffbfef1"><field_transformers/></channel><channel id="1110199d-ac90-49fe-80f4-993de6c4b803"><field_transformers/></channel><channel id="973b0f31-5833-4f5e-938b-1842187f6161"><field_transformers/></channel><channel id="129d775a-f67b-4c30-b086-3cc9dfff46b7"><field_transformers/></channel><channel id="27658073-f959-43d7-94e1-857bffe64cf1"><field_transformers/></channel><channel id="2c9b4bda-1deb-4cdf-b24d-1d7894558aa6"><field_transformers/></channel><channel id="686f9c1a-bad8-4810-a0af-57f3a9dc1e48"><field_transformers/></channel><channel id="e3ffe73b-a93c-4b6e-ba6b-ed75ce7f1565"><field_transformers/></channel><channel id="41e78814-cf8c-4620-aecc-fe880c668ab7"><field_transformers/></channel><channel id="3e306f10-41e4-4d90-83bf-6c30065295f3"><field_transformers/></channel><channel id="b5e653dc-c60c-4999-9792-31bc2374e06c"><field_transformers><field_transformer><name>columnMapping</name><settings><![CDATA[<?xml version="1.0" encoding="utf-16"?>
+<ColumnMappingFieldTransformerSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://transformer.g1.com/columnMapping">
+  <columnMappings xmlns="">
+    <columnMapping>
+      <newName>pb_id</newName>
+      <originalName>PB_ID</originalName>
+    </columnMapping>
+  </columnMappings>
+</ColumnMappingFieldTransformerSettings>]]></settings></field_transformer></field_transformers></channel><channel id="7b804921-dba0-45f2-a100-1ae61a24b365"><field_transformers/></channel><channel id="9a240956-fa2d-453c-8847-1275fda41967"><field_transformers/></channel></channels><created_by>admin</created_by><created_date>1/18/18 2:03 AM</created_date><service_exposures/><icon/><inputs/><last_modified_by>admin</last_modified_by><last_modified_date>1/18/18 8:38 AM</last_modified_date><outputs/><properties><property><name>ViewData</name><value><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<viewData version="3.0">
+  <canvasNode id="c22109a6-8ca5-4712-b2a2-04e940ff80ca">
+    <location x="688.5" y="357" />
+  </canvasNode>
+  <canvasNode id="8032f399-4762-4ae6-a843-6b7b177573a0">
+    <location x="782.5" y="674.1823" />
+  </canvasNode>
+  <canvasNode id="3f0183f9-3ccd-45fa-bb67-37198c5a03c0">
+    <location x="912.5" y="73" />
+  </canvasNode>
+  <canvasNode id="c4e8a4e7-fbfb-4ce1-92ae-1c3d46eff082">
+    <location x="665.5" y="218" />
+  </canvasNode>
+  <canvasNode id="ecd5a4aa-3fdd-481f-8d2b-689697d35e0d">
+    <location x="726.5" y="488" />
+  </canvasNode>
+  <canvasNode id="78031075-dfb4-49b4-97bf-3e77cb35f24f">
+    <location x="250" y="303" />
+  </canvasNode>
+  <canvasNode id="a9e1d451-c55e-4b03-b2db-0678ec755b17">
+    <location x="114.5" y="479" />
+  </canvasNode>
+  <canvasNode id="8e8210c5-89ba-4e86-9d5f-d3e1781ca5a7">
+    <location x="254" y="68" />
+  </canvasNode>
+  <canvasNode id="12884e30-210f-455a-a10c-ae4f63b0a06f">
+    <location x="446.5" y="9" />
+  </canvasNode>
+  <canvasNode id="d3ea2deb-4476-439c-a9e0-658d1600d0f5">
+    <location x="251.5" y="133" />
+  </canvasNode>
+  <canvasNode id="5dad0cfc-2bd8-4b53-acbc-94b856295536">
+    <location x="333" y="207" />
+  </canvasNode>
+  <canvasNode id="7ffef68c-de9e-4563-9aea-778f6991458e">
+    <location x="554.5" y="724" />
+  </canvasNode>
+  <canvasNode id="94acb602-a443-4682-aa3d-dd51fcba4fff">
+    <location x="267" y="522" />
+  </canvasNode>
+  <canvasNode id="538c0e74-3a7d-4f71-8d0d-8695a5a3768a">
+    <location x="160" y="718" />
+  </canvasNode>
+  <canvasNode id="51f65d7f-3dba-4995-9361-5eed81e5ec83">
+    <location x="330" y="647" />
+  </canvasNode>
+  <canvasNode id="894cb4b1-eecc-40d2-b460-16ab8a38655d">
+    <location x="104" y="356" />
+  </canvasNode>
+  <canvasNode id="2e694009-ea77-4303-af00-73cb651afb31">
+    <location x="416" y="650" />
+  </canvasNode>
+  <canvasNode id="13e983df-4388-4ac4-820c-6b81f7ddf7d3">
+    <location x="245" y="647" />
+  </canvasNode>
+  <canvasNode id="ac5a94b3-ab1f-4540-b0c3-5f15d4dce4f2">
+    <location x="79.11133" y="-3.546875" />
+  </canvasNode>
+  <canvasNode id="6e5141ce-79c3-4de2-b2cc-45d014fa6b4a">
+    <location x="359.5" y="3" />
+  </canvasNode>
+  <canvasNode id="75f79378-9d7a-490e-925f-93a8454b051c">
+    <location x="192" y="213" />
+  </canvasNode>
+  <canvasNode id="37bcd973-7274-4c58-9f37-d2eabcbe7614">
+    <location x="354" y="304" />
+  </canvasNode>
+  <canvasNode id="9797f41e-31e3-4211-9d71-c6df009b4f5b">
+    <location x="190.5" y="522" />
+  </canvasNode>
+  <canvasNode id="aa728b3d-1eeb-43b6-8d93-286520120b91">
+    <location x="382.7194" y="520" />
+  </canvasNode>
+  <canvasNode id="37d1d03a-c04b-4872-9893-88bcf44cf926">
+    <location x="1033" y="70" />
+  </canvasNode>
+  <canvasNode id="c761d5a0-e6ae-40e0-ba32-4badcec81adc">
+    <location x="-100.3887" y="45.13477" />
+  </canvasNode>
+  <canvasNode id="6ed1bd22-b4c5-4994-947c-85b61c8ecffd">
+    <location x="80.5" y="216" />
+  </canvasNode>
+  <canvasNode id="d18bb5ae-bda3-43d2-ac19-71778d7ac6ed">
+    <location x="156" y="127" />
+  </canvasNode>
+  <canvasNode id="f3bd32eb-76c4-472c-9f8f-5a555692a1df">
+    <location x="663" y="712" />
+  </canvasNode>
+  <canvasNode id="038cf0e0-e3dd-49c1-81d5-2c0318a42928">
+    <location x="780.5" y="137" />
+  </canvasNode>
+  <canvasNode id="d8dff517-912d-4440-a131-bce63eaabb70">
+    <location x="461" y="307" />
+  </canvasNode>
+  <canvasNode id="1d13c87e-43bd-4db0-8d02-705d0afde869">
+    <location x="491" y="520" />
+  </canvasNode>
+  <canvasNode id="76a2e803-20a3-481e-99fd-1fb3b80ef074">
+    <location x="489" y="641" />
+  </canvasNode>
+  <canvasNode id="760e34bd-62da-4ff7-a8bb-3f16c5521a53">
+    <location x="960" y="569" />
+  </canvasNode>
+  <canvasNode id="7d60c20f-6f33-45c6-b8ba-06d359fefd26">
+    <location x="970" y="734" />
+  </canvasNode>
+  <canvasLink fromPortID="9567ca7c-ce22-430c-a314-4e3f29925412" toPortID="f8876ec3-2b9f-474f-834d-90d4c0c256d1" />
+  <canvasLink fromPortID="b2753128-59e5-4893-a99d-f5aa3623bdb7" toPortID="808ec3fb-aeb7-483e-a8a2-2c097953e546" />
+  <canvasLink fromPortID="7425e36e-d5f7-4de7-b9ce-f51d2e6c2d82" toPortID="0298755a-9a9f-454b-aeb6-977a24176dc7" />
+  <canvasLink fromPortID="520244a8-d13a-432a-a5df-5d8704b15408" toPortID="5f00cadb-ff94-43f6-bf70-4e3cdb6c8e4e" />
+  <canvasLink fromPortID="b8f2169b-7d52-4c28-9dd7-863817a859a7" toPortID="6eb18cf2-2a96-4970-a5ea-42192d66545d" />
+  <canvasLink fromPortID="0c66ebb5-1aeb-462f-a97e-5d0b62e82000" toPortID="8f4194f9-ad87-49b2-96a3-a6be6cbfbdfc" />
+  <canvasLink fromPortID="9a5cca06-0136-40d7-bc69-c4224307d6ed" toPortID="95bc93a3-91eb-4bd0-abcb-3441a0ed6e1e" />
+  <canvasLink fromPortID="8f08f585-5df8-46b5-a741-5b3347fc00a0" toPortID="a8880767-b01e-458e-8f4e-44a2b1a06e1e" />
+  <canvasLink fromPortID="3e3f9b77-644e-467b-9067-5d0031ba6a01" toPortID="f852111a-633f-4fe6-9ae6-3233c19b7c44" />
+  <canvasLink fromPortID="08d5eefa-4ac6-45f5-936e-abe535de7eca" toPortID="9ca82ab8-4ffc-4b99-b3aa-f566de6999b4" />
+  <canvasLink fromPortID="a18c4697-a42a-43f2-b78e-278185e7a5c3" toPortID="5cbce397-b860-48e1-9e46-48ec53c1d247" />
+  <canvasLink fromPortID="4d4f4047-81ee-484a-91e2-b86aadca7a3a" toPortID="7d951646-773b-4dae-b54f-ce7b94f62e59" />
+  <canvasLink fromPortID="4d3463d3-a961-41d4-8051-5f0f4d77db4f" toPortID="421d65dc-c210-4736-8c32-a7ea12081c1b" />
+  <canvasLink fromPortID="83dedd03-f4f5-4e5f-9ecb-795adc11a1e3" toPortID="d7672803-077b-4f29-9395-833dd6ec9990" />
+  <canvasLink fromPortID="dcfda51f-5541-4a3c-a08f-c2620db08d4b" toPortID="43c8f61a-c901-4394-bab2-29aea46d64c1" />
+  <canvasLink fromPortID="77e6030f-5c8c-4fef-9893-1332a183d526" toPortID="e0bdde63-1b9b-4635-8046-ded2ca71ea6c" />
+  <canvasLink fromPortID="12e157d6-ddc0-470a-82b2-ef73511b3431" toPortID="a1651846-df0f-43cc-be51-bfc8d1c6cdf3" />
+  <canvasLink fromPortID="f7fefee2-ed1d-4131-baeb-76d10beb85ae" toPortID="c8796fb5-3c82-44ff-92b9-3dbedc304fcb" />
+  <canvasLink fromPortID="a523e0fb-1827-4879-b6b8-28614c17b641" toPortID="57d4e4db-60b7-4584-b7eb-4a82bdb8f6b1" />
+  <canvasLink fromPortID="f6e00b30-14ee-40ef-beef-fcc6ed3f2081" toPortID="3a59e850-a27b-4b86-8778-00191dbe7d6e" />
+  <canvasLink fromPortID="2e4a870d-f781-4edc-8c2c-4beebc7ba73f" toPortID="ba0b9ddd-4bc0-482a-9455-7523f1aff5d8" />
+  <canvasLink fromPortID="e1653f12-be0f-40c4-b552-b8780cc3dff9" toPortID="7f09efe3-318a-46e1-998b-7fc1e0b02e7e" />
+  <canvasLink fromPortID="30243f49-20e7-483f-8a90-d47d31177506" toPortID="8b50f916-067a-4b37-aaa3-dfe69a93d237" />
+  <canvasLink fromPortID="4da84ab3-fb5a-4ac6-aa0b-606efe095956" toPortID="3972e86c-9050-45a6-96cd-741e16080f3c" />
+  <canvasLink fromPortID="2bce77ae-4eab-4f10-b9e1-90baecd854c2" toPortID="f81a2941-e2b8-4828-b54d-4ac1512110c1" />
+  <canvasLink fromPortID="eaf585ad-c671-479f-95f4-d1ac187d69bc" toPortID="94d7e9f8-7f07-4fea-9699-304f9731b61d" />
+  <canvasLink fromPortID="33a8c036-cb49-4f24-87fa-895726125aec" toPortID="75bb54cb-95d3-4940-95be-ef738c772ca5" />
+  <canvasLink fromPortID="cb531bba-5680-4794-95e8-e85a343421f4" toPortID="1f538dc9-48c4-4492-8b20-da05436741c6" />
+  <canvasLink fromPortID="a3a05569-feb7-48db-839f-6ca933f750aa" toPortID="2f23e187-b628-4e52-8592-0493a40b5307" />
+  <canvasLink fromPortID="e3b186c3-27cc-425e-b710-49bbb3943154" toPortID="34e6836e-6bf9-4400-b3ca-1aaa939e33af" />
+  <canvasLink fromPortID="84aefe18-e9f5-4ac7-bca1-a468b842fd02" toPortID="3df5e13c-3e98-4bd0-83e3-d8cbbd5775b8" />
+  <canvasLink fromPortID="58338946-8e39-494e-a4f9-9ad299152c78" toPortID="7f84d336-8322-48a4-851d-45744585d2d1" />
+  <canvasLink fromPortID="6a616b75-82e0-4cbc-a2fc-58ee4bf8b603" toPortID="933ad49b-33b1-4713-9913-baa45d6ca5c6" />
+  <canvasLink fromPortID="362a01c2-5857-4ae1-9264-496cba4b328d" toPortID="c406a159-51da-48d1-9b8d-f348e5556016" />
+  <canvasLink fromPortID="1727ab5f-0bcb-4db2-aa6f-060a8a804ae2" toPortID="9df8d23b-bad6-429d-9b72-f6dcf452148f" />
+  <canvasLink fromPortID="485530cd-5bb1-407f-8112-acb1ed33ac75" toPortID="5508f41b-8594-4418-ae81-98ca8c1e9a88" />
+  <canvasLink fromPortID="0dcaefa3-cd3b-4cbd-86d5-c7e907c5107b" toPortID="9e6dad78-98c3-46c4-8bf4-5b3aafd8c110" />
+  <canvasLink fromPortID="4add5786-c19e-41b1-9821-462d6de06fbd" toPortID="da8dfe69-e5a8-422f-8779-1793745f92ee" />
+  <canvasLink fromPortID="3c46c4e8-d1e9-4a97-a0e0-b96b1270492a" toPortID="742e1324-4f73-49aa-b184-6aacce77d921" />
+</viewData>]]></value></property></properties><stages><stage id="7d60c20f-6f33-45c6-b8ba-06d359fefd26"><stage_name>sink</stage_name><stage_version/><label>SI File Copy 4 Audit</label><num_instances>1</num_instances><distributed>false</distributed><batch_size>10000</batch_size><settings><![CDATA[<?xml version="1.0" encoding="utf-16"?>
+<SinkSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="2.5">
+  <monitorProgress>false</monitorProgress>
+  <outputMode>1</outputMode>
+  <truncateTable>false</truncateTable>
+  <dropTable>false</dropTable>
+  <batchCommitThreshold>1</batchCommitThreshold>
+  <progressThreshold>0</progressThreshold>
+  <dataSourceMetadata>
+    <CSVMetadata>
+      <encoding>UTF-8</encoding>
+      <host />
+      <path>G:/_MasterCard_POI_2018/INDIA_Services/OutputData/CAN/WPPOI_SI_AUDIT_CAN.csv</path>
+      <port>-1</port>
+      <protocol>esfile</protocol>
+      <delimiter>002C</delimiter>
+      <textQualifier>0022</textQualifier>
+      <skipFirstRow>true</skipFirstRow>
+      <lineSeparator />
+      <strictlyEnforceColumnCount>true</strictlyEnforceColumnCount>
+      <fields>
+        <field>
+          <name>pb_id</name>
+          <required>false</required>
+          <type>string</type>
+          <pattern />
+        </field>
+        <field>
+          <name>MK_RegNm_PostCd</name>
+          <required>false</required>
+          <type>string</type>
+          <pattern />
+        </field>
+        <field>
+          <name>MK_TradeNm_PostCd</name>
+          <required>false</required>
+          <type>string</type>
+          <pattern />
+        </field>
+        <field>
+          <name>MK_BrandNm_PostCd</name>
+          <required>false</required>
+          <type>string</type>
+          <pattern />
+        </field>
+        <field>
+          <name>MK_Phone</name>
+          <required>false</required>
+          <type>string</type>
+          <pattern />
+        </field>
+        <field>
+          <name>MK_PostCd</name>
+          <required>false</required>
+          <type>string</type>
+          <pattern />
+        </field>
+        <field>
+          <name>EntityAddressLastLine</name>
+          <required>false</required>
+          <type>string</type>
+          <pattern />
+        </field>
+        <field>
+          <name>EntityBrandName</name>
+          <required>false</required>
+          <type>string</type>
+          <pattern />
+        </field>
+        <field>
+          <name>EntityCity</name>
+          <required>false</required>
+          <type>string</type>
+          <pattern />
+        </field>
+        <field>
+          <name>EntityCountryISO3</name>
+          <required>false</required>
+          <type>string</type>
+          <pattern />
+        </field>
+        <field>
+          <name>EntityEmail</name>
+          <required>false</required>
+          <type>string</type>
+          <pattern />
+        </field>
+        <field>
+          <name>EntityMainAddressLine</name>
+          <required>false</required>
+          <type>string</type>
+          <pattern />
+        </field>
+        <field>
+          <name>EntityPhoneNumber</name>
+          <required>false</required>
+          <type>string</type>
+          <pattern />
+        </field>
+        <field>
+          <name>EntityPostcode</name>
+          <required>false</required>
+          <type>string</type>
+          <pattern />
+        </field>
+        <field>
+          <name>EntityRegisteredName</name>
+          <required>false</required>
+          <type>string</type>
+          <pattern />
+        </field>
+        <field>
+          <name>EntityRegisteredSuffix</name>
+          <required>false</required>
+          <type>string</type>
+          <pattern />
+        </field>
+        <field>
+          <name>EntitySIC1</name>
+          <required>false</required>
+          <type>string</type>
+          <pattern />
+        </field>
+        <field>
+          <name>EntitySIC8Description</name>
+          <required>false</required>
+          <type>string</type>
+          <pattern />
+        </field>
+        <field>
+          <name>EntityState</name>
+          <required>false</required>
+          <type>string</type>
+          <pattern />
+        </field>
+        <field>
+          <name>EntityStabb</name>
+          <required>false</required>
+          <type>string</type>
+          <pattern />
+        </field>
+        <field>
+          <name>EntityTradeName</name>
+          <required>false</required>
+          <type>string</type>
+          <pattern />
+        </field>
+        <field>
+          <name>EntityTradeSuffix</name>
+          <required>false</required>
+          <type>string</type>
+          <pattern />
+        </field>
+        <field>
+          <name>Status</name>
+          <required>false</required>
+          <type>string</type>
+          <pattern />
+        </field>
+        <field>
+          <name>Status.Code</name>
+          <required>false</required>
+          <type>string</type>
+          <pattern />
+        </field>
+        <field>
+          <name>Status.Description</name>
+          <required>false</required>
+          <type>string</type>
+          <pattern />
+        </field>
+        <field>
+          <name>MK_StateCity</name>
+          <required>false</required>
+          <type>string</type>
+          <pattern />
+        </field>
+        <field>
+          <name>EntityStreetName</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>EntityStreetSuffix</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>EntityHouseNumber</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>EntityLeadingDirectional</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>EntityTrailingDirectional</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>EntityBrandSuffix</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+      </fields>
+    </CSVMetadata>
+  </dataSourceMetadata>
+  <sortColumns />
+  <enableMultiFile>false</enableMultiFile>
+  <fieldMultiFile />
+</SinkSettings>]]></settings><input_ports><input_port id="da8dfe69-e5a8-422f-8779-1793745f92ee"><channel idref="b76dfee6-fb0c-44df-9662-191bcb1e8b60"/><label>input_port</label><port_name>input_port</port_name></input_port></input_ports><options/><output_ports/><properties><property><name>ViewData</name><value><![CDATA[IsRemote=T]]></value></property><property><name>stageItemName</name><value><![CDATA[fileSink]]></value></property></properties></stage><stage id="7ffef68c-de9e-4563-9aea-778f6991458e"><stage_name>collector</stage_name><stage_version/><label>SC5</label><num_instances>1</num_instances><distributed>false</distributed><batch_size>10000</batch_size><input_ports><input_port id="933ad49b-33b1-4713-9913-baa45d6ca5c6"><channel idref="e1269048-b269-4265-9dac-ed74659e750e"/><label>port 5</label><port_name/></input_port><input_port id="c406a159-51da-48d1-9b8d-f348e5556016"><channel idref="f9da781f-6e43-4f69-ab3e-3fb50b417298"/><label>port 6</label><port_name/></input_port></input_ports><options/><output_ports><output_port id="1727ab5f-0bcb-4db2-aa6f-060a8a804ae2"><channel idref="4cb2aab1-ae3b-41d0-a8b9-c07baa456981"/><label>output_port</label><port_name>output_port</port_name></output_port></output_ports><properties><property><name>stageItemName</name><value><![CDATA[collector]]></value></property></properties></stage><stage id="13e983df-4388-4ac4-820c-6b81f7ddf7d3"><stage_name>transformer</stage_name><stage_version/><label>TR7</label><num_instances>1</num_instances><distributed>false</distributed><batch_size>10000</batch_size><settings><![CDATA[<?xml version="1.0" encoding="utf-16"?>
+<TransformerSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="3.0">
+  <transformDefinitions>
+    <transformDefinition>
+      <name>Copy</name>
+      <script>data[toColumn] = data.getClone(fromColumn);</script>
+      <transformParameters>
+        <transformParameter>
+          <name>fromColumn</name>
+          <type>Object</type>
+          <value>BrandName</value>
+        </transformParameter>
+        <transformParameter>
+          <name>toColumn</name>
+          <type>Object</type>
+          <value>Name</value>
+        </transformParameter>
+      </transformParameters>
+      <transformFields />
+    </transformDefinition>
+  </transformDefinitions>
+</TransformerSettings>]]></settings><input_ports><input_port id="2f23e187-b628-4e52-8592-0493a40b5307"><channel idref="57d28772-b338-4dbe-85e7-7b891539a8fe"/><label>input_port</label><port_name>input_port</port_name></input_port></input_ports><options/><output_ports><output_port id="e3b186c3-27cc-425e-b710-49bbb3943154"><channel idref="d8e2fdc7-078a-4aea-af71-01874d1c9b72"/><label>output_port</label><port_name>output_port</port_name></output_port></output_ports><properties><property><name>stageItemName</name><value><![CDATA[transformer]]></value></property></properties></stage><stage id="894cb4b1-eecc-40d2-b460-16ab8a38655d"><stage_name>router</stage_name><stage_version/><label>Reg Name null?</label><num_instances>1</num_instances><distributed>false</distributed><batch_size>10000</batch_size><settings><![CDATA[<?xml version="1.0" encoding="utf-16"?>
+<RouterSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="2.5">
+  <outputCopy>false</outputCopy>
+  <singleOutput>false</singleOutput>
+  <portExpressions>
+    <portExpression>
+      <portId>77e6030f-5c8c-4fef-9893-1332a183d526</portId>
+      <expression>return isNotEmpty(data.get('FirmName'));
+      
+def boolean isNotEmpty(String field)
+{
+  try
+  {
+    return field != null &amp;&amp; field.trim().length() != 0;
+  }
+  catch (Exception)
+  {
+    return false;
+  }
+}
+    </expression>
+      <ViewData>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ExpressionBuilderInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;CombineMethod&gt;All&lt;/CombineMethod&gt;
+  &lt;ExpressionDetailInfo&gt;
+    &lt;ExpressionDetails&gt;
+      &lt;ExpressionField&gt;FirmName&lt;/ExpressionField&gt;
+      &lt;ExpressionOperator&gt;is not empty&lt;/ExpressionOperator&gt;
+      &lt;ExpressionValue /&gt;
+      &lt;comparisonType&gt;VALUE&lt;/comparisonType&gt;
+    &lt;/ExpressionDetails&gt;
+  &lt;/ExpressionDetailInfo&gt;
+&lt;/ExpressionBuilderInfo&gt;</ViewData>
+    </portExpression>
+    <portExpression>
+      <portId>f6e00b30-14ee-40ef-beef-fcc6ed3f2081</portId>
+      <expression>default</expression>
+      <ViewData>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ExpressionBuilderInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;CombineMethod /&gt;
+  &lt;ExpressionDetailInfo /&gt;
+&lt;/ExpressionBuilderInfo&gt;</ViewData>
+    </portExpression>
+  </portExpressions>
+</RouterSettings>]]></settings><input_ports><input_port id="43c8f61a-c901-4394-bab2-29aea46d64c1"><channel idref="7b804921-dba0-45f2-a100-1ae61a24b365"/><label>input_port</label><port_name>input_port</port_name></input_port></input_ports><options/><output_ports><output_port id="77e6030f-5c8c-4fef-9893-1332a183d526"><channel idref="06acf188-bba7-428a-bee8-6e78b026415a"/><label>port</label><port_name/></output_port><output_port id="f6e00b30-14ee-40ef-beef-fcc6ed3f2081"><channel idref="972af5c6-6fa8-4457-9c32-4d718ffbfef1"/><label>port 3</label><port_name/></output_port></output_ports><properties><property><name>stageItemName</name><value><![CDATA[router]]></value></property></properties></stage><stage id="2e694009-ea77-4303-af00-73cb651afb31"><stage_name>transformer</stage_name><stage_version/><label>TR8</label><num_instances>1</num_instances><distributed>false</distributed><batch_size>10000</batch_size><settings><![CDATA[<?xml version="1.0" encoding="utf-16"?>
+<TransformerSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="3.0">
+  <transformDefinitions>
+    <transformDefinition>
+      <name>Custom</name>
+      <script>def parsed = data['IsParsed'];
+
+if (parsed==false)
+{
+	data['brandname'] = data['Name']
+}
+else
+{
+	data['brandname'] = data['FirmName']
+	data['brandsuffix'] = data['FirmSuffix']
+	
+}</script>
+      <transformParameters>
+        <transformParameter>
+          <name>outputColumn</name>
+          <type>string</type>
+          <value>brandname</value>
+        </transformParameter>
+        <transformParameter>
+          <name>outputColumn</name>
+          <type>string</type>
+          <value>brandsuffix</value>
+        </transformParameter>
+        <transformParameter>
+          <name>transformName</name>
+          <type>string</type>
+          <value>copy name back to firm name</value>
+        </transformParameter>
+      </transformParameters>
+      <transformFields>
+        <transformField>
+          <name>brandname</name>
+          <type>string</type>
+          <fieldType xsi:type="SimpleFieldTypeInternal">
+            <name>string</name>
+          </fieldType>
+        </transformField>
+        <transformField>
+          <name>brandsuffix</name>
+          <type>string</type>
+          <fieldType xsi:type="SimpleFieldTypeInternal">
+            <name>string</name>
+          </fieldType>
+        </transformField>
+      </transformFields>
+    </transformDefinition>
+  </transformDefinitions>
+</TransformerSettings>]]></settings><input_ports><input_port id="3df5e13c-3e98-4bd0-83e3-d8cbbd5775b8"><channel idref="395ffdab-f4b5-4c10-a4e8-985f6114ba8e"/><label>input_port</label><port_name>input_port</port_name></input_port></input_ports><options/><output_ports><output_port id="58338946-8e39-494e-a4f9-9ad299152c78"><channel idref="e3ffe73b-a93c-4b6e-ba6b-ed75ce7f1565"/><label>output_port</label><port_name>output_port</port_name></output_port></output_ports><properties><property><name>stageItemName</name><value><![CDATA[transformer]]></value></property></properties></stage><stage id="aa728b3d-1eeb-43b6-8d93-286520120b91"><stage_name>transformer</stage_name><stage_version/><label>TR6</label><num_instances>1</num_instances><distributed>false</distributed><batch_size>10000</batch_size><settings><![CDATA[<?xml version="1.0" encoding="utf-16"?>
+<TransformerSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="3.0">
+  <transformDefinitions>
+    <transformDefinition>
+      <name>Custom</name>
+      <script>def parsed = data['IsParsed'];
+
+if (parsed==false)
+{
+	data['tradename'] = data['Name']
+}
+else
+{
+	data['tradename'] = data['FirmName']
+	data['tradesuffix'] = data['FirmSuffix']
+	
+}</script>
+      <transformParameters>
+        <transformParameter>
+          <name>outputColumn</name>
+          <type>string</type>
+          <value>tradename</value>
+        </transformParameter>
+        <transformParameter>
+          <name>outputColumn</name>
+          <type>string</type>
+          <value>tradesuffix</value>
+        </transformParameter>
+        <transformParameter>
+          <name>transformName</name>
+          <type>string</type>
+          <value>copy name back to firm name</value>
+        </transformParameter>
+      </transformParameters>
+      <transformFields>
+        <transformField>
+          <name>tradename</name>
+          <type>string</type>
+          <fieldType xsi:type="SimpleFieldTypeInternal">
+            <name>string</name>
+          </fieldType>
+        </transformField>
+        <transformField>
+          <name>tradesuffix</name>
+          <type>string</type>
+          <fieldType xsi:type="SimpleFieldTypeInternal">
+            <name>string</name>
+          </fieldType>
+        </transformField>
+      </transformFields>
+    </transformDefinition>
+  </transformDefinitions>
+</TransformerSettings>]]></settings><input_ports><input_port id="f81a2941-e2b8-4828-b54d-4ac1512110c1"><channel idref="e3416ab7-9f6f-451b-968e-78f4a7f91165"/><label>input_port</label><port_name>input_port</port_name></input_port></input_ports><options/><output_ports><output_port id="eaf585ad-c671-479f-95f4-d1ac187d69bc"><channel idref="0edfeddf-8780-41d4-85a3-65fa34d516ab"/><label>output_port</label><port_name>output_port</port_name></output_port></output_ports><properties><property><name>stageItemName</name><value><![CDATA[transformer]]></value></property></properties></stage><stage id="51f65d7f-3dba-4995-9361-5eed81e5ec83"><stage_name>OpenNameParser</stage_name><stage_version/><label>ONP3</label><num_instances>1</num_instances><distributed>false</distributed><batch_size>10000</batch_size><input_ports><input_port id="34e6836e-6bf9-4400-b3ca-1aaa939e33af"><channel idref="d8e2fdc7-078a-4aea-af71-01874d1c9b72"/><label>input_port</label><port_name>input_port</port_name></input_port></input_ports><options><option><name>BusinessNamesDomain</name><value>Name Parsing - Business Names</value></option><option><name>ParseNaturalOrderPersonalNames</name><value>false</value></option><option><name>NaturalOrderPersonalNamesDomain</name><value>Name Parsing - Natural Order Personal Names</value></option><option><name>ReverseOrderConjoinedPersonalNamesDomain</name><value>Name Parsing - Reverse Order Conjoined Personal Names</value></option><option><name>ShortcutThreshold</name><value>100</value></option><option><name>SplitConjoinedNames</name><value>False</value></option><option><name>NaturalOrderConjoinedPersonalNamesDomain</name><value>Name Parsing - Natural Order Conjoined Personal Names</value></option><option><name>ParseConjoinedNames</name><value>False</value></option><option><name>BusinessNamesPriority</name><value>5</value></option><option><name>ParseReverseOrderPersonalNames</name><value>false</value></option><option><name>NaturalOrderConjoinedPersonalNamesPriority</name><value>2</value></option><option><name>NaturalOrderPersonalNamesPriority</name><value>1</value></option><option><name>ParseBusinessNames</name><value>True</value></option><option><name>ReverseOrderPersonalNamesDomain</name><value>Name Parsing - Reverse Order Personal Names</value></option><option><name>OutputAsList</name><value>False</value></option><option><name>DefaultCulture</name><value/></option><option><name>ReverseOrderConjoinedPersonalNamesPriority</name><value>4</value></option><option><name>ReverseOrderPersonalNamesPriority</name><value>3</value></option></options><output_ports><output_port id="84aefe18-e9f5-4ac7-bca1-a468b842fd02"><channel idref="395ffdab-f4b5-4c10-a4e8-985f6114ba8e"/><label>output_port</label><port_name>output_port</port_name></output_port></output_ports><properties><property><name>stageItemName</name><value><![CDATA[OpenNameParser]]></value></property></properties></stage><stage id="c4e8a4e7-fbfb-4ce1-92ae-1c3d46eff082"><stage_name>collector</stage_name><stage_version/><label>SC2</label><num_instances>1</num_instances><distributed>false</distributed><batch_size>10000</batch_size><input_ports><input_port id="7d951646-773b-4dae-b54f-ce7b94f62e59"><channel idref="129d775a-f67b-4c30-b086-3cc9dfff46b7"/><label>port</label><port_name/></input_port><input_port id="d7672803-077b-4f29-9395-833dd6ec9990"><channel idref="7b20dc45-dbac-423f-b0e6-61c649187c0e"/><label>port 3</label><port_name/></input_port></input_ports><options/><output_ports><output_port id="dcfda51f-5541-4a3c-a08f-c2620db08d4b"><channel idref="7b804921-dba0-45f2-a100-1ae61a24b365"/><label>output_port</label><port_name>output_port</port_name></output_port></output_ports><properties><property><name>stageItemName</name><value><![CDATA[collector]]></value></property></properties></stage><stage id="9797f41e-31e3-4211-9d71-c6df009b4f5b"><stage_name>transformer</stage_name><stage_version/><label>TR5</label><num_instances>1</num_instances><distributed>false</distributed><batch_size>10000</batch_size><settings><![CDATA[<?xml version="1.0" encoding="utf-16"?>
+<TransformerSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="3.0">
+  <transformDefinitions>
+    <transformDefinition>
+      <name>Copy</name>
+      <script>data[toColumn] = data.getClone(fromColumn);</script>
+      <transformParameters>
+        <transformParameter>
+          <name>fromColumn</name>
+          <type>Object</type>
+          <value>Trade_Name</value>
+        </transformParameter>
+        <transformParameter>
+          <name>toColumn</name>
+          <type>Object</type>
+          <value>Name</value>
+        </transformParameter>
+      </transformParameters>
+      <transformFields />
+    </transformDefinition>
+  </transformDefinitions>
+</TransformerSettings>]]></settings><input_ports><input_port id="8b50f916-067a-4b37-aaa3-dfe69a93d237"><channel idref="e20adef1-333d-41b0-ba7a-b281e2703224"/><label>input_port</label><port_name>input_port</port_name></input_port></input_ports><options/><output_ports><output_port id="4da84ab3-fb5a-4ac6-aa0b-606efe095956"><channel idref="9a240956-fa2d-453c-8847-1275fda41967"/><label>output_port</label><port_name>output_port</port_name></output_port></output_ports><properties><property><name>stageItemName</name><value><![CDATA[transformer]]></value></property></properties></stage><stage id="75f79378-9d7a-490e-925f-93a8454b051c"><stage_name>transformer</stage_name><stage_version/><label>TR3</label><num_instances>1</num_instances><distributed>false</distributed><batch_size>10000</batch_size><settings><![CDATA[<?xml version="1.0" encoding="utf-16"?>
+<TransformerSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="3.0">
+  <transformDefinitions>
+    <transformDefinition>
+      <name>Custom</name>
+      <script>if (data.Status)
+{
+	data.AddressLine1 = data.mainAddressLine;
+	data.AddressLine2 = data.addressLastLine;
+	data.AddressLine3 = data.areaName4;
+	data.City = data.areaName3;
+	data.StateProvince = data.areaName1;
+	data.PostalCode = data.Postcode;
+}</script>
+      <transformParameters>
+        <transformParameter>
+          <name>transformName</name>
+          <type>string</type>
+          <value>Copy failed address</value>
+        </transformParameter>
+      </transformParameters>
+      <transformFields />
+    </transformDefinition>
+  </transformDefinitions>
+</TransformerSettings>]]></settings><input_ports><input_port id="f852111a-633f-4fe6-9ae6-3233c19b7c44"><channel idref="1b474a8d-5b40-4a3f-9267-9ff506e7a4cf"/><label>input_port</label><port_name>input_port</port_name></input_port></input_ports><options/><output_ports><output_port id="08d5eefa-4ac6-45f5-936e-abe535de7eca"><channel idref="55f9bcf1-19a1-4310-9b62-facff1f5a992"/><label>output_port</label><port_name>output_port</port_name></output_port></output_ports><properties><property><name>stageItemName</name><value><![CDATA[transformer]]></value></property></properties></stage><stage id="12884e30-210f-455a-a10c-ae4f63b0a06f"><stage_name>MatchKeyGenerator</stage_name><stage_version/><label>MK_Phone</label><num_instances>1</num_instances><distributed>false</distributed><batch_size>10000</batch_size><settings><![CDATA[<?xml version="1.0" encoding="utf-16" standalone="yes"?><HashGenerationSettings xmlns="http://g1.com/cdq/schema/matchkeygenerator-settings.xsd"><Rules expressMatchKey="False"><HashGenerationField value="MK_Phone" /><Rule><Algorithm value="SubString" /><Field value="PhoneNumber" /><Start value="1" /><Length value="8" /><RemoveNoiseChars value="Y" /><Active value="Y" /></Rule></Rules></HashGenerationSettings>]]></settings><input_ports><input_port id="5f00cadb-ff94-43f6-bf70-4e3cdb6c8e4e"><channel idref="27658073-f959-43d7-94e1-857bffe64cf1"/><label>input_port</label><port_name>input_port</port_name></input_port></input_ports><options/><output_ports><output_port id="b8f2169b-7d52-4c28-9dd7-863817a859a7"><channel idref="f3d6ebcb-4b57-44ba-8fc8-ac2734c7650a"/><label>output_port</label><port_name>output_port</port_name></output_port></output_ports><properties><property><name>stageItemName</name><value><![CDATA[MatchKeyGenerator]]></value></property></properties></stage><stage id="5dad0cfc-2bd8-4b53-acbc-94b856295536"><stage_name>MatchKeyGenerator</stage_name><stage_version/><label>MK_StateCity</label><num_instances>1</num_instances><distributed>false</distributed><batch_size>10000</batch_size><settings><![CDATA[<?xml version="1.0" encoding="utf-16" standalone="yes"?><HashGenerationSettings xmlns="http://g1.com/cdq/schema/matchkeygenerator-settings.xsd"><Rules expressMatchKey="False"><HashGenerationField value="MK_StateCity" /><Rule><Algorithm value="SubString" /><Field value="StateProvince" /><Start value="1" /><Length value="2" /><RemoveNoiseChars value="Y" /><Active value="Y" /></Rule><Rule><Algorithm value="SubString" /><Field value="City" /><Start value="1" /><Length value="8" /><RemoveNoiseChars value="Y" /><Active value="Y" /></Rule></Rules></HashGenerationSettings>]]></settings><input_ports><input_port id="421d65dc-c210-4736-8c32-a7ea12081c1b"><channel idref="8e0988d9-7a23-4a39-8006-f5893242c088"/><label>input_port</label><port_name>input_port</port_name></input_port></input_ports><options/><output_ports><output_port id="83dedd03-f4f5-4e5f-9ecb-795adc11a1e3"><channel idref="7b20dc45-dbac-423f-b0e6-61c649187c0e"/><label>output_port</label><port_name>output_port</port_name></output_port></output_ports><properties><property><name>stageItemName</name><value><![CDATA[MatchKeyGenerator]]></value></property></properties></stage><stage id="538c0e74-3a7d-4f71-8d0d-8695a5a3768a"><stage_name>router</stage_name><stage_version/><label>Brand Name null?</label><num_instances>1</num_instances><distributed>false</distributed><batch_size>10000</batch_size><settings><![CDATA[<?xml version="1.0" encoding="utf-16"?>
+<RouterSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="2.5">
+  <outputCopy>false</outputCopy>
+  <singleOutput>false</singleOutput>
+  <portExpressions>
+    <portExpression>
+      <portId>a3a05569-feb7-48db-839f-6ca933f750aa</portId>
+      <expression>return isNotEmpty(data.get('BrandName'));
+      
+def boolean isNotEmpty(String field)
+{
+  try
+  {
+    return field != null &amp;&amp; field.trim().length() != 0;
+  }
+  catch (Exception)
+  {
+    return false;
+  }
+}
+    </expression>
+      <ViewData>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ExpressionBuilderInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;CombineMethod&gt;All&lt;/CombineMethod&gt;
+  &lt;ExpressionDetailInfo&gt;
+    &lt;ExpressionDetails&gt;
+      &lt;ExpressionField&gt;BrandName&lt;/ExpressionField&gt;
+      &lt;ExpressionOperator&gt;is not empty&lt;/ExpressionOperator&gt;
+      &lt;ExpressionValue /&gt;
+      &lt;comparisonType&gt;VALUE&lt;/comparisonType&gt;
+    &lt;/ExpressionDetails&gt;
+  &lt;/ExpressionDetailInfo&gt;
+&lt;/ExpressionBuilderInfo&gt;</ViewData>
+    </portExpression>
+    <portExpression>
+      <portId>362a01c2-5857-4ae1-9264-496cba4b328d</portId>
+      <expression>default</expression>
+      <ViewData>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ExpressionBuilderInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;CombineMethod /&gt;
+&lt;/ExpressionBuilderInfo&gt;</ViewData>
+    </portExpression>
+  </portExpressions>
+</RouterSettings>]]></settings><input_ports><input_port id="1f538dc9-48c4-4492-8b20-da05436741c6"><channel idref="1110199d-ac90-49fe-80f4-993de6c4b803"/><label>input_port</label><port_name>input_port</port_name></input_port></input_ports><options/><output_ports><output_port id="a3a05569-feb7-48db-839f-6ca933f750aa"><channel idref="57d28772-b338-4dbe-85e7-7b891539a8fe"/><label>port</label><port_name/></output_port><output_port id="362a01c2-5857-4ae1-9264-496cba4b328d"><channel idref="f9da781f-6e43-4f69-ab3e-3fb50b417298"/><label>port 4</label><port_name/></output_port></output_ports><properties><property><name>stageItemName</name><value><![CDATA[router]]></value></property></properties></stage><stage id="760e34bd-62da-4ff7-a8bb-3f16c5521a53"><stage_name>indexsinkstage</stage_name><stage_version/><label>Create SI</label><num_instances>1</num_instances><distributed>false</distributed><batch_size>10000</batch_size><settings><![CDATA[<?xml version="1.0" encoding="utf-16"?>
+<indexBuilderConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <indexName>SI_WPPOI_CAN_New</indexName>
+  <indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>EntityBrandName</indexFieldName>
+      <name>EntityBrandName</name>
+      <stored>true</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>true</analyzed>
+      <fieldanalyzer>Keyword</fieldanalyzer>
+      <indexFieldName>EntityState</indexFieldName>
+      <name>EntityState</name>
+      <stored>true</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>true</analyzed>
+      <fieldanalyzer>Keyword</fieldanalyzer>
+      <indexFieldName>EntityCity</indexFieldName>
+      <name>EntityCity</name>
+      <stored>true</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>EntityLocality</indexFieldName>
+      <name>EntityLocality</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>EntityTradeDivision</indexFieldName>
+      <name>EntityTradeDivision</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>EntityGroup</indexFieldName>
+      <name>EntityGroup</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>EntityClass</indexFieldName>
+      <name>EntityClass</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>EntitySubClass</indexFieldName>
+      <name>EntitySubClass</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>EntitySIC8Description</indexFieldName>
+      <name>EntitySIC8Description</name>
+      <stored>true</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>EntityGlobalBusinessName</indexFieldName>
+      <name>EntityGlobalBusinessName</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>EntityRegisteredName</indexFieldName>
+      <name>EntityRegisteredName</name>
+      <stored>true</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>EntityTradeName</indexFieldName>
+      <name>EntityTradeName</name>
+      <stored>true</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>EntityCountryISO3</indexFieldName>
+      <name>EntityCountryISO3</name>
+      <stored>true</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>true</analyzed>
+      <fieldanalyzer>Keyword</fieldanalyzer>
+      <indexFieldName>EntityStabb</indexFieldName>
+      <name>EntityStabb</name>
+      <stored>true</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>true</analyzed>
+      <fieldanalyzer>Keyword</fieldanalyzer>
+      <indexFieldName>EntityPostcode</indexFieldName>
+      <name>EntityPostcode</name>
+      <stored>true</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>EntityFormattedAddress</indexFieldName>
+      <name>EntityFormattedAddress</name>
+      <stored>true</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>EntityMainAddressLine</indexFieldName>
+      <name>EntityMainAddressLine</name>
+      <stored>true</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>EntityAddressLastLine</indexFieldName>
+      <name>EntityAddressLastLine</name>
+      <stored>true</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>EntityTel_num</indexFieldName>
+      <name>EntityTel_num</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>EntityEmail</indexFieldName>
+      <name>EntityEmail</name>
+      <stored>true</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>EntitySIC1</indexFieldName>
+      <name>EntitySIC1</name>
+      <stored>true</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>EntityMICode</indexFieldName>
+      <name>EntityMICode</name>
+      <stored>true</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>EntityPhoneNumber</indexFieldName>
+      <name>EntityPhoneNumber</name>
+      <stored>true</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>EntityParentBusinessName</indexFieldName>
+      <name>EntityParentBusinessName</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>EntityParentAreaName3</indexFieldName>
+      <name>EntityParentAreaName3</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>EntityParentStreetAddress</indexFieldName>
+      <name>EntityParentStreetAddress</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>EntityParentCountry</indexFieldName>
+      <name>EntityParentCountry</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>EntityGlobalUltimateBusinessName</indexFieldName>
+      <name>EntityGlobalUltimateBusinessName</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>EntityGlobalUltimateAreaName3</indexFieldName>
+      <name>EntityGlobalUltimateAreaName3</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>EntityGlobalUltimateStreetAddress</indexFieldName>
+      <name>EntityGlobalUltimateStreetAddress</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>EntityGlobalUltimateCountry</indexFieldName>
+      <name>EntityGlobalUltimateCountry</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>EntityDomesticUltimateBusinessName</indexFieldName>
+      <name>EntityDomesticUltimateBusinessName</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>EntityDomesticUltimateStreetAddress</indexFieldName>
+      <name>EntityDomesticUltimateStreetAddress</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>EntityDomesticUltimateAreaName3</indexFieldName>
+      <name>EntityDomesticUltimateAreaName3</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>EntityDomesticUltimatePostcode</indexFieldName>
+      <name>EntityDomesticUltimatePostcode</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>EntityDomesticUltimateAreaName1</indexFieldName>
+      <name>EntityDomesticUltimateAreaName1</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>EntityGlobalUltimateAreaName1</indexFieldName>
+      <name>EntityGlobalUltimateAreaName1</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>EntityGlobalUltimatePostcode</indexFieldName>
+      <name>EntityGlobalUltimatePostcode</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>EntityParentAreaName1</indexFieldName>
+      <name>EntityParentAreaName1</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>EntityParentPostcode</indexFieldName>
+      <name>EntityParentPostcode</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>EntityTradeSuffix</indexFieldName>
+      <name>EntityTradeSuffix</name>
+      <stored>true</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>EntityRegisteredSuffix</indexFieldName>
+      <name>EntityRegisteredSuffix</name>
+      <stored>true</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>Status</indexFieldName>
+      <name>Status</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>Status.Code</indexFieldName>
+      <name>Status.Code</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>Status.Description</indexFieldName>
+      <name>Status.Description</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>name</indexFieldName>
+      <name>name</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>brandname</indexFieldName>
+      <name>brandname</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>true</analyzed>
+      <fieldanalyzer>Keyword</fieldanalyzer>
+      <indexFieldName>pb_id</indexFieldName>
+      <name>pb_id</name>
+      <stored>true</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>trade_name</indexFieldName>
+      <name>trade_name</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>franchise_name</indexFieldName>
+      <name>franchise_name</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>iso3</indexFieldName>
+      <name>iso3</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>areaname4</indexFieldName>
+      <name>areaname4</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>areaname3</indexFieldName>
+      <name>areaname3</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>areaname2</indexFieldName>
+      <name>areaname2</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>areaname1</indexFieldName>
+      <name>areaname1</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>stabb</indexFieldName>
+      <name>stabb</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>postcode</indexFieldName>
+      <name>postcode</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>formattedaddress</indexFieldName>
+      <name>formattedaddress</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>mainaddressline</indexFieldName>
+      <name>mainaddressline</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>addresslastline</indexFieldName>
+      <name>addresslastline</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>longitude</indexFieldName>
+      <name>longitude</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>latitude</indexFieldName>
+      <name>latitude</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>country_access_code</indexFieldName>
+      <name>country_access_code</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>tel_num</indexFieldName>
+      <name>tel_num</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>faxnum</indexFieldName>
+      <name>faxnum</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>email</indexFieldName>
+      <name>email</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>http</indexFieldName>
+      <name>http</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>open_24h</indexFieldName>
+      <name>open_24h</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>business_line</indexFieldName>
+      <name>business_line</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>sic1</indexFieldName>
+      <name>sic1</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>sic2</indexFieldName>
+      <name>sic2</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>sic8</indexFieldName>
+      <name>sic8</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>sic8_description</indexFieldName>
+      <name>sic8_description</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>micode</indexFieldName>
+      <name>micode</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>trade_division</indexFieldName>
+      <name>trade_division</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>Group</indexFieldName>
+      <name>Group</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>class</indexFieldName>
+      <name>class</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>sub_class</indexFieldName>
+      <name>sub_class</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>georesult</indexFieldName>
+      <name>georesult</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>confidence_code</indexFieldName>
+      <name>confidence_code</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>employee_here</indexFieldName>
+      <name>employee_here</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>employee_count</indexFieldName>
+      <name>employee_count</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>year_start</indexFieldName>
+      <name>year_start</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>sales_volume_local</indexFieldName>
+      <name>sales_volume_local</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>sales_volume_us_dollars</indexFieldName>
+      <name>sales_volume_us_dollars</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>currency_code</indexFieldName>
+      <name>currency_code</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>agent_code</indexFieldName>
+      <name>agent_code</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>legal_status_code</indexFieldName>
+      <name>legal_status_code</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>status_code</indexFieldName>
+      <name>status_code</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>subsidiary_indicator</indexFieldName>
+      <name>subsidiary_indicator</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>parent_business_name</indexFieldName>
+      <name>parent_business_name</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>parent_address</indexFieldName>
+      <name>parent_address</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>parent_street_address</indexFieldName>
+      <name>parent_street_address</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>parent_areaname3</indexFieldName>
+      <name>parent_areaname3</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>parent_areaname1</indexFieldName>
+      <name>parent_areaname1</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>parent_country</indexFieldName>
+      <name>parent_country</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>parent_postcode</indexFieldName>
+      <name>parent_postcode</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>domestic_ultimate_business_name</indexFieldName>
+      <name>domestic_ultimate_business_name</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>domestic_ultimate_address</indexFieldName>
+      <name>domestic_ultimate_address</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>domestic_ultimate_street_address</indexFieldName>
+      <name>domestic_ultimate_street_address</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>domestic_ultimate_areaname3</indexFieldName>
+      <name>domestic_ultimate_areaname3</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>domestic_ultimate_areaname1</indexFieldName>
+      <name>domestic_ultimate_areaname1</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>domestic_ultimate_postcode</indexFieldName>
+      <name>domestic_ultimate_postcode</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>global_ultimate_indicator</indexFieldName>
+      <name>global_ultimate_indicator</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>global_ultimate_business_name</indexFieldName>
+      <name>global_ultimate_business_name</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>global_ultimate_address</indexFieldName>
+      <name>global_ultimate_address</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>global_ultimate_street_address</indexFieldName>
+      <name>global_ultimate_street_address</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>global_ultimate_areaname3</indexFieldName>
+      <name>global_ultimate_areaname3</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>global_ultimate_areaname1</indexFieldName>
+      <name>global_ultimate_areaname1</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>global_ultimate_country</indexFieldName>
+      <name>global_ultimate_country</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>global_ultimate_postcode</indexFieldName>
+      <name>global_ultimate_postcode</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>family_members</indexFieldName>
+      <name>family_members</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>hierarchy_code</indexFieldName>
+      <name>hierarchy_code</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>ticker_symbol</indexFieldName>
+      <name>ticker_symbol</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>exchange_name</indexFieldName>
+      <name>exchange_name</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>ceo_name</indexFieldName>
+      <name>ceo_name</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>ceo_title
+</indexFieldName>
+      <name>ceo_title
+</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>PhoneParserScore</indexFieldName>
+      <name>PhoneParserScore</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>PhoneIsParsed</indexFieldName>
+      <name>PhoneIsParsed</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>PhoneNumber</indexFieldName>
+      <name>PhoneNumber</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>CountryCode</indexFieldName>
+      <name>CountryCode</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>CultureCode</indexFieldName>
+      <name>CultureCode</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>StandardizationTermIdentified</indexFieldName>
+      <name>StandardizationTermIdentified</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>registeredname</indexFieldName>
+      <name>registeredname</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>registeredsuffix</indexFieldName>
+      <name>registeredsuffix</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>Name</indexFieldName>
+      <name>Name</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>CultureCodeUsedToParse</indexFieldName>
+      <name>CultureCodeUsedToParse</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>IsParsed</indexFieldName>
+      <name>IsParsed</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>IsPersonal</indexFieldName>
+      <name>IsPersonal</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>IsConjoined</indexFieldName>
+      <name>IsConjoined</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>IsReverseOrder</indexFieldName>
+      <name>IsReverseOrder</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>IsFirm</indexFieldName>
+      <name>IsFirm</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>NameScore</indexFieldName>
+      <name>NameScore</name>
+      <stored>false</stored>
+      <type>integer</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>AccountDescription</indexFieldName>
+      <name>AccountDescription</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>LeadingData</indexFieldName>
+      <name>LeadingData</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>TrailingData</indexFieldName>
+      <name>TrailingData</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>FirmConjunction</indexFieldName>
+      <name>FirmConjunction</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>FirmName</indexFieldName>
+      <name>FirmName</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>FirmSuffix</indexFieldName>
+      <name>FirmSuffix</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>tradename</indexFieldName>
+      <name>tradename</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>false</analyzed>
+      <fieldanalyzer>Standard</fieldanalyzer>
+      <indexFieldName>tradesuffix</indexFieldName>
+      <name>tradesuffix</name>
+      <stored>false</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>true</analyzed>
+      <fieldanalyzer>Keyword</fieldanalyzer>
+      <indexFieldName>MK_BrandNm</indexFieldName>
+      <name>MK_BrandNm</name>
+      <stored>true</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>true</analyzed>
+      <fieldanalyzer>Keyword</fieldanalyzer>
+      <indexFieldName>MK_BrandNm_PostCd</indexFieldName>
+      <name>MK_BrandNm_PostCd</name>
+      <stored>true</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>true</analyzed>
+      <fieldanalyzer>Keyword</fieldanalyzer>
+      <indexFieldName>MK_Phone</indexFieldName>
+      <name>MK_Phone</name>
+      <stored>true</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>true</analyzed>
+      <fieldanalyzer>Keyword</fieldanalyzer>
+      <indexFieldName>MK_PostCd</indexFieldName>
+      <name>MK_PostCd</name>
+      <stored>true</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>true</analyzed>
+      <fieldanalyzer>Keyword</fieldanalyzer>
+      <indexFieldName>MK_RegNm</indexFieldName>
+      <name>MK_RegNm</name>
+      <stored>true</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>true</analyzed>
+      <fieldanalyzer>Keyword</fieldanalyzer>
+      <indexFieldName>MK_RegNm_PostCd</indexFieldName>
+      <name>MK_RegNm_PostCd</name>
+      <stored>true</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>true</analyzed>
+      <fieldanalyzer>Keyword</fieldanalyzer>
+      <indexFieldName>MK_TradeNm</indexFieldName>
+      <name>MK_TradeNm</name>
+      <stored>true</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>true</analyzed>
+      <fieldanalyzer>Keyword</fieldanalyzer>
+      <indexFieldName>MK_TradeNm_PostCd</indexFieldName>
+      <name>MK_TradeNm_PostCd</name>
+      <stored>true</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>true</analyzed>
+      <fieldanalyzer>Keyword</fieldanalyzer>
+      <indexFieldName>MK_StateCity</indexFieldName>
+      <name>MK_StateCity</name>
+      <stored>true</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>true</analyzed>
+      <fieldanalyzer>Keyword</fieldanalyzer>
+      <indexFieldName>EntityHouseNumber</indexFieldName>
+      <name>EntityHouseNumber</name>
+      <stored>true</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>true</analyzed>
+      <fieldanalyzer>Keyword</fieldanalyzer>
+      <indexFieldName>EntityLeadingDirectional</indexFieldName>
+      <name>EntityLeadingDirectional</name>
+      <stored>true</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>true</analyzed>
+      <fieldanalyzer>Keyword</fieldanalyzer>
+      <indexFieldName>EntityStreetName</indexFieldName>
+      <name>EntityStreetName</name>
+      <stored>true</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>true</analyzed>
+      <fieldanalyzer>Keyword</fieldanalyzer>
+      <indexFieldName>EntityStreetSuffix</indexFieldName>
+      <name>EntityStreetSuffix</name>
+      <stored>true</stored>
+      <type>string</type>
+    </indexFields>
+    <indexFields>
+      <analyzed>true</analyzed>
+      <fieldanalyzer>Keyword</fieldanalyzer>
+      <indexFieldName>EntityTrailingDirectional</indexFieldName>
+      <name>EntityTrailingDirectional</name>
+      <stored>true</stored>
+      <type>string</type>
+    </indexFields>
+  </indexFields>
+  <analyzerName />
+  <persistenceModel>0</persistenceModel>
+  <isUpdate>false</isUpdate>
+  <primaryKey>pb_id</primaryKey>
+  <updateBlankFields>false</updateBlankFields>
+  <diskChunkSize>0</diskChunkSize>
+  <isBatchCommit>true</isBatchCommit>
+  <batchSize>5000</batchSize>
+  <indexWriteMode>OVERWRITE</indexWriteMode>
+</indexBuilderConfiguration>]]></settings><input_ports><input_port id="9e6dad78-98c3-46c4-8bf4-5b3aafd8c110"><channel idref="b5e653dc-c60c-4999-9792-31bc2374e06c"/><label>input_port</label><port_name>input_port</port_name></input_port></input_ports><options/><output_ports><output_port id="fa0f756e-c9e0-4e06-8dbe-76f4a4a03a7d"><label>sink_error_port</label><port_name>sink_error_port</port_name></output_port></output_ports><properties><property><name>stageItemName</name><value><![CDATA[indexsinkstage]]></value></property></properties></stage><stage id="76a2e803-20a3-481e-99fd-1fb3b80ef074"><stage_name>MatchKeyGenerator</stage_name><stage_version/><label>MK_BrandNm_PostCd</label><num_instances>1</num_instances><distributed>false</distributed><batch_size>10000</batch_size><settings><![CDATA[<?xml version="1.0" encoding="utf-16" standalone="yes"?><HashGenerationSettings xmlns="http://g1.com/cdq/schema/matchkeygenerator-settings.xsd"><Rules expressMatchKey="False"><HashGenerationField value="MK_BrandNm_PostCd" /><Rule><Algorithm value="SubString" /><Field value="brandname" /><Start value="1" /><Length value="7" /><RemoveNoiseChars value="Y" /><Active value="Y" /></Rule><Rule><Algorithm value="SubString" /><Field value="PostalCode" /><Start value="1" /><Length value="3" /><RemoveNoiseChars value="Y" /><Active value="Y" /></Rule></Rules></HashGenerationSettings>]]></settings><input_ports><input_port id="7f84d336-8322-48a4-851d-45744585d2d1"><channel idref="e3ffe73b-a93c-4b6e-ba6b-ed75ce7f1565"/><label>input_port</label><port_name>input_port</port_name></input_port></input_ports><options/><output_ports><output_port id="6a616b75-82e0-4cbc-a2fc-58ee4bf8b603"><channel idref="e1269048-b269-4265-9dac-ed74659e750e"/><label>output_port</label><port_name>output_port</port_name></output_port></output_ports><properties><property><name>stageItemName</name><value><![CDATA[MatchKeyGenerator]]></value></property></properties></stage><stage id="c22109a6-8ca5-4712-b2a2-04e940ff80ca"><stage_name>collector</stage_name><stage_version/><label>SC3</label><num_instances>1</num_instances><distributed>false</distributed><batch_size>10000</batch_size><input_ports><input_port id="57d4e4db-60b7-4584-b7eb-4a82bdb8f6b1"><channel idref="b5590223-acf8-4de4-b312-653f17442980"/><label>port 3</label><port_name/></input_port><input_port id="3a59e850-a27b-4b86-8778-00191dbe7d6e"><channel idref="972af5c6-6fa8-4457-9c32-4d718ffbfef1"/><label>port 4</label><port_name/></input_port></input_ports><options/><output_ports><output_port id="2e4a870d-f781-4edc-8c2c-4beebc7ba73f"><channel idref="7f53dc6b-7b9b-4cd1-a653-1eaa080ae4a9"/><label>output_port</label><port_name>output_port</port_name></output_port></output_ports><properties><property><name>stageItemName</name><value><![CDATA[collector]]></value></property></properties></stage><stage id="37bcd973-7274-4c58-9f37-d2eabcbe7614"><stage_name>transformer</stage_name><stage_version/><label>TR4</label><num_instances>1</num_instances><distributed>false</distributed><batch_size>10000</batch_size><settings><![CDATA[<?xml version="1.0" encoding="utf-16"?>
+<TransformerSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="3.0">
+  <transformDefinitions>
+    <transformDefinition>
+      <name>Custom</name>
+      <script>def parsed = data['IsParsed'];
+
+if (parsed==false)
+{
+	data['registeredname'] = data['Name']
+}
+else
+{
+	data['registeredname'] = data['FirmName']
+	data['registeredsuffix'] = data['FirmSuffix']
+	
+}</script>
+      <transformParameters>
+        <transformParameter>
+          <name>outputColumn</name>
+          <type>string</type>
+          <value>registeredname</value>
+        </transformParameter>
+        <transformParameter>
+          <name>outputColumn</name>
+          <type>string</type>
+          <value>registeredsuffix</value>
+        </transformParameter>
+        <transformParameter>
+          <name>transformName</name>
+          <type>string</type>
+          <value>copy name back to firm name</value>
+        </transformParameter>
+      </transformParameters>
+      <transformFields>
+        <transformField>
+          <name>registeredname</name>
+          <type>string</type>
+          <fieldType xsi:type="SimpleFieldTypeInternal">
+            <name>string</name>
+          </fieldType>
+        </transformField>
+        <transformField>
+          <name>registeredsuffix</name>
+          <type>string</type>
+          <fieldType xsi:type="SimpleFieldTypeInternal">
+            <name>string</name>
+          </fieldType>
+        </transformField>
+      </transformFields>
+    </transformDefinition>
+  </transformDefinitions>
+</TransformerSettings>]]></settings><input_ports><input_port id="a1651846-df0f-43cc-be51-bfc8d1c6cdf3"><channel idref="41e78814-cf8c-4620-aecc-fe880c668ab7"/><label>input_port</label><port_name>input_port</port_name></input_port></input_ports><options/><output_ports><output_port id="f7fefee2-ed1d-4131-baeb-76d10beb85ae"><channel idref="3e306f10-41e4-4d90-83bf-6c30065295f3"/><label>output_port</label><port_name>output_port</port_name></output_port></output_ports><properties><property><name>stageItemName</name><value><![CDATA[transformer]]></value></property></properties></stage><stage id="f3bd32eb-76c4-472c-9f8f-5a555692a1df"><stage_name>transformer</stage_name><stage_version/><label>TR9</label><num_instances>1</num_instances><distributed>false</distributed><batch_size>10000</batch_size><settings><![CDATA[<?xml version="1.0" encoding="utf-16"?>
+<TransformerSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="3.0">
+  <transformDefinitions>
+    <transformDefinition>
+      <name>Rename</name>
+      <script>data[toColumn] = data.getClone(fromColumn);data.remove(fromColumn);</script>
+      <transformParameters>
+        <transformParameter>
+          <name>fromColumn</name>
+          <type>Object</type>
+          <value>brandsuffix</value>
+        </transformParameter>
+        <transformParameter>
+          <name>toColumn</name>
+          <type>Object</type>
+          <value>EntityBrandName</value>
+        </transformParameter>
+      </transformParameters>
+      <transformFields />
+    </transformDefinition>
+    <transformDefinition>
+      <name>Rename</name>
+      <script>data[toColumn] = data.getClone(fromColumn);data.remove(fromColumn);</script>
+      <transformParameters>
+        <transformParameter>
+          <name>fromColumn</name>
+          <type>Object</type>
+          <value>StateProvince</value>
+        </transformParameter>
+        <transformParameter>
+          <name>toColumn</name>
+          <type>Object</type>
+          <value>EntityState</value>
+        </transformParameter>
+      </transformParameters>
+      <transformFields />
+    </transformDefinition>
+    <transformDefinition>
+      <name>Rename</name>
+      <script>data[toColumn] = data.getClone(fromColumn);data.remove(fromColumn);</script>
+      <transformParameters>
+        <transformParameter>
+          <name>fromColumn</name>
+          <type>Object</type>
+          <value>areaName2</value>
+        </transformParameter>
+        <transformParameter>
+          <name>toColumn</name>
+          <type>Object</type>
+          <value>EntityDistrict</value>
+        </transformParameter>
+      </transformParameters>
+      <transformFields />
+    </transformDefinition>
+    <transformDefinition>
+      <name>Rename</name>
+      <script>data[toColumn] = data.getClone(fromColumn);data.remove(fromColumn);</script>
+      <transformParameters>
+        <transformParameter>
+          <name>fromColumn</name>
+          <type>Object</type>
+          <value>City</value>
+        </transformParameter>
+        <transformParameter>
+          <name>toColumn</name>
+          <type>Object</type>
+          <value>EntityCity</value>
+        </transformParameter>
+      </transformParameters>
+      <transformFields />
+    </transformDefinition>
+    <transformDefinition>
+      <name>Rename</name>
+      <script>data[toColumn] = data.getClone(fromColumn);data.remove(fromColumn);</script>
+      <transformParameters>
+        <transformParameter>
+          <name>fromColumn</name>
+          <type>Object</type>
+          <value>areaName4</value>
+        </transformParameter>
+        <transformParameter>
+          <name>toColumn</name>
+          <type>Object</type>
+          <value>EntityLocality</value>
+        </transformParameter>
+      </transformParameters>
+      <transformFields />
+    </transformDefinition>
+    <transformDefinition>
+      <name>Rename</name>
+      <script>data[toColumn] = data.getClone(fromColumn);data.remove(fromColumn);</script>
+      <transformParameters>
+        <transformParameter>
+          <name>fromColumn</name>
+          <type>Object</type>
+          <value>Trade_Division</value>
+        </transformParameter>
+        <transformParameter>
+          <name>toColumn</name>
+          <type>Object</type>
+          <value>EntityTradeDivision</value>
+        </transformParameter>
+      </transformParameters>
+      <transformFields />
+    </transformDefinition>
+    <transformDefinition>
+      <name>Rename</name>
+      <script>data[toColumn] = data.getClone(fromColumn);data.remove(fromColumn);</script>
+      <transformParameters>
+        <transformParameter>
+          <name>fromColumn</name>
+          <type>Object</type>
+          <value>Group</value>
+        </transformParameter>
+        <transformParameter>
+          <name>toColumn</name>
+          <type>Object</type>
+          <value>EntityGroup</value>
+        </transformParameter>
+      </transformParameters>
+      <transformFields />
+    </transformDefinition>
+    <transformDefinition>
+      <name>Rename</name>
+      <script>data[toColumn] = data.getClone(fromColumn);data.remove(fromColumn);</script>
+      <transformParameters>
+        <transformParameter>
+          <name>fromColumn</name>
+          <type>Object</type>
+          <value>Class</value>
+        </transformParameter>
+        <transformParameter>
+          <name>toColumn</name>
+          <type>Object</type>
+          <value>EntityClass</value>
+        </transformParameter>
+      </transformParameters>
+      <transformFields />
+    </transformDefinition>
+    <transformDefinition>
+      <name>Rename</name>
+      <script>data[toColumn] = data.getClone(fromColumn);data.remove(fromColumn);</script>
+      <transformParameters>
+        <transformParameter>
+          <name>fromColumn</name>
+          <type>Object</type>
+          <value>Sub_Class</value>
+        </transformParameter>
+        <transformParameter>
+          <name>toColumn</name>
+          <type>Object</type>
+          <value>EntitySubClass</value>
+        </transformParameter>
+      </transformParameters>
+      <transformFields />
+    </transformDefinition>
+    <transformDefinition>
+      <name>Rename</name>
+      <script>data[toColumn] = data.getClone(fromColumn);data.remove(fromColumn);</script>
+      <transformParameters>
+        <transformParameter>
+          <name>fromColumn</name>
+          <type>Object</type>
+          <value>SIC8_description</value>
+        </transformParameter>
+        <transformParameter>
+          <name>toColumn</name>
+          <type>Object</type>
+          <value>EntitySIC8Description</value>
+        </transformParameter>
+      </transformParameters>
+      <transformFields />
+    </transformDefinition>
+    <transformDefinition>
+      <name>Rename</name>
+      <script>data[toColumn] = data.getClone(fromColumn);data.remove(fromColumn);</script>
+      <transformParameters>
+        <transformParameter>
+          <name>fromColumn</name>
+          <type>Object</type>
+          <value>Global_Ultimate_Business_Name</value>
+        </transformParameter>
+        <transformParameter>
+          <name>toColumn</name>
+          <type>Object</type>
+          <value>EntityGlobalBusinessName</value>
+        </transformParameter>
+      </transformParameters>
+      <transformFields />
+    </transformDefinition>
+    <transformDefinition>
+      <name>Rename</name>
+      <script>data[toColumn] = data.getClone(fromColumn);data.remove(fromColumn);</script>
+      <transformParameters>
+        <transformParameter>
+          <name>fromColumn</name>
+          <type>Object</type>
+          <value>registeredname</value>
+        </transformParameter>
+        <transformParameter>
+          <name>toColumn</name>
+          <type>Object</type>
+          <value>EntityRegisteredName</value>
+        </transformParameter>
+      </transformParameters>
+      <transformFields />
+    </transformDefinition>
+    <transformDefinition>
+      <name>Rename</name>
+      <script>data[toColumn] = data.getClone(fromColumn);data.remove(fromColumn);</script>
+      <transformParameters>
+        <transformParameter>
+          <name>fromColumn</name>
+          <type>Object</type>
+          <value>tradename</value>
+        </transformParameter>
+        <transformParameter>
+          <name>toColumn</name>
+          <type>Object</type>
+          <value>EntityTradeName</value>
+        </transformParameter>
+      </transformParameters>
+      <transformFields />
+    </transformDefinition>
+    <transformDefinition>
+      <name>Rename</name>
+      <script>data[toColumn] = data.getClone(fromColumn);data.remove(fromColumn);</script>
+      <transformParameters>
+        <transformParameter>
+          <name>fromColumn</name>
+          <type>Object</type>
+          <value>ISO3</value>
+        </transformParameter>
+        <transformParameter>
+          <name>toColumn</name>
+          <type>Object</type>
+          <value>EntityCountryISO3</value>
+        </transformParameter>
+      </transformParameters>
+      <transformFields />
+    </transformDefinition>
+    <transformDefinition>
+      <name>Rename</name>
+      <script>data[toColumn] = data.getClone(fromColumn);data.remove(fromColumn);</script>
+      <transformParameters>
+        <transformParameter>
+          <name>fromColumn</name>
+          <type>Object</type>
+          <value>Stabb</value>
+        </transformParameter>
+        <transformParameter>
+          <name>toColumn</name>
+          <type>Object</type>
+          <value>EntityStabb</value>
+        </transformParameter>
+      </transformParameters>
+      <transformFields />
+    </transformDefinition>
+    <transformDefinition>
+      <name>Rename</name>
+      <script>data[toColumn] = data.getClone(fromColumn);data.remove(fromColumn);</script>
+      <transformParameters>
+        <transformParameter>
+          <name>fromColumn</name>
+          <type>Object</type>
+          <value>PostalCode</value>
+        </transformParameter>
+        <transformParameter>
+          <name>toColumn</name>
+          <type>Object</type>
+          <value>EntityPostcode</value>
+        </transformParameter>
+      </transformParameters>
+      <transformFields />
+    </transformDefinition>
+    <transformDefinition>
+      <name>Rename</name>
+      <script>data[toColumn] = data.getClone(fromColumn);data.remove(fromColumn);</script>
+      <transformParameters>
+        <transformParameter>
+          <name>fromColumn</name>
+          <type>Object</type>
+          <value>formattedAddress</value>
+        </transformParameter>
+        <transformParameter>
+          <name>toColumn</name>
+          <type>Object</type>
+          <value>EntityFormattedAddress</value>
+        </transformParameter>
+      </transformParameters>
+      <transformFields />
+    </transformDefinition>
+    <transformDefinition>
+      <name>Rename</name>
+      <script>data[toColumn] = data.getClone(fromColumn);data.remove(fromColumn);</script>
+      <transformParameters>
+        <transformParameter>
+          <name>fromColumn</name>
+          <type>Object</type>
+          <value>AddressLine1</value>
+        </transformParameter>
+        <transformParameter>
+          <name>toColumn</name>
+          <type>Object</type>
+          <value>EntityMainAddressLine</value>
+        </transformParameter>
+      </transformParameters>
+      <transformFields />
+    </transformDefinition>
+    <transformDefinition>
+      <name>Rename</name>
+      <script>data[toColumn] = data.getClone(fromColumn);data.remove(fromColumn);</script>
+      <transformParameters>
+        <transformParameter>
+          <name>fromColumn</name>
+          <type>Object</type>
+          <value>addressLastLine</value>
+        </transformParameter>
+        <transformParameter>
+          <name>toColumn</name>
+          <type>Object</type>
+          <value>EntityAddressLastLine</value>
+        </transformParameter>
+      </transformParameters>
+      <transformFields />
+    </transformDefinition>
+    <transformDefinition>
+      <name>Rename</name>
+      <script>data[toColumn] = data.getClone(fromColumn);data.remove(fromColumn);</script>
+      <transformParameters>
+        <transformParameter>
+          <name>fromColumn</name>
+          <type>Object</type>
+          <value>Tel_num</value>
+        </transformParameter>
+        <transformParameter>
+          <name>toColumn</name>
+          <type>Object</type>
+          <value>EntityTel_num</value>
+        </transformParameter>
+      </transformParameters>
+      <transformFields />
+    </transformDefinition>
+    <transformDefinition>
+      <name>Rename</name>
+      <script>data[toColumn] = data.getClone(fromColumn);data.remove(fromColumn);</script>
+      <transformParameters>
+        <transformParameter>
+          <name>fromColumn</name>
+          <type>Object</type>
+          <value>Email</value>
+        </transformParameter>
+        <transformParameter>
+          <name>toColumn</name>
+          <type>Object</type>
+          <value>EntityEmail</value>
+        </transformParameter>
+      </transformParameters>
+      <transformFields />
+    </transformDefinition>
+    <transformDefinition>
+      <name>Rename</name>
+      <script>data[toColumn] = data.getClone(fromColumn);data.remove(fromColumn);</script>
+      <transformParameters>
+        <transformParameter>
+          <name>fromColumn</name>
+          <type>Object</type>
+          <value>SIC1</value>
+        </transformParameter>
+        <transformParameter>
+          <name>toColumn</name>
+          <type>Object</type>
+          <value>EntitySIC1</value>
+        </transformParameter>
+      </transformParameters>
+      <transformFields />
+    </transformDefinition>
+    <transformDefinition>
+      <name>Rename</name>
+      <script>data[toColumn] = data.getClone(fromColumn);data.remove(fromColumn);</script>
+      <transformParameters>
+        <transformParameter>
+          <name>fromColumn</name>
+          <type>Object</type>
+          <value>MiCode</value>
+        </transformParameter>
+        <transformParameter>
+          <name>toColumn</name>
+          <type>Object</type>
+          <value>EntityMICode</value>
+        </transformParameter>
+      </transformParameters>
+      <transformFields />
+    </transformDefinition>
+    <transformDefinition>
+      <name>Rename</name>
+      <script>data[toColumn] = data.getClone(fromColumn);data.remove(fromColumn);</script>
+      <transformParameters>
+        <transformParameter>
+          <name>fromColumn</name>
+          <type>Object</type>
+          <value>PhoneNumber</value>
+        </transformParameter>
+        <transformParameter>
+          <name>toColumn</name>
+          <type>Object</type>
+          <value>EntityPhoneNumber</value>
+        </transformParameter>
+      </transformParameters>
+      <transformFields />
+    </transformDefinition>
+    <transformDefinition>
+      <name>Rename</name>
+      <script>data[toColumn] = data.getClone(fromColumn);data.remove(fromColumn);</script>
+      <transformParameters>
+        <transformParameter>
+          <name>fromColumn</name>
+          <type>Object</type>
+          <value>Parent_Business_Name</value>
+        </transformParameter>
+        <transformParameter>
+          <name>toColumn</name>
+          <type>Object</type>
+          <value>EntityParentBusinessName</value>
+        </transformParameter>
+      </transformParameters>
+      <transformFields />
+    </transformDefinition>
+    <transformDefinition>
+      <name>Rename</name>
+      <script>data[toColumn] = data.getClone(fromColumn);data.remove(fromColumn);</script>
+      <transformParameters>
+        <transformParameter>
+          <name>fromColumn</name>
+          <type>Object</type>
+          <value>Parent_areaName3</value>
+        </transformParameter>
+        <transformParameter>
+          <name>toColumn</name>
+          <type>Object</type>
+          <value>EntityParentAreaName3</value>
+        </transformParameter>
+      </transformParameters>
+      <transformFields />
+    </transformDefinition>
+    <transformDefinition>
+      <name>Rename</name>
+      <script>data[toColumn] = data.getClone(fromColumn);data.remove(fromColumn);</script>
+      <transformParameters>
+        <transformParameter>
+          <name>fromColumn</name>
+          <type>Object</type>
+          <value>Parent_Street_Address</value>
+        </transformParameter>
+        <transformParameter>
+          <name>toColumn</name>
+          <type>Object</type>
+          <value>EntityParentStreetAddress</value>
+        </transformParameter>
+      </transformParameters>
+      <transformFields />
+    </transformDefinition>
+    <transformDefinition>
+      <name>Rename</name>
+      <script>data[toColumn] = data.getClone(fromColumn);data.remove(fromColumn);</script>
+      <transformParameters>
+        <transformParameter>
+          <name>fromColumn</name>
+          <type>Object</type>
+          <value>Parent_Country</value>
+        </transformParameter>
+        <transformParameter>
+          <name>toColumn</name>
+          <type>Object</type>
+          <value>EntityParentCountry</value>
+        </transformParameter>
+      </transformParameters>
+      <transformFields />
+    </transformDefinition>
+    <transformDefinition>
+      <name>Rename</name>
+      <script>data[toColumn] = data.getClone(fromColumn);data.remove(fromColumn);</script>
+      <transformParameters>
+        <transformParameter>
+          <name>fromColumn</name>
+          <type>Object</type>
+          <value>Global_Ultimate_Business_Name</value>
+        </transformParameter>
+        <transformParameter>
+          <name>toColumn</name>
+          <type>Object</type>
+          <value>EntityGlobalUltimateBusinessName</value>
+        </transformParameter>
+      </transformParameters>
+      <transformFields />
+    </transformDefinition>
+    <transformDefinition>
+      <name>Rename</name>
+      <script>data[toColumn] = data.getClone(fromColumn);data.remove(fromColumn);</script>
+      <transformParameters>
+        <transformParameter>
+          <name>fromColumn</name>
+          <type>Object</type>
+          <value>Global_Ultimate_areaName3</value>
+        </transformParameter>
+        <transformParameter>
+          <name>toColumn</name>
+          <type>Object</type>
+          <value>EntityGlobalUltimateAreaName3</value>
+        </transformParameter>
+      </transformParameters>
+      <transformFields />
+    </transformDefinition>
+    <transformDefinition>
+      <name>Rename</name>
+      <script>data[toColumn] = data.getClone(fromColumn);data.remove(fromColumn);</script>
+      <transformParameters>
+        <transformParameter>
+          <name>fromColumn</name>
+          <type>Object</type>
+          <value>Global_Ultimate_Street_Address</value>
+        </transformParameter>
+        <transformParameter>
+          <name>toColumn</name>
+          <type>Object</type>
+          <value>EntityGlobalUltimateStreetAddress</value>
+        </transformParameter>
+      </transformParameters>
+      <transformFields />
+    </transformDefinition>
+    <transformDefinition>
+      <name>Rename</name>
+      <script>data[toColumn] = data.getClone(fromColumn);data.remove(fromColumn);</script>
+      <transformParameters>
+        <transformParameter>
+          <name>fromColumn</name>
+          <type>Object</type>
+          <value>Global_Ultimate_Country</value>
+        </transformParameter>
+        <transformParameter>
+          <name>toColumn</name>
+          <type>Object</type>
+          <value>EntityGlobalUltimateCountry</value>
+        </transformParameter>
+      </transformParameters>
+      <transformFields />
+    </transformDefinition>
+    <transformDefinition>
+      <name>Rename</name>
+      <script>data[toColumn] = data.getClone(fromColumn);data.remove(fromColumn);</script>
+      <transformParameters>
+        <transformParameter>
+          <name>fromColumn</name>
+          <type>Object</type>
+          <value>Domestic_Ultimate_Business_Name</value>
+        </transformParameter>
+        <transformParameter>
+          <name>toColumn</name>
+          <type>Object</type>
+          <value>EntityDomesticUltimateBusinessName</value>
+        </transformParameter>
+      </transformParameters>
+      <transformFields />
+    </transformDefinition>
+    <transformDefinition>
+      <name>Rename</name>
+      <script>data[toColumn] = data.getClone(fromColumn);data.remove(fromColumn);</script>
+      <transformParameters>
+        <transformParameter>
+          <name>fromColumn</name>
+          <type>Object</type>
+          <value>Domestic_Ultimate_Street_Address</value>
+        </transformParameter>
+        <transformParameter>
+          <name>toColumn</name>
+          <type>Object</type>
+          <value>EntityDomesticUltimateStreetAddress</value>
+        </transformParameter>
+      </transformParameters>
+      <transformFields />
+    </transformDefinition>
+    <transformDefinition>
+      <name>Rename</name>
+      <script>data[toColumn] = data.getClone(fromColumn);data.remove(fromColumn);</script>
+      <transformParameters>
+        <transformParameter>
+          <name>fromColumn</name>
+          <type>Object</type>
+          <value>Domestic_Ultimate_areaName3</value>
+        </transformParameter>
+        <transformParameter>
+          <name>toColumn</name>
+          <type>Object</type>
+          <value>EntityDomesticUltimateAreaName3</value>
+        </transformParameter>
+      </transformParameters>
+      <transformFields />
+    </transformDefinition>
+    <transformDefinition>
+      <name>Rename</name>
+      <script>data[toColumn] = data.getClone(fromColumn);data.remove(fromColumn);</script>
+      <transformParameters>
+        <transformParameter>
+          <name>fromColumn</name>
+          <type>Object</type>
+          <value>Domestic_Ultimate_Postcode</value>
+        </transformParameter>
+        <transformParameter>
+          <name>toColumn</name>
+          <type>Object</type>
+          <value>EntityDomesticUltimatePostcode</value>
+        </transformParameter>
+      </transformParameters>
+      <transformFields />
+    </transformDefinition>
+    <transformDefinition>
+      <name>Rename</name>
+      <script>data[toColumn] = data.getClone(fromColumn);data.remove(fromColumn);</script>
+      <transformParameters>
+        <transformParameter>
+          <name>fromColumn</name>
+          <type>Object</type>
+          <value>Domestic_Ultimate_areaName1</value>
+        </transformParameter>
+        <transformParameter>
+          <name>toColumn</name>
+          <type>Object</type>
+          <value>EntityDomesticUltimateAreaName1</value>
+        </transformParameter>
+      </transformParameters>
+      <transformFields />
+    </transformDefinition>
+    <transformDefinition>
+      <name>Rename</name>
+      <script>data[toColumn] = data.getClone(fromColumn);data.remove(fromColumn);</script>
+      <transformParameters>
+        <transformParameter>
+          <name>fromColumn</name>
+          <type>Object</type>
+          <value>Global_Ultimate_areaName1</value>
+        </transformParameter>
+        <transformParameter>
+          <name>toColumn</name>
+          <type>Object</type>
+          <value>EntityGlobalUltimateAreaName1</value>
+        </transformParameter>
+      </transformParameters>
+      <transformFields />
+    </transformDefinition>
+    <transformDefinition>
+      <name>Rename</name>
+      <script>data[toColumn] = data.getClone(fromColumn);data.remove(fromColumn);</script>
+      <transformParameters>
+        <transformParameter>
+          <name>fromColumn</name>
+          <type>Object</type>
+          <value>Global_Ultimate_Postcode</value>
+        </transformParameter>
+        <transformParameter>
+          <name>toColumn</name>
+          <type>Object</type>
+          <value>EntityGlobalUltimatePostcode</value>
+        </transformParameter>
+      </transformParameters>
+      <transformFields />
+    </transformDefinition>
+    <transformDefinition>
+      <name>Rename</name>
+      <script>data[toColumn] = data.getClone(fromColumn);data.remove(fromColumn);</script>
+      <transformParameters>
+        <transformParameter>
+          <name>fromColumn</name>
+          <type>Object</type>
+          <value>Parent_areaName1</value>
+        </transformParameter>
+        <transformParameter>
+          <name>toColumn</name>
+          <type>Object</type>
+          <value>EntityParentAreaName1</value>
+        </transformParameter>
+      </transformParameters>
+      <transformFields />
+    </transformDefinition>
+    <transformDefinition>
+      <name>Rename</name>
+      <script>data[toColumn] = data.getClone(fromColumn);data.remove(fromColumn);</script>
+      <transformParameters>
+        <transformParameter>
+          <name>fromColumn</name>
+          <type>Object</type>
+          <value>Parent_Postcode</value>
+        </transformParameter>
+        <transformParameter>
+          <name>toColumn</name>
+          <type>Object</type>
+          <value>EntityParentPostcode</value>
+        </transformParameter>
+      </transformParameters>
+      <transformFields />
+    </transformDefinition>
+    <transformDefinition>
+      <name>Rename</name>
+      <script>data[toColumn] = data.getClone(fromColumn);data.remove(fromColumn);</script>
+      <transformParameters>
+        <transformParameter>
+          <name>fromColumn</name>
+          <type>Object</type>
+          <value>tradesuffix</value>
+        </transformParameter>
+        <transformParameter>
+          <name>toColumn</name>
+          <type>Object</type>
+          <value>EntityTradeSuffix</value>
+        </transformParameter>
+      </transformParameters>
+      <transformFields />
+    </transformDefinition>
+    <transformDefinition>
+      <name>Rename</name>
+      <script>data[toColumn] = data.getClone(fromColumn);data.remove(fromColumn);</script>
+      <transformParameters>
+        <transformParameter>
+          <name>fromColumn</name>
+          <type>Object</type>
+          <value>registeredsuffix</value>
+        </transformParameter>
+        <transformParameter>
+          <name>toColumn</name>
+          <type>Object</type>
+          <value>EntityRegisteredSuffix</value>
+        </transformParameter>
+      </transformParameters>
+      <transformFields />
+    </transformDefinition>
+    <transformDefinition>
+      <name>Rename</name>
+      <script>data[toColumn] = data.getClone(fromColumn);data.remove(fromColumn);</script>
+      <transformParameters>
+        <transformParameter>
+          <name>fromColumn</name>
+          <type>Object</type>
+          <value>LeadingDirectional</value>
+        </transformParameter>
+        <transformParameter>
+          <name>toColumn</name>
+          <type>Object</type>
+          <value>EntityLeadingDirectional</value>
+        </transformParameter>
+      </transformParameters>
+      <transformFields />
+    </transformDefinition>
+    <transformDefinition>
+      <name>Rename</name>
+      <script>data[toColumn] = data.getClone(fromColumn);data.remove(fromColumn);</script>
+      <transformParameters>
+        <transformParameter>
+          <name>fromColumn</name>
+          <type>Object</type>
+          <value>TrailingDirectional</value>
+        </transformParameter>
+        <transformParameter>
+          <name>toColumn</name>
+          <type>Object</type>
+          <value>EntityTrailingDirectional</value>
+        </transformParameter>
+      </transformParameters>
+      <transformFields />
+    </transformDefinition>
+    <transformDefinition>
+      <name>Rename</name>
+      <script>data[toColumn] = data.getClone(fromColumn);data.remove(fromColumn);</script>
+      <transformParameters>
+        <transformParameter>
+          <name>fromColumn</name>
+          <type>Object</type>
+          <value>StreetSuffix</value>
+        </transformParameter>
+        <transformParameter>
+          <name>toColumn</name>
+          <type>Object</type>
+          <value>EntityStreetSuffix</value>
+        </transformParameter>
+      </transformParameters>
+      <transformFields />
+    </transformDefinition>
+    <transformDefinition>
+      <name>Rename</name>
+      <script>data[toColumn] = data.getClone(fromColumn);data.remove(fromColumn);</script>
+      <transformParameters>
+        <transformParameter>
+          <name>fromColumn</name>
+          <type>Object</type>
+          <value>StreetName</value>
+        </transformParameter>
+        <transformParameter>
+          <name>toColumn</name>
+          <type>Object</type>
+          <value>EntityStreetName</value>
+        </transformParameter>
+      </transformParameters>
+      <transformFields />
+    </transformDefinition>
+    <transformDefinition>
+      <name>Rename</name>
+      <script>data[toColumn] = data.getClone(fromColumn);data.remove(fromColumn);</script>
+      <transformParameters>
+        <transformParameter>
+          <name>fromColumn</name>
+          <type>Object</type>
+          <value>HouseNumber</value>
+        </transformParameter>
+        <transformParameter>
+          <name>toColumn</name>
+          <type>Object</type>
+          <value>EntityHouseNumber</value>
+        </transformParameter>
+      </transformParameters>
+      <transformFields />
+    </transformDefinition>
+    <transformDefinition>
+      <name>Status Code</name>
+      <script>if (statusValue == 'Success'){row.set('Status',null);row.set('Status.Description','');row.set('Status.Code','');} else {row.set('Status','F');row.set('Status.Description',description);row.set('Status.Code',code);}</script>
+      <transformParameters>
+        <transformParameter>
+          <name>statusValue</name>
+          <type>string</type>
+          <value>Success</value>
+        </transformParameter>
+        <transformParameter>
+          <name>code</name>
+          <type>string</type>
+          <value />
+        </transformParameter>
+        <transformParameter>
+          <name>description</name>
+          <type>string</type>
+          <value />
+        </transformParameter>
+      </transformParameters>
+      <transformFields />
+    </transformDefinition>
+    <transformDefinition>
+      <name>Rename</name>
+      <script>data[toColumn] = data.getClone(fromColumn);data.remove(fromColumn);</script>
+      <transformParameters>
+        <transformParameter>
+          <name>fromColumn</name>
+          <type>Object</type>
+          <value>brandsuffix</value>
+        </transformParameter>
+        <transformParameter>
+          <name>toColumn</name>
+          <type>Object</type>
+          <value>EntityBrandSuffix</value>
+        </transformParameter>
+      </transformParameters>
+      <transformFields />
+    </transformDefinition>
+  </transformDefinitions>
+</TransformerSettings>]]></settings><input_ports><input_port id="9df8d23b-bad6-429d-9b72-f6dcf452148f"><channel idref="4cb2aab1-ae3b-41d0-a8b9-c07baa456981"/><label>input_port</label><port_name>input_port</port_name></input_port></input_ports><options/><output_ports><output_port id="485530cd-5bb1-407f-8112-acb1ed33ac75"><channel idref="6b22f5f3-0ec4-47bd-9911-59ddb72193f7"/><label>output_port</label><port_name>output_port</port_name></output_port></output_ports><properties><property><name>stageItemName</name><value><![CDATA[transformer]]></value></property></properties></stage><stage id="d3ea2deb-4476-439c-a9e0-658d1600d0f5"><stage_name>router</stage_name><stage_version/><label>PostCd null?</label><num_instances>1</num_instances><distributed>false</distributed><batch_size>10000</batch_size><settings><![CDATA[<?xml version="1.0" encoding="utf-16"?>
+<RouterSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="2.5">
+  <outputCopy>false</outputCopy>
+  <singleOutput>false</singleOutput>
+  <portExpressions>
+    <portExpression>
+      <portId>a18c4697-a42a-43f2-b78e-278185e7a5c3</portId>
+      <expression>return isNotEmpty(data.get('PostalCode'));
+      
+def boolean isNotEmpty(String field)
+{
+  try
+  {
+    return field != null &amp;&amp; field.trim().length() != 0;
+  }
+  catch (Exception)
+  {
+    return false;
+  }
+}
+    </expression>
+      <ViewData>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ExpressionBuilderInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;CombineMethod&gt;All&lt;/CombineMethod&gt;
+  &lt;ExpressionDetailInfo&gt;
+    &lt;ExpressionDetails&gt;
+      &lt;ExpressionField&gt;PostalCode&lt;/ExpressionField&gt;
+      &lt;ExpressionOperator&gt;is not empty&lt;/ExpressionOperator&gt;
+      &lt;ExpressionValue /&gt;
+      &lt;comparisonType&gt;VALUE&lt;/comparisonType&gt;
+    &lt;/ExpressionDetails&gt;
+  &lt;/ExpressionDetailInfo&gt;
+&lt;/ExpressionBuilderInfo&gt;</ViewData>
+    </portExpression>
+    <portExpression>
+      <portId>4d3463d3-a961-41d4-8051-5f0f4d77db4f</portId>
+      <expression>default</expression>
+      <ViewData>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ExpressionBuilderInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;CombineMethod /&gt;
+  &lt;ExpressionDetailInfo /&gt;
+&lt;/ExpressionBuilderInfo&gt;</ViewData>
+    </portExpression>
+  </portExpressions>
+</RouterSettings>]]></settings><input_ports><input_port id="9ca82ab8-4ffc-4b99-b3aa-f566de6999b4"><channel idref="55f9bcf1-19a1-4310-9b62-facff1f5a992"/><label>input_port</label><port_name>input_port</port_name></input_port></input_ports><options/><output_ports><output_port id="a18c4697-a42a-43f2-b78e-278185e7a5c3"><channel idref="fa438fc7-4f5a-44ba-b22f-fc22ff815283"/><label>port</label><port_name/></output_port><output_port id="4d3463d3-a961-41d4-8051-5f0f4d77db4f"><channel idref="8e0988d9-7a23-4a39-8006-f5893242c088"/><label>port 2</label><port_name/></output_port></output_ports><properties><property><name>stageItemName</name><value><![CDATA[router]]></value></property></properties></stage><stage id="6ed1bd22-b4c5-4994-947c-85b61c8ecffd"><stage_name>sink</stage_name><stage_version/><label>Write to File</label><num_instances>1</num_instances><distributed>false</distributed><batch_size>10000</batch_size><settings><![CDATA[<?xml version="1.0" encoding="utf-16"?>
+<SinkSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="2.5">
+  <monitorProgress>false</monitorProgress>
+  <outputMode>1</outputMode>
+  <truncateTable>false</truncateTable>
+  <dropTable>false</dropTable>
+  <batchCommitThreshold>1</batchCommitThreshold>
+  <progressThreshold>0</progressThreshold>
+  <dataSourceMetadata>
+    <CSVMetadata>
+      <encoding>UTF-8</encoding>
+      <host />
+      <path>G:/_MasterCard_POI_2018/INDIA_Services/OutputData/CAN/WPPOI_SI_LOAD_MF_CAN.csv</path>
+      <port>-1</port>
+      <protocol>esfile</protocol>
+      <delimiter>007C</delimiter>
+      <textQualifier />
+      <skipFirstRow>true</skipFirstRow>
+      <lineSeparator />
+      <strictlyEnforceColumnCount>true</strictlyEnforceColumnCount>
+      <fields>
+        <field>
+          <name>JobID</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>Reason</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>Record</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>Timestamp</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>Username</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+      </fields>
+    </CSVMetadata>
+  </dataSourceMetadata>
+  <sortColumns />
+  <enableMultiFile>false</enableMultiFile>
+  <fieldMultiFile />
+</SinkSettings>]]></settings><input_ports><input_port id="742e1324-4f73-49aa-b184-6aacce77d921"><channel idref="46cfb02d-e429-4cd4-b264-b0ceff5b6018"/><label>input_port</label><port_name>input_port</port_name></input_port></input_ports><options/><output_ports/><properties><property><name>ViewData</name><value><![CDATA[IsRemote=T]]></value></property><property><name>stageItemName</name><value><![CDATA[fileSink]]></value></property></properties></stage><stage id="37d1d03a-c04b-4872-9893-88bcf44cf926"><stage_name>transformer</stage_name><stage_version/><label>TR2</label><num_instances>1</num_instances><distributed>false</distributed><batch_size>10000</batch_size><settings><![CDATA[<?xml version="1.0" encoding="utf-16"?>
+<TransformerSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="3.0">
+  <transformDefinitions>
+    <transformDefinition>
+      <name>Copy</name>
+      <script>data[toColumn] = data.getClone(fromColumn);</script>
+      <transformParameters>
+        <transformParameter>
+          <name>fromColumn</name>
+          <type>Object</type>
+          <value>areaName1</value>
+        </transformParameter>
+        <transformParameter>
+          <name>toColumn</name>
+          <type>Object</type>
+          <value>StateProvince</value>
+        </transformParameter>
+      </transformParameters>
+      <transformFields />
+    </transformDefinition>
+    <transformDefinition>
+      <name>Copy</name>
+      <script>data[toColumn] = data.getClone(fromColumn);</script>
+      <transformParameters>
+        <transformParameter>
+          <name>fromColumn</name>
+          <type>Object</type>
+          <value>areaName2</value>
+        </transformParameter>
+        <transformParameter>
+          <name>toColumn</name>
+          <type>Object</type>
+          <value>District</value>
+        </transformParameter>
+      </transformParameters>
+      <transformFields />
+    </transformDefinition>
+    <transformDefinition>
+      <name>Copy</name>
+      <script>data[toColumn] = data.getClone(fromColumn);</script>
+      <transformParameters>
+        <transformParameter>
+          <name>fromColumn</name>
+          <type>Object</type>
+          <value>areaName3</value>
+        </transformParameter>
+        <transformParameter>
+          <name>toColumn</name>
+          <type>Object</type>
+          <value>City</value>
+        </transformParameter>
+      </transformParameters>
+      <transformFields />
+    </transformDefinition>
+    <transformDefinition>
+      <name>Copy</name>
+      <script>data[toColumn] = data.getClone(fromColumn);</script>
+      <transformParameters>
+        <transformParameter>
+          <name>fromColumn</name>
+          <type>Object</type>
+          <value>areaName4</value>
+        </transformParameter>
+        <transformParameter>
+          <name>toColumn</name>
+          <type>Object</type>
+          <value>AddressLine3</value>
+        </transformParameter>
+      </transformParameters>
+      <transformFields />
+    </transformDefinition>
+    <transformDefinition>
+      <name>Copy</name>
+      <script>data[toColumn] = data.getClone(fromColumn);</script>
+      <transformParameters>
+        <transformParameter>
+          <name>fromColumn</name>
+          <type>Object</type>
+          <value>mainAddressLine</value>
+        </transformParameter>
+        <transformParameter>
+          <name>toColumn</name>
+          <type>Object</type>
+          <value>AddressLine1</value>
+        </transformParameter>
+      </transformParameters>
+      <transformFields />
+    </transformDefinition>
+    <transformDefinition>
+      <name>Copy</name>
+      <script>data[toColumn] = data.getClone(fromColumn);</script>
+      <transformParameters>
+        <transformParameter>
+          <name>fromColumn</name>
+          <type>Object</type>
+          <value>addressLastLine</value>
+        </transformParameter>
+        <transformParameter>
+          <name>toColumn</name>
+          <type>Object</type>
+          <value>AddressLine2</value>
+        </transformParameter>
+      </transformParameters>
+      <transformFields />
+    </transformDefinition>
+    <transformDefinition>
+      <name>Copy</name>
+      <script>data[toColumn] = data.getClone(fromColumn);</script>
+      <transformParameters>
+        <transformParameter>
+          <name>fromColumn</name>
+          <type>Object</type>
+          <value>Postcode</value>
+        </transformParameter>
+        <transformParameter>
+          <name>toColumn</name>
+          <type>Object</type>
+          <value>PostalCode</value>
+        </transformParameter>
+      </transformParameters>
+      <transformFields />
+    </transformDefinition>
+  </transformDefinitions>
+</TransformerSettings>]]></settings><input_ports><input_port id="95bc93a3-91eb-4bd0-abcb-3441a0ed6e1e"><channel idref="edb8279a-2f0d-434f-9abc-a1be69958e3f"/><label>input_port</label><port_name>input_port</port_name></input_port></input_ports><options/><output_ports><output_port id="8f08f585-5df8-46b5-a741-5b3347fc00a0"><channel idref="2c9b4bda-1deb-4cdf-b24d-1d7894558aa6"/><label>output_port</label><port_name>output_port</port_name></output_port></output_ports><properties><property><name>stageItemName</name><value><![CDATA[transformer]]></value></property></properties></stage><stage id="1d13c87e-43bd-4db0-8d02-705d0afde869"><stage_name>MatchKeyGenerator</stage_name><stage_version/><label>MK_TradeNm_PostCd</label><num_instances>1</num_instances><distributed>false</distributed><batch_size>10000</batch_size><settings><![CDATA[<?xml version="1.0" encoding="utf-16" standalone="yes"?><HashGenerationSettings xmlns="http://g1.com/cdq/schema/matchkeygenerator-settings.xsd"><Rules expressMatchKey="False"><HashGenerationField value="MK_TradeNm_PostCd" /><Rule><Algorithm value="SubString" /><Field value="tradename" /><Start value="1" /><Length value="7" /><RemoveNoiseChars value="Y" /><Active value="Y" /></Rule><Rule><Algorithm value="SubString" /><Field value="PostalCode" /><Start value="1" /><Length value="3" /><RemoveNoiseChars value="Y" /><Active value="Y" /></Rule></Rules></HashGenerationSettings>]]></settings><input_ports><input_port id="94d7e9f8-7f07-4fea-9699-304f9731b61d"><channel idref="0edfeddf-8780-41d4-85a3-65fa34d516ab"/><label>input_port</label><port_name>input_port</port_name></input_port></input_ports><options/><output_ports><output_port id="33a8c036-cb49-4f24-87fa-895726125aec"><channel idref="0bb2b97b-7534-4f5c-93cf-93b5a24e4c14"/><label>output_port</label><port_name>output_port</port_name></output_port></output_ports><properties><property><name>stageItemName</name><value><![CDATA[MatchKeyGenerator]]></value></property></properties></stage><stage id="8032f399-4762-4ae6-a843-6b7b177573a0"><stage_name>multicaster</stage_name><stage_version/><label>Broadcaster</label><num_instances>1</num_instances><distributed>false</distributed><batch_size>10000</batch_size><input_ports><input_port id="5508f41b-8594-4418-ae81-98ca8c1e9a88"><channel idref="6b22f5f3-0ec4-47bd-9911-59ddb72193f7"/><label>input_port</label><port_name>input_port</port_name></input_port></input_ports><options/><output_ports><output_port id="0dcaefa3-cd3b-4cbd-86d5-c7e907c5107b"><channel idref="b5e653dc-c60c-4999-9792-31bc2374e06c"/><label>port 2</label><port_name/></output_port><output_port id="4add5786-c19e-41b1-9821-462d6de06fbd"><channel idref="b76dfee6-fb0c-44df-9662-191bcb1e8b60"/><label>port 3</label><port_name/></output_port></output_ports><properties><property><name>stageItemName</name><value><![CDATA[multicaster]]></value></property></properties></stage><stage id="6e5141ce-79c3-4de2-b2cc-45d014fa6b4a"><stage_name>transformer</stage_name><stage_version/><label>TR1</label><num_instances>1</num_instances><distributed>false</distributed><batch_size>10000</batch_size><settings><![CDATA[<?xml version="1.0" encoding="utf-16"?>
+<TransformerSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="3.0">
+  <transformDefinitions>
+    <transformDefinition>
+      <name>Remove</name>
+      <script>value = row.get(column); valueTrimmed = org.apache.commons.lang.StringUtils.remove(value, removeString); row.set(column, valueTrimmed)</script>
+      <transformParameters>
+        <transformParameter>
+          <name>column</name>
+          <type>string</type>
+          <value>Tel_num</value>
+        </transformParameter>
+        <transformParameter>
+          <name>removeString</name>
+          <type>string</type>
+          <value>(</value>
+        </transformParameter>
+      </transformParameters>
+      <transformFields />
+    </transformDefinition>
+    <transformDefinition>
+      <name>Remove</name>
+      <script>value = row.get(column); valueTrimmed = org.apache.commons.lang.StringUtils.remove(value, removeString); row.set(column, valueTrimmed)</script>
+      <transformParameters>
+        <transformParameter>
+          <name>column</name>
+          <type>string</type>
+          <value>Tel_num</value>
+        </transformParameter>
+        <transformParameter>
+          <name>removeString</name>
+          <type>string</type>
+          <value>)</value>
+        </transformParameter>
+      </transformParameters>
+      <transformFields />
+    </transformDefinition>
+    <transformDefinition>
+      <name>Remove</name>
+      <script>value = row.get(column); valueTrimmed = org.apache.commons.lang.StringUtils.remove(value, removeString); row.set(column, valueTrimmed)</script>
+      <transformParameters>
+        <transformParameter>
+          <name>column</name>
+          <type>string</type>
+          <value>Tel_num</value>
+        </transformParameter>
+        <transformParameter>
+          <name>removeString</name>
+          <type>string</type>
+          <value>-</value>
+        </transformParameter>
+      </transformParameters>
+      <transformFields />
+    </transformDefinition>
+    <transformDefinition>
+      <name>Remove</name>
+      <script>value = row.get(column); valueTrimmed = org.apache.commons.lang.StringUtils.remove(value, removeString); row.set(column, valueTrimmed)</script>
+      <transformParameters>
+        <transformParameter>
+          <name>column</name>
+          <type>string</type>
+          <value>Tel_num</value>
+        </transformParameter>
+        <transformParameter>
+          <name>removeString</name>
+          <type>string</type>
+          <value> </value>
+        </transformParameter>
+      </transformParameters>
+      <transformFields />
+    </transformDefinition>
+    <transformDefinition>
+      <name>MinimizeSpace</name>
+      <script>value = row.get(column); valueSplit = org.apache.commons.lang.StringUtils.split(value); valueJoin = org.apache.commons.lang.StringUtils.join(valueSplit, ' '); row.set(column, valueJoin)</script>
+      <transformParameters>
+        <transformParameter>
+          <name>column</name>
+          <type>string</type>
+          <value>Tel_num</value>
+        </transformParameter>
+      </transformParameters>
+      <transformFields />
+    </transformDefinition>
+    <transformDefinition>
+      <name>Template</name>
+      <script>data.put('PhoneNumber',data.get('Tel_num'));</script>
+      <transformParameters>
+        <transformParameter>
+          <name>FieldTemplate</name>
+          <type>string</type>
+          <value>${Tel_num}</value>
+        </transformParameter>
+        <transformParameter>
+          <name>inputColumn</name>
+          <type>string</type>
+          <value>Tel_num</value>
+        </transformParameter>
+        <transformParameter>
+          <name>outputColumn</name>
+          <type>string</type>
+          <value>PhoneNumber</value>
+        </transformParameter>
+      </transformParameters>
+      <transformFields />
+    </transformDefinition>
+  </transformDefinitions>
+</TransformerSettings>]]></settings><input_ports><input_port id="0298755a-9a9f-454b-aeb6-977a24176dc7"><channel idref="686f9c1a-bad8-4810-a0af-57f3a9dc1e48"/><label>input_port</label><port_name>input_port</port_name></input_port></input_ports><options/><output_ports><output_port id="520244a8-d13a-432a-a5df-5d8704b15408"><channel idref="27658073-f959-43d7-94e1-857bffe64cf1"/><label>output_port</label><port_name>output_port</port_name></output_port></output_ports><properties><property><name>stageItemName</name><value><![CDATA[transformer]]></value></property></properties></stage><stage id="94acb602-a443-4682-aa3d-dd51fcba4fff"><stage_name>OpenNameParser</stage_name><stage_version/><label>ONP2</label><num_instances>1</num_instances><distributed>false</distributed><batch_size>10000</batch_size><input_ports><input_port id="3972e86c-9050-45a6-96cd-741e16080f3c"><channel idref="9a240956-fa2d-453c-8847-1275fda41967"/><label>input_port</label><port_name>input_port</port_name></input_port></input_ports><options><option><name>BusinessNamesDomain</name><value>Name Parsing - Business Names</value></option><option><name>ParseNaturalOrderPersonalNames</name><value>false</value></option><option><name>NaturalOrderPersonalNamesDomain</name><value>Name Parsing - Natural Order Personal Names</value></option><option><name>ReverseOrderConjoinedPersonalNamesDomain</name><value>Name Parsing - Reverse Order Conjoined Personal Names</value></option><option><name>ShortcutThreshold</name><value>100</value></option><option><name>SplitConjoinedNames</name><value>False</value></option><option><name>NaturalOrderConjoinedPersonalNamesDomain</name><value>Name Parsing - Natural Order Conjoined Personal Names</value></option><option><name>ParseConjoinedNames</name><value>False</value></option><option><name>BusinessNamesPriority</name><value>5</value></option><option><name>ParseReverseOrderPersonalNames</name><value>false</value></option><option><name>NaturalOrderConjoinedPersonalNamesPriority</name><value>2</value></option><option><name>NaturalOrderPersonalNamesPriority</name><value>1</value></option><option><name>ParseBusinessNames</name><value>True</value></option><option><name>ReverseOrderPersonalNamesDomain</name><value>Name Parsing - Reverse Order Personal Names</value></option><option><name>OutputAsList</name><value>False</value></option><option><name>DefaultCulture</name><value/></option><option><name>ReverseOrderConjoinedPersonalNamesPriority</name><value>4</value></option><option><name>ReverseOrderPersonalNamesPriority</name><value>3</value></option></options><output_ports><output_port id="2bce77ae-4eab-4f10-b9e1-90baecd854c2"><channel idref="e3416ab7-9f6f-451b-968e-78f4a7f91165"/><label>output_port</label><port_name>output_port</port_name></output_port></output_ports><properties><property><name>stageItemName</name><value><![CDATA[OpenNameParser]]></value></property></properties></stage><stage id="c761d5a0-e6ae-40e0-ba32-4badcec81adc"><stage_name>source</stage_name><stage_version/><label>Read from File</label><num_instances>1</num_instances><distributed>false</distributed><batch_size>10000</batch_size><settings><![CDATA[<?xml version="1.0" encoding="utf-16"?>
+<SourceSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="2.5">
+  <firstRecordNumber>1</firstRecordNumber>
+  <maxRows>0</maxRows>
+  <dataSourceMetadata>
+    <CSVMetadata>
+      <encoding>UTF-8</encoding>
+      <host />
+      <path>G:/_MasterCard_POI_2018/INDIA_Services/InputData/WPPOI_CAN/WPPOI_CAN.txt</path>
+      <port>-1</port>
+      <protocol>esfile</protocol>
+      <delimiter>007C</delimiter>
+      <textQualifier />
+      <skipFirstRow>true</skipFirstRow>
+      <lineSeparator>000A</lineSeparator>
+      <strictlyEnforceColumnCount>false</strictlyEnforceColumnCount>
+      <fields>
+        <field>
+          <name>Name</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>BrandName</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>PB_ID</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>Trade_Name</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>Franchise_Name</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>ISO3</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>areaName4</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>areaName3</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>areaName2</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>areaName1</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>Stabb</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>Postcode</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>formattedAddress</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>mainAddressLine</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>addressLastLine</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>Longitude</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>Latitude</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>Country_access_code</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>Tel_num</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>Faxnum</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>Email</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>Http</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>Open_24h</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>Business_Line</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>SIC1</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>SIC2</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>SIC8</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>SIC8_description</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>MiCode</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>Trade_Division</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>Group</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>Class</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>Sub_Class</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>Georesult</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>Confidence_code</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>Employee_Here</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>Employee_count</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>Year_Start</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>Sales_Volume_local</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>Sales_Volume_US_Dollars</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>Currency_Code</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>Agent_Code</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>Legal_Status_Code</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>Status_Code</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>Subsidiary_Indicator</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>Parent_Business_Name</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>Parent_address</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>Parent_Street_Address</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>Parent_areaName3</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>Parent_areaName1</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>Parent_Country</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>Parent_Postcode</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>Domestic_Ultimate_Business_Name</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>Domestic_Ultimate_address</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>Domestic_Ultimate_Street_Address</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>Domestic_Ultimate_areaName3</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>Domestic_Ultimate_areaName1</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>Domestic_Ultimate_Postcode</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>Global_Ultimate_Indicator</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>Global_Ultimate_Business_Name</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>Global_Ultimate_address</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>Global_Ultimate_Street_Address</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>Global_Ultimate_areaName3</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>Global_Ultimate_areaName1</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>Global_Ultimate_Country</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>Global_Ultimate_Postcode</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>Family_Members</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>Hierarchy_Code</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>Ticker_symbol</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>Exchange_Name</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>CEO_Name</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>CEO_Title</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+      </fields>
+    </CSVMetadata>
+  </dataSourceMetadata>
+  <trimColumns />
+  <sortColumns />
+</SourceSettings>]]></settings><input_ports/><options/><output_ports><output_port id="9567ca7c-ce22-430c-a314-4e3f29925412"><channel idref="b6bc5eea-6f71-44a0-afc5-16e0ec4925ae"/><label>output_port</label><port_name>output_port</port_name></output_port><output_port id="3c46c4e8-d1e9-4a97-a0e0-b96b1270492a"><channel idref="46cfb02d-e429-4cd4-b264-b0ceff5b6018"/><label>error_port</label><port_name>error_port</port_name></output_port></output_ports><properties><property><name>ViewData</name><value><![CDATA[IsRemote=T]]></value></property><property><name>stageItemName</name><value><![CDATA[fileSource]]></value></property></properties></stage><stage id="d8dff517-912d-4440-a131-bce63eaabb70"><stage_name>MatchKeyGenerator</stage_name><stage_version/><label>MK_RegNm_PostCd</label><num_instances>1</num_instances><distributed>false</distributed><batch_size>10000</batch_size><settings><![CDATA[<?xml version="1.0" encoding="utf-16" standalone="yes"?><HashGenerationSettings xmlns="http://g1.com/cdq/schema/matchkeygenerator-settings.xsd"><Rules expressMatchKey="False"><HashGenerationField value="MK_RegNm_PostCd" /><Rule><Algorithm value="SubString" /><Field value="registeredname" /><Start value="1" /><Length value="7" /><RemoveNoiseChars value="Y" /><Active value="Y" /></Rule><Rule><Algorithm value="SubString" /><Field value="PostalCode" /><Start value="1" /><Length value="3" /><RemoveNoiseChars value="Y" /><Active value="Y" /></Rule></Rules></HashGenerationSettings>]]></settings><input_ports><input_port id="c8796fb5-3c82-44ff-92b9-3dbedc304fcb"><channel idref="3e306f10-41e4-4d90-83bf-6c30065295f3"/><label>input_port</label><port_name>input_port</port_name></input_port></input_ports><options/><output_ports><output_port id="a523e0fb-1827-4879-b6b8-28614c17b641"><channel idref="b5590223-acf8-4de4-b312-653f17442980"/><label>output_port</label><port_name>output_port</port_name></output_port></output_ports><properties><property><name>stageItemName</name><value><![CDATA[MatchKeyGenerator]]></value></property></properties></stage><stage id="d18bb5ae-bda3-43d2-ac19-71778d7ac6ed"><stage_name>ValidateAddress</stage_name><stage_version/><label>Validate Address</label><num_instances>1</num_instances><distributed>false</distributed><batch_size>10000</batch_size><input_ports><input_port id="a8880767-b01e-458e-8f4e-44a2b1a06e1e"><channel idref="2c9b4bda-1deb-4cdf-b24d-1d7894558aa6"/><label>input_port</label><port_name>input_port</port_name></input_port></input_ports><options><option><name>StandardAddressFormat</name><value>C</value></option><option><name>CanDualAddressLogic</name><value>D</value></option><option><name>CanEnglishApartmentLabel</name><value>Apt</value></option><option><name>CanSSLVRFlg</name><value>N</value></option><option><name>PerformLOT</name><value>Y</value></option><option><name>DPVDetermineNoStat</name><value>Y</value></option><option><name>PerformInternationalProcessing</name><value>N</value></option><option><name>PerformLACSLink</name><value>Y</value></option><option><name>ReportListNumber</name><value/></option><option><name>Database.Canada</name><value>CAN</value></option><option><name>OutputCountryFormat</name><value>E</value></option><option><name>ReportMailerCityLine</name><value/></option><option><name>EnableSERP</name><value>N</value></option><option><name>OutputReportSERP</name><value>N</value></option><option><name>FailOnCMRAMatch</name><value>N</value></option><option><name>IncludeAMAS</name><value>N</value></option><option><name>OutputVanityCityFormatLong</name><value>Y</value></option><option><name>PerformRDI</name><value>Y</value></option><option><name>OutputRecordType</name><value>AEPI</value></option><option><name>FirmMatchingStrictness</name><value>M</value></option><option><name>OutputAddressBlocks</name><value>N</value></option><option><name>CanStandardAddressFormat</name><value>D</value></option><option><name>OutputAbbreviatedAlias</name><value>N</value></option><option><name>OutputFieldLevelReturnCodes</name><value>N</value></option><option><name>PerformESM</name><value>Y</value></option><option><name>MaximumResults</name><value>10</value></option><option><name>CanNonCivicFormat</name><value>A</value></option><option><name>StandardAddressPMBLine</name><value>N</value></option><option><name>PerformASM</name><value>N</value></option><option><name>CanRuralRouteFormat</name><value>A</value></option><option><name>OutputStreetNameAlias</name><value>Y</value></option><option><name>CanFrenchApartmentLabel</name><value>App</value></option><option><name>SuppressZplusPhantomCarrierR777</name><value>N</value></option><option><name>ExtractFirm</name><value>Y</value></option><option><name>ReportListFileName</name><value/></option><option><name>DirectionalMatchingStrictness</name><value>M</value></option><option><name>PerformSuiteLink</name><value>Y</value></option><option><name>PerformDPV</name><value>Y</value></option><option><name>CanOutputCityFormat</name><value>D</value></option><option><name>OutputPostalCodeSeparator</name><value>N</value></option><option><name>Database.US</name><value>USA</value></option><option><name>ReportMailerAddress</name><value/></option><option><name>OutputCasing</name><value>U</value></option><option><name>ReportListProcessorName</name><value/></option><option><name>OutputVeriMoveDataBlock</name><value>N</value></option><option><name>PerformCanadianProcessing</name><value>Y</value></option><option><name>OutputPreferredCity</name><value>Z</value></option><option><name>PerformUSProcessing</name><value>N</value></option><option><name>DPVSuccessfulStatusCondition</name><value>A</value></option><option><name>OutputFormattedOnFail</name><value>Y</value></option><option><name>DPVDetermineVacancy</name><value>Y</value></option><option><name>DualAddressLogic</name><value>N</value></option><option><name>canSwitchManagedPostalCodeConfidence</name><value>N</value></option><option><name>AddressLineSearchOnFail</name><value>Y</value></option><option><name>OutputMultinationalCharacters</name><value>Y</value></option><option><name>PerformEWS</name><value>Y</value></option><option><name>ExtractUrb</name><value>Y</value></option><option><name>InternationalCityStreetSearching</name><value>100</value></option><option><name>CanOutputCityAlias</name><value>Y</value></option><option><name>StreetMatchingStrictness</name><value>M</value></option><option><name>HomeCountry</name><value>United States</value></option><option><name>CanPreferHouseNum</name><value>N</value></option><option><name>OutputShortCityName</name><value>S</value></option><option><name>ReportMailerName</name><value/></option><option><name>CanReportMailerCityLine</name><value/></option><option><name>KeepMultimatch</name><value>N</value></option><option><name>Database.International</name><value/></option><option><name>OutputCASSDetail</name><value>N</value></option><option><name>CanReportMailerCPCNumber</name><value/></option><option><name>CanFrenchFormat</name><value>C</value></option><option><name>CanReportMailerAddress</name><value/></option><option><name>CanReportMailerName</name><value/></option><option><name>OutputReportSummary</name><value>N</value></option><option><name>CanDeliveryOfficeFormat</name><value>I</value></option><option><name>OutputPreferredAlias</name><value>Y</value></option><option><name>OutputReport3553</name><value>N</value></option></options><output_ports><output_port id="3e3f9b77-644e-467b-9067-5d0031ba6a01"><channel idref="1b474a8d-5b40-4a3f-9267-9ff506e7a4cf"/><label>output_port</label><port_name>output_port</port_name></output_port></output_ports><properties><property><name>stageItemName</name><value><![CDATA[ValidateAddress]]></value></property></properties></stage><stage id="3f0183f9-3ccd-45fa-bb67-37198c5a03c0"><stage_name>collector</stage_name><stage_version/><label>SC1</label><num_instances>1</num_instances><distributed>false</distributed><batch_size>10000</batch_size><input_ports><input_port id="6eb18cf2-2a96-4970-a5ea-42192d66545d"><channel idref="f3d6ebcb-4b57-44ba-8fc8-ac2734c7650a"/><label>port</label><port_name/></input_port><input_port id="8f4194f9-ad87-49b2-96a3-a6be6cbfbdfc"><channel idref="973b0f31-5833-4f5e-938b-1842187f6161"/><label>port 2</label><port_name/></input_port></input_ports><options/><output_ports><output_port id="9a5cca06-0136-40d7-bc69-c4224307d6ed"><channel idref="edb8279a-2f0d-434f-9abc-a1be69958e3f"/><label>output_port</label><port_name>output_port</port_name></output_port></output_ports><properties><property><name>stageItemName</name><value><![CDATA[collector]]></value></property></properties></stage><stage id="038cf0e0-e3dd-49c1-81d5-2c0318a42928"><stage_name>MatchKeyGenerator</stage_name><stage_version/><label>MK_PostCd</label><num_instances>1</num_instances><distributed>false</distributed><batch_size>10000</batch_size><settings><![CDATA[<?xml version="1.0" encoding="utf-16" standalone="yes"?><HashGenerationSettings xmlns="http://g1.com/cdq/schema/matchkeygenerator-settings.xsd"><Rules expressMatchKey="False"><HashGenerationField value="MK_PostCd" /><Rule><Algorithm value="SubString" /><Field value="PostalCode" /><Start value="1" /><Length value="3" /><RemoveNoiseChars value="Y" /><Active value="Y" /></Rule></Rules></HashGenerationSettings>]]></settings><input_ports><input_port id="5cbce397-b860-48e1-9e46-48ec53c1d247"><channel idref="fa438fc7-4f5a-44ba-b22f-fc22ff815283"/><label>input_port</label><port_name>input_port</port_name></input_port></input_ports><options/><output_ports><output_port id="4d4f4047-81ee-484a-91e2-b86aadca7a3a"><channel idref="129d775a-f67b-4c30-b086-3cc9dfff46b7"/><label>output_port</label><port_name>output_port</port_name></output_port></output_ports><properties><property><name>stageItemName</name><value><![CDATA[MatchKeyGenerator]]></value></property></properties></stage><stage id="78031075-dfb4-49b4-97bf-3e77cb35f24f"><stage_name>OpenNameParser</stage_name><stage_version/><label>ONP1</label><num_instances>1</num_instances><distributed>false</distributed><batch_size>10000</batch_size><input_ports><input_port id="e0bdde63-1b9b-4635-8046-ded2ca71ea6c"><channel idref="06acf188-bba7-428a-bee8-6e78b026415a"/><label>input_port</label><port_name>input_port</port_name></input_port></input_ports><options><option><name>BusinessNamesDomain</name><value>Name Parsing - Business Names</value></option><option><name>ParseNaturalOrderPersonalNames</name><value>false</value></option><option><name>NaturalOrderPersonalNamesDomain</name><value>Name Parsing - Natural Order Personal Names</value></option><option><name>ReverseOrderConjoinedPersonalNamesDomain</name><value>Name Parsing - Reverse Order Conjoined Personal Names</value></option><option><name>ShortcutThreshold</name><value>100</value></option><option><name>SplitConjoinedNames</name><value>False</value></option><option><name>NaturalOrderConjoinedPersonalNamesDomain</name><value>Name Parsing - Natural Order Conjoined Personal Names</value></option><option><name>ParseConjoinedNames</name><value>False</value></option><option><name>BusinessNamesPriority</name><value>5</value></option><option><name>ParseReverseOrderPersonalNames</name><value>false</value></option><option><name>NaturalOrderConjoinedPersonalNamesPriority</name><value>2</value></option><option><name>NaturalOrderPersonalNamesPriority</name><value>1</value></option><option><name>ParseBusinessNames</name><value>True</value></option><option><name>ReverseOrderPersonalNamesDomain</name><value>Name Parsing - Reverse Order Personal Names</value></option><option><name>OutputAsList</name><value>False</value></option><option><name>DefaultCulture</name><value/></option><option><name>ReverseOrderConjoinedPersonalNamesPriority</name><value>4</value></option><option><name>ReverseOrderPersonalNamesPriority</name><value>3</value></option></options><output_ports><output_port id="12e157d6-ddc0-470a-82b2-ef73511b3431"><channel idref="41e78814-cf8c-4620-aecc-fe880c668ab7"/><label>output_port</label><port_name>output_port</port_name></output_port></output_ports><properties><property><name>stageItemName</name><value><![CDATA[OpenNameParser]]></value></property></properties></stage><stage id="a9e1d451-c55e-4b03-b2db-0678ec755b17"><stage_name>router</stage_name><stage_version/><label>Trade Name null?</label><num_instances>1</num_instances><distributed>false</distributed><batch_size>10000</batch_size><settings><![CDATA[<?xml version="1.0" encoding="utf-16"?>
+<RouterSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="2.5">
+  <outputCopy>false</outputCopy>
+  <singleOutput>false</singleOutput>
+  <portExpressions>
+    <portExpression>
+      <portId>e1653f12-be0f-40c4-b552-b8780cc3dff9</portId>
+      <expression>return isEmpty(data.get('Trade_Name')) &amp;&amp; (isNotEmpty(data.get('BrandName')) || isNotEmpty(data.get('registeredname')));
+      
+def boolean isEmpty(String field)
+{
+  try
+  {
+    return field == null || field.trim().length() == 0;
+  }
+  catch (Exception)
+  {
+    return false;
+  }
+}
+    
+      
+def boolean isNotEmpty(String field)
+{
+  try
+  {
+    return field != null &amp;&amp; field.trim().length() != 0;
+  }
+  catch (Exception)
+  {
+    return false;
+  }
+}
+    </expression>
+      <ViewData>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ExpressionBuilderInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;CombineMethod&gt;All&lt;/CombineMethod&gt;
+  &lt;ExpressionDetailInfo&gt;
+    &lt;ExpressionDetails&gt;
+      &lt;ExpressionField&gt;Trade_Name&lt;/ExpressionField&gt;
+      &lt;ExpressionOperator&gt;is empty&lt;/ExpressionOperator&gt;
+      &lt;ExpressionValue /&gt;
+      &lt;comparisonType&gt;VALUE&lt;/comparisonType&gt;
+    &lt;/ExpressionDetails&gt;
+    &lt;ExpressionBuilderInfo&gt;
+      &lt;CombineMethod&gt;Any&lt;/CombineMethod&gt;
+      &lt;ExpressionDetailInfo&gt;
+        &lt;ExpressionDetails&gt;
+          &lt;ExpressionField&gt;BrandName&lt;/ExpressionField&gt;
+          &lt;ExpressionOperator&gt;is not empty&lt;/ExpressionOperator&gt;
+          &lt;ExpressionValue /&gt;
+          &lt;comparisonType&gt;VALUE&lt;/comparisonType&gt;
+        &lt;/ExpressionDetails&gt;
+        &lt;ExpressionDetails&gt;
+          &lt;ExpressionField&gt;registeredname&lt;/ExpressionField&gt;
+          &lt;ExpressionOperator&gt;is not empty&lt;/ExpressionOperator&gt;
+          &lt;ExpressionValue /&gt;
+          &lt;comparisonType&gt;VALUE&lt;/comparisonType&gt;
+        &lt;/ExpressionDetails&gt;
+      &lt;/ExpressionDetailInfo&gt;
+    &lt;/ExpressionBuilderInfo&gt;
+  &lt;/ExpressionDetailInfo&gt;
+&lt;/ExpressionBuilderInfo&gt;</ViewData>
+    </portExpression>
+    <portExpression>
+      <portId>30243f49-20e7-483f-8a90-d47d31177506</portId>
+      <expression>return isNotEmpty(data.get('Trade_Name'));
+      
+def boolean isNotEmpty(String field)
+{
+  try
+  {
+    return field != null &amp;&amp; field.trim().length() != 0;
+  }
+  catch (Exception)
+  {
+    return false;
+  }
+}
+    </expression>
+      <ViewData>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ExpressionBuilderInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;CombineMethod&gt;All&lt;/CombineMethod&gt;
+  &lt;ExpressionDetailInfo&gt;
+    &lt;ExpressionDetails&gt;
+      &lt;ExpressionField&gt;Trade_Name&lt;/ExpressionField&gt;
+      &lt;ExpressionOperator&gt;is not empty&lt;/ExpressionOperator&gt;
+      &lt;ExpressionValue /&gt;
+      &lt;comparisonType&gt;VALUE&lt;/comparisonType&gt;
+    &lt;/ExpressionDetails&gt;
+  &lt;/ExpressionDetailInfo&gt;
+&lt;/ExpressionBuilderInfo&gt;</ViewData>
+    </portExpression>
+  </portExpressions>
+</RouterSettings>]]></settings><input_ports><input_port id="ba0b9ddd-4bc0-482a-9455-7523f1aff5d8"><channel idref="7f53dc6b-7b9b-4cd1-a653-1eaa080ae4a9"/><label>input_port</label><port_name>input_port</port_name></input_port></input_ports><options/><output_ports><output_port id="e1653f12-be0f-40c4-b552-b8780cc3dff9"><channel idref="fd7be6d9-cd98-4fc5-b653-f3aa6500f448"/><label>port 2</label><port_name/></output_port><output_port id="30243f49-20e7-483f-8a90-d47d31177506"><channel idref="e20adef1-333d-41b0-ba7a-b281e2703224"/><label>port 3</label><port_name/></output_port></output_ports><properties><property><name>stageItemName</name><value><![CDATA[router]]></value></property></properties></stage><stage id="8e8210c5-89ba-4e86-9d5f-d3e1781ca5a7"><stage_name>router</stage_name><stage_version/><label>Tel_no null?</label><num_instances>1</num_instances><distributed>false</distributed><batch_size>10000</batch_size><settings><![CDATA[<?xml version="1.0" encoding="utf-16"?>
+<RouterSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="2.5">
+  <outputCopy>false</outputCopy>
+  <singleOutput>false</singleOutput>
+  <portExpressions>
+    <portExpression>
+      <portId>7425e36e-d5f7-4de7-b9ce-f51d2e6c2d82</portId>
+      <expression>return isNotEmpty(data.get('Tel_num'));
+      
+def boolean isNotEmpty(String field)
+{
+  try
+  {
+    return field != null &amp;&amp; field.trim().length() != 0;
+  }
+  catch (Exception)
+  {
+    return false;
+  }
+}
+    </expression>
+      <ViewData>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ExpressionBuilderInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;CombineMethod&gt;All&lt;/CombineMethod&gt;
+  &lt;ExpressionDetailInfo&gt;
+    &lt;ExpressionDetails&gt;
+      &lt;ExpressionField&gt;Tel_num&lt;/ExpressionField&gt;
+      &lt;ExpressionOperator&gt;is not empty&lt;/ExpressionOperator&gt;
+      &lt;ExpressionValue /&gt;
+      &lt;comparisonType&gt;VALUE&lt;/comparisonType&gt;
+    &lt;/ExpressionDetails&gt;
+  &lt;/ExpressionDetailInfo&gt;
+&lt;/ExpressionBuilderInfo&gt;</ViewData>
+    </portExpression>
+    <portExpression>
+      <portId>0c66ebb5-1aeb-462f-a97e-5d0b62e82000</portId>
+      <expression>default</expression>
+      <ViewData>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ExpressionBuilderInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;CombineMethod /&gt;
+  &lt;ExpressionDetailInfo /&gt;
+&lt;/ExpressionBuilderInfo&gt;</ViewData>
+    </portExpression>
+  </portExpressions>
+</RouterSettings>]]></settings><input_ports><input_port id="808ec3fb-aeb7-483e-a8a2-2c097953e546"><channel idref="107344a4-39a0-4c28-81bb-7cce20a0bf65"/><label>input_port</label><port_name>input_port</port_name></input_port></input_ports><options/><output_ports><output_port id="7425e36e-d5f7-4de7-b9ce-f51d2e6c2d82"><channel idref="686f9c1a-bad8-4810-a0af-57f3a9dc1e48"/><label>port</label><port_name/></output_port><output_port id="0c66ebb5-1aeb-462f-a97e-5d0b62e82000"><channel idref="973b0f31-5833-4f5e-938b-1842187f6161"/><label>port 2</label><port_name/></output_port></output_ports><properties><property><name>stageItemName</name><value><![CDATA[router]]></value></property></properties></stage><stage id="ac5a94b3-ab1f-4540-b0c3-5f15d4dce4f2"><stage_name>transformer</stage_name><stage_version/><label>Transformer</label><num_instances>1</num_instances><distributed>false</distributed><batch_size>10000</batch_size><settings><![CDATA[<?xml version="1.0" encoding="utf-16"?>
+<TransformerSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="3.0">
+  <transformDefinitions>
+    <transformDefinition>
+      <name>Copy</name>
+      <script>data[toColumn] = data.getClone(fromColumn);</script>
+      <transformParameters>
+        <transformParameter>
+          <name>fromColumn</name>
+          <type>Object</type>
+          <value>Name</value>
+        </transformParameter>
+        <transformParameter>
+          <name>toColumn</name>
+          <type>Object</type>
+          <value>FirmName</value>
+        </transformParameter>
+      </transformParameters>
+      <transformFields />
+    </transformDefinition>
+  </transformDefinitions>
+</TransformerSettings>]]></settings><input_ports><input_port id="f8876ec3-2b9f-474f-834d-90d4c0c256d1"><channel idref="b6bc5eea-6f71-44a0-afc5-16e0ec4925ae"/><label>input_port</label><port_name>input_port</port_name></input_port></input_ports><options/><output_ports><output_port id="b2753128-59e5-4893-a99d-f5aa3623bdb7"><channel idref="107344a4-39a0-4c28-81bb-7cce20a0bf65"/><label>output_port</label><port_name>output_port</port_name></output_port></output_ports><properties><property><name>stageItemName</name><value><![CDATA[transformer]]></value></property></properties></stage><stage id="ecd5a4aa-3fdd-481f-8d2b-689697d35e0d"><stage_name>collector</stage_name><stage_version/><label>SC4</label><num_instances>1</num_instances><distributed>false</distributed><batch_size>10000</batch_size><input_ports><input_port id="7f09efe3-318a-46e1-998b-7fc1e0b02e7e"><channel idref="fd7be6d9-cd98-4fc5-b653-f3aa6500f448"/><label>port 2</label><port_name/></input_port><input_port id="75bb54cb-95d3-4940-95be-ef738c772ca5"><channel idref="0bb2b97b-7534-4f5c-93cf-93b5a24e4c14"/><label>port 3</label><port_name/></input_port></input_ports><options/><output_ports><output_port id="cb531bba-5680-4794-95e8-e85a343421f4"><channel idref="1110199d-ac90-49fe-80f4-993de6c4b803"/><label>output_port</label><port_name>output_port</port_name></output_port></output_ports><properties><property><name>stageItemName</name><value><![CDATA[collector]]></value></property></properties></stage></stages><reports/><notifications/><dataflow_options/><type>2</type><vendor/></dataflow></exportedDataflow>

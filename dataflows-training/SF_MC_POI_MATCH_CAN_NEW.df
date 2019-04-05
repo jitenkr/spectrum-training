@@ -1,0 +1,626 @@
+<!--Exported Fri Jan 19 08:25:03 EST 2018 by admin from TROMasterCard--><exportedDataflow schema_version="9.0"><exposed>false</exposed><dataflow id="SF_MC_POI_MATCH_CAN_NEW" schema_version="9.0" version=""><product_group/><channels><channel id="80f013dc-1691-422d-a4f5-899b6d849f0a"><field_transformers/></channel><channel id="a6d7f4f3-7eb0-4aea-b02e-2e7cfa99769b"><field_transformers/></channel><channel id="005d56eb-8072-4ab5-889b-1061afe25935"><field_transformers/></channel><channel id="71ec9b9f-ab46-45e7-9549-a2344f98bfe9"><field_transformers/></channel><channel id="a69ec176-fba8-419f-a7b5-0f65bd51d542"><field_transformers/></channel></channels><created_by>admin</created_by><created_date>1/18/18 2:57 AM</created_date><service_exposures/><icon/><inputs/><last_modified_by>admin</last_modified_by><last_modified_date>1/19/18 6:44 AM</last_modified_date><outputs/><properties><property><name>ViewData</name><value><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<viewData version="3.0">
+  <canvasNode id="36a5be96-9080-4ff9-9672-ac38e9c0d179">
+    <location x="185" y="248" />
+  </canvasNode>
+  <canvasNode id="c6f0aeb1-043c-4708-b463-6dcdfecb5efc">
+    <location x="26" y="253" />
+  </canvasNode>
+  <canvasNode id="473f05aa-ee02-4f29-b7c9-bb6eee23f20d">
+    <location x="628" y="249" />
+  </canvasNode>
+  <canvasNode id="d0612b39-4d03-4372-93cb-ad84a112b5d5">
+    <location x="477" y="250" />
+  </canvasNode>
+  <canvasNode id="e5b3b47c-771f-40d3-a051-84ea85534735">
+    <location x="323" y="248" />
+  </canvasNode>
+  <canvasNode id="3cdf33d4-0e4b-4c00-87c1-ea3188fb7210">
+    <location x="-207" y="252" />
+  </canvasNode>
+  <canvasLink fromPortID="76c1327d-f7d6-4565-ba96-5a4ebf3b073f" toPortID="0b435c8d-3c90-4a1f-87d3-95a2d627d2c4" />
+  <canvasLink fromPortID="506b5d96-99c6-46f4-93d2-f9c7039ece5e" toPortID="7b87670c-bf15-4944-a7ce-e30dac78500a" />
+  <canvasLink fromPortID="4c5edcc4-1804-4dba-a292-b3df77d7fd44" toPortID="2f9ae63d-b245-4e96-8cb7-96182fb2aaa2" />
+  <canvasLink fromPortID="7d5117b9-540b-4deb-9363-de8d5aa3f510" toPortID="01e06c56-548a-447a-9fa3-4831ac726acf" />
+  <canvasLink fromPortID="0a172ad9-6c01-482f-bb58-d84293089e15" toPortID="60a06abe-8474-4586-9d13-cfab98393dbe" />
+</viewData>]]></value></property></properties><stages><stage id="d0612b39-4d03-4372-93cb-ad84a112b5d5"><stage_name>MC_MATCH_INP_WITH_POI_CAN_New</stage_name><stage_version/><label>MC_MATCH_INP_WITH_POI_CAN_New</label><num_instances>1</num_instances><distributed>false</distributed><batch_size>10000</batch_size><settings/><input_ports><input_port id="01e06c56-548a-447a-9fa3-4831ac726acf"><channel idref="a6d7f4f3-7eb0-4aea-b02e-2e7cfa99769b"/><label>Input</label><port_name>Input</port_name></input_port></input_ports><options/><output_ports><output_port id="0a172ad9-6c01-482f-bb58-d84293089e15"><channel idref="71ec9b9f-ab46-45e7-9549-a2344f98bfe9"/><label>Output</label><port_name>Output</port_name></output_port></output_ports><properties><property><name>stageItemName</name><value><![CDATA[MC_MATCH_INP_WITH_POI_CAN_New]]></value></property></properties></stage><stage id="3cdf33d4-0e4b-4c00-87c1-ea3188fb7210"><stage_name>source</stage_name><stage_version/><label>Read from File</label><num_instances>1</num_instances><distributed>false</distributed><batch_size>10000</batch_size><settings><![CDATA[<?xml version="1.0" encoding="utf-16"?>
+<SourceSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="2.5">
+  <firstRecordNumber>1</firstRecordNumber>
+  <maxRows>0</maxRows>
+  <dataSourceMetadata>
+    <CSVMetadata>
+      <encoding>UTF-8</encoding>
+      <host />
+      <path>G:/_MasterCard_POI_2018/INDIA_Services/MC_Scrubbed_Data/MMH_CAN.txt</path>
+      <port>-1</port>
+      <protocol>esfile</protocol>
+      <delimiter>007C</delimiter>
+      <textQualifier />
+      <skipFirstRow>true</skipFirstRow>
+      <lineSeparator>000A</lineSeparator>
+      <strictlyEnforceColumnCount>false</strictlyEnforceColumnCount>
+      <fields>
+        <field>
+          <name>location_id</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>merchant_name</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>street_address</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>city_name</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>state_province_code</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>country_code</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>postal_code</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>telephone</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>cleansed_merchant_name</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>cleansed_street_addr</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>cleansed_city_name</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>cleansed_state_province_code</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>cleansed_country_code</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>cleansed_postal_code</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>cleansed_telephone</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+      </fields>
+    </CSVMetadata>
+  </dataSourceMetadata>
+  <trimColumns />
+  <sortColumns />
+</SourceSettings>]]></settings><input_ports/><options/><output_ports><output_port id="76c1327d-f7d6-4565-ba96-5a4ebf3b073f"><channel idref="005d56eb-8072-4ab5-889b-1061afe25935"/><label>output_port</label><port_name>output_port</port_name></output_port><output_port id="4226f9ae-c196-41cc-b46a-d0d0255c8e0c"><label>error_port</label><port_name>error_port</port_name></output_port></output_ports><properties><property><name>ViewData</name><value><![CDATA[IsRemote=T]]></value></property><property><name>stageItemName</name><value><![CDATA[fileSource]]></value></property></properties></stage><stage id="36a5be96-9080-4ff9-9672-ac38e9c0d179"><stage_name>ValidateAddress</stage_name><stage_version/><label>Validate Address</label><num_instances>1</num_instances><distributed>false</distributed><batch_size>10000</batch_size><input_ports><input_port id="7b87670c-bf15-4944-a7ce-e30dac78500a"><channel idref="a69ec176-fba8-419f-a7b5-0f65bd51d542"/><label>input_port</label><port_name>input_port</port_name></input_port></input_ports><options><option><name>StandardAddressFormat</name><value>C</value></option><option><name>CanDualAddressLogic</name><value>D</value></option><option><name>CanEnglishApartmentLabel</name><value>Apt</value></option><option><name>CanSSLVRFlg</name><value>N</value></option><option><name>PerformLOT</name><value>Y</value></option><option><name>DPVDetermineNoStat</name><value>Y</value></option><option><name>PerformInternationalProcessing</name><value>N</value></option><option><name>PerformLACSLink</name><value>Y</value></option><option><name>ReportListNumber</name><value/></option><option><name>Database.Canada</name><value>CAN</value></option><option><name>OutputCountryFormat</name><value>E</value></option><option><name>ReportMailerCityLine</name><value/></option><option><name>EnableSERP</name><value>N</value></option><option><name>OutputReportSERP</name><value>N</value></option><option><name>FailOnCMRAMatch</name><value>N</value></option><option><name>IncludeAMAS</name><value>N</value></option><option><name>OutputVanityCityFormatLong</name><value>Y</value></option><option><name>PerformRDI</name><value>Y</value></option><option><name>OutputRecordType</name><value>AEPI</value></option><option><name>FirmMatchingStrictness</name><value>M</value></option><option><name>OutputAddressBlocks</name><value>N</value></option><option><name>CanStandardAddressFormat</name><value>D</value></option><option><name>OutputAbbreviatedAlias</name><value>N</value></option><option><name>OutputFieldLevelReturnCodes</name><value>N</value></option><option><name>PerformESM</name><value>Y</value></option><option><name>MaximumResults</name><value>10</value></option><option><name>CanNonCivicFormat</name><value>A</value></option><option><name>StandardAddressPMBLine</name><value>N</value></option><option><name>PerformASM</name><value>N</value></option><option><name>CanRuralRouteFormat</name><value>A</value></option><option><name>OutputStreetNameAlias</name><value>Y</value></option><option><name>CanFrenchApartmentLabel</name><value>App</value></option><option><name>SuppressZplusPhantomCarrierR777</name><value>N</value></option><option><name>ExtractFirm</name><value>Y</value></option><option><name>ReportListFileName</name><value/></option><option><name>DirectionalMatchingStrictness</name><value>M</value></option><option><name>PerformSuiteLink</name><value>Y</value></option><option><name>PerformDPV</name><value>Y</value></option><option><name>CanOutputCityFormat</name><value>D</value></option><option><name>OutputPostalCodeSeparator</name><value>N</value></option><option><name>Database.US</name><value>USA</value></option><option><name>ReportMailerAddress</name><value/></option><option><name>OutputCasing</name><value>U</value></option><option><name>ReportListProcessorName</name><value/></option><option><name>OutputVeriMoveDataBlock</name><value>N</value></option><option><name>PerformCanadianProcessing</name><value>Y</value></option><option><name>OutputPreferredCity</name><value>Z</value></option><option><name>PerformUSProcessing</name><value>N</value></option><option><name>DPVSuccessfulStatusCondition</name><value>A</value></option><option><name>OutputFormattedOnFail</name><value>Y</value></option><option><name>DPVDetermineVacancy</name><value>Y</value></option><option><name>DualAddressLogic</name><value>N</value></option><option><name>canSwitchManagedPostalCodeConfidence</name><value>N</value></option><option><name>AddressLineSearchOnFail</name><value>Y</value></option><option><name>OutputMultinationalCharacters</name><value>Y</value></option><option><name>PerformEWS</name><value>Y</value></option><option><name>ExtractUrb</name><value>Y</value></option><option><name>InternationalCityStreetSearching</name><value>100</value></option><option><name>CanOutputCityAlias</name><value>Y</value></option><option><name>StreetMatchingStrictness</name><value>M</value></option><option><name>HomeCountry</name><value>United States</value></option><option><name>CanPreferHouseNum</name><value>N</value></option><option><name>OutputShortCityName</name><value>S</value></option><option><name>ReportMailerName</name><value/></option><option><name>CanReportMailerCityLine</name><value/></option><option><name>KeepMultimatch</name><value>N</value></option><option><name>Database.International</name><value/></option><option><name>OutputCASSDetail</name><value>N</value></option><option><name>CanReportMailerCPCNumber</name><value/></option><option><name>CanFrenchFormat</name><value>C</value></option><option><name>CanReportMailerAddress</name><value/></option><option><name>CanReportMailerName</name><value/></option><option><name>OutputReportSummary</name><value>N</value></option><option><name>CanDeliveryOfficeFormat</name><value>I</value></option><option><name>OutputPreferredAlias</name><value>Y</value></option><option><name>OutputReport3553</name><value>N</value></option></options><output_ports><output_port id="4c5edcc4-1804-4dba-a292-b3df77d7fd44"><channel idref="80f013dc-1691-422d-a4f5-899b6d849f0a"/><label>output_port</label><port_name>output_port</port_name></output_port></output_ports><properties><property><name>stageItemName</name><value><![CDATA[ValidateAddress]]></value></property></properties></stage><stage id="473f05aa-ee02-4f29-b7c9-bb6eee23f20d"><stage_name>sink</stage_name><stage_version/><label>Write to File</label><num_instances>1</num_instances><distributed>false</distributed><batch_size>10000</batch_size><settings><![CDATA[<?xml version="1.0" encoding="utf-16"?>
+<SinkSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="2.5">
+  <monitorProgress>false</monitorProgress>
+  <outputMode>1</outputMode>
+  <truncateTable>false</truncateTable>
+  <dropTable>false</dropTable>
+  <batchCommitThreshold>1</batchCommitThreshold>
+  <progressThreshold>0</progressThreshold>
+  <dataSourceMetadata>
+    <CSVMetadata>
+      <encoding>UTF-8</encoding>
+      <host />
+      <path>G:/_MasterCard_POI_2018/INDIA_Services/OutputData/CAN/CAN_name.txt</path>
+      <port>-1</port>
+      <protocol>esfile</protocol>
+      <delimiter>002C</delimiter>
+      <textQualifier>0022</textQualifier>
+      <skipFirstRow>true</skipFirstRow>
+      <lineSeparator />
+      <strictlyEnforceColumnCount>true</strictlyEnforceColumnCount>
+      <fields>
+        <field>
+          <name>AddressLine1</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>city_name</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>cleansed_city_name</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>cleansed_country_code</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>cleansed_merchant_name</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>cleansed_postal_code</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>cleansed_state_province_code</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>cleansed_street_addr</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>cleansed_telephone</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>CompanyName</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>Country</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>country_code</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>EntityAddressLastLine</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>EntityBrandName</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>EntityCity</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>EntityCountryISO3</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>EntityEmail</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>EntityMainAddressLine</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>EntityPhoneNumber</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>EntityPostcode</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>EntityRegisteredName</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>EntityRegisteredSuffix</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>EntitySIC1</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>EntityState</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>EntityTradeName</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>EntityTradeSuffix</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>HasDuplicates</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>location_id</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>MatchRecordType</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>MatchScoreBrndNmAddress</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>MatchScorePhoneAddress</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>MatchScoreRegNmAddress</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>MatchScoreRegNmPhone</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>MatchScoreTrdNmAddress</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>merchant_name</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>pb_id</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>PhoneNumber</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>postal_code</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>Src_Company_name</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>Src_System_ID</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>state_province_code</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>Status</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>Status.Code</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>Status.Description</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>StatusCodeCompanyName</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>StatusCompanyName</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>street_address</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>telephone</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>TransactionRecordType</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>AddressLine2</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>AddressLine3</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>City</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>HouseNumber</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>PostalCode</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>StateProvince</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>StreetName</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>StreetSuffix</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>LeadingDirectional</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>TrailingDirectional</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>MatchScore</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>AddressLine1Score</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>AddressScore</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>City_StateScore</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>NameScore</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+        <field>
+          <name>PhoneNumberScore</name>
+          <required>false</required>
+          <type>string</type>
+        </field>
+      </fields>
+    </CSVMetadata>
+  </dataSourceMetadata>
+  <sortColumns />
+  <enableMultiFile>false</enableMultiFile>
+  <fieldMultiFile />
+</SinkSettings>]]></settings><input_ports><input_port id="60a06abe-8474-4586-9d13-cfab98393dbe"><channel idref="71ec9b9f-ab46-45e7-9549-a2344f98bfe9"/><label>input_port</label><port_name>input_port</port_name></input_port></input_ports><options/><output_ports/><properties><property><name>ViewData</name><value><![CDATA[IsRemote=T]]></value></property><property><name>stageItemName</name><value><![CDATA[fileSink]]></value></property></properties></stage><stage id="c6f0aeb1-043c-4708-b463-6dcdfecb5efc"><stage_name>transformer</stage_name><stage_version/><label>init</label><num_instances>1</num_instances><distributed>false</distributed><batch_size>10000</batch_size><settings><![CDATA[<?xml version="1.0" encoding="utf-16"?>
+<TransformerSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="3.0">
+  <transformDefinitions>
+    <transformDefinition>
+      <name>Copy</name>
+      <script>data[toColumn] = data.getClone(fromColumn);</script>
+      <transformParameters>
+        <transformParameter>
+          <name>fromColumn</name>
+          <type>Object</type>
+          <value>street_address</value>
+        </transformParameter>
+        <transformParameter>
+          <name>toColumn</name>
+          <type>Object</type>
+          <value>AddressLine1</value>
+        </transformParameter>
+      </transformParameters>
+      <transformFields />
+    </transformDefinition>
+    <transformDefinition>
+      <name>Copy</name>
+      <script>data[toColumn] = data.getClone(fromColumn);</script>
+      <transformParameters>
+        <transformParameter>
+          <name>fromColumn</name>
+          <type>Object</type>
+          <value>country_code</value>
+        </transformParameter>
+        <transformParameter>
+          <name>toColumn</name>
+          <type>Object</type>
+          <value>Country</value>
+        </transformParameter>
+      </transformParameters>
+      <transformFields />
+    </transformDefinition>
+    <transformDefinition>
+      <name>Copy</name>
+      <script>data[toColumn] = data.getClone(fromColumn);</script>
+      <transformParameters>
+        <transformParameter>
+          <name>fromColumn</name>
+          <type>Object</type>
+          <value>telephone</value>
+        </transformParameter>
+        <transformParameter>
+          <name>toColumn</name>
+          <type>Object</type>
+          <value>PhoneNumber</value>
+        </transformParameter>
+      </transformParameters>
+      <transformFields />
+    </transformDefinition>
+    <transformDefinition>
+      <name>Copy</name>
+      <script>data[toColumn] = data.getClone(fromColumn);</script>
+      <transformParameters>
+        <transformParameter>
+          <name>fromColumn</name>
+          <type>Object</type>
+          <value>city_name</value>
+        </transformParameter>
+        <transformParameter>
+          <name>toColumn</name>
+          <type>Object</type>
+          <value>City</value>
+        </transformParameter>
+      </transformParameters>
+      <transformFields />
+    </transformDefinition>
+    <transformDefinition>
+      <name>Copy</name>
+      <script>data[toColumn] = data.getClone(fromColumn);</script>
+      <transformParameters>
+        <transformParameter>
+          <name>fromColumn</name>
+          <type>Object</type>
+          <value>state_province_code</value>
+        </transformParameter>
+        <transformParameter>
+          <name>toColumn</name>
+          <type>Object</type>
+          <value>StateProvince</value>
+        </transformParameter>
+      </transformParameters>
+      <transformFields />
+    </transformDefinition>
+    <transformDefinition>
+      <name>Copy</name>
+      <script>data[toColumn] = data.getClone(fromColumn);</script>
+      <transformParameters>
+        <transformParameter>
+          <name>fromColumn</name>
+          <type>Object</type>
+          <value>postal_code</value>
+        </transformParameter>
+        <transformParameter>
+          <name>toColumn</name>
+          <type>Object</type>
+          <value>PostalCode</value>
+        </transformParameter>
+      </transformParameters>
+      <transformFields />
+    </transformDefinition>
+  </transformDefinitions>
+</TransformerSettings>]]></settings><input_ports><input_port id="0b435c8d-3c90-4a1f-87d3-95a2d627d2c4"><channel idref="005d56eb-8072-4ab5-889b-1061afe25935"/><label>input_port</label><port_name>input_port</port_name></input_port></input_ports><options/><output_ports><output_port id="506b5d96-99c6-46f4-93d2-f9c7039ece5e"><channel idref="a69ec176-fba8-419f-a7b5-0f65bd51d542"/><label>output_port</label><port_name>output_port</port_name></output_port></output_ports><properties><property><name>stageItemName</name><value><![CDATA[transformer]]></value></property></properties></stage><stage id="e5b3b47c-771f-40d3-a051-84ea85534735"><stage_name>transformer</stage_name><stage_version/><label>TR2</label><num_instances>1</num_instances><distributed>false</distributed><batch_size>10000</batch_size><settings><![CDATA[<?xml version="1.0" encoding="utf-16"?>
+<TransformerSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="3.0">
+  <transformDefinitions>
+    <transformDefinition>
+      <name>Custom</name>
+      <script>if (data.Status)
+{
+	data.AddressLine1 = data.street_address;
+	data.City = data.city_name;
+	data.StateProvince = data.state_province_code;
+	data.PostalCode = data.postal_code;
+}
+</script>
+      <transformParameters>
+        <transformParameter>
+          <name>transformName</name>
+          <type>string</type>
+          <value>Copy failed address</value>
+        </transformParameter>
+      </transformParameters>
+      <transformFields />
+    </transformDefinition>
+    <transformDefinition>
+      <name>Status Code</name>
+      <script>if (statusValue == 'Success'){row.set('Status',null);row.set('Status.Description','');row.set('Status.Code','');} else {row.set('Status','F');row.set('Status.Description',description);row.set('Status.Code',code);}</script>
+      <transformParameters>
+        <transformParameter>
+          <name>statusValue</name>
+          <type>string</type>
+          <value>Success</value>
+        </transformParameter>
+        <transformParameter>
+          <name>code</name>
+          <type>string</type>
+          <value />
+        </transformParameter>
+        <transformParameter>
+          <name>description</name>
+          <type>string</type>
+          <value />
+        </transformParameter>
+      </transformParameters>
+      <transformFields />
+    </transformDefinition>
+  </transformDefinitions>
+</TransformerSettings>]]></settings><input_ports><input_port id="2f9ae63d-b245-4e96-8cb7-96182fb2aaa2"><channel idref="80f013dc-1691-422d-a4f5-899b6d849f0a"/><label>input_port</label><port_name>input_port</port_name></input_port></input_ports><options/><output_ports><output_port id="7d5117b9-540b-4deb-9363-de8d5aa3f510"><channel idref="a6d7f4f3-7eb0-4aea-b02e-2e7cfa99769b"/><label>output_port</label><port_name>output_port</port_name></output_port></output_ports><properties><property><name>stageItemName</name><value><![CDATA[transformer]]></value></property></properties></stage></stages><reports/><notifications/><dataflow_options/><type>2</type><vendor/></dataflow></exportedDataflow>
